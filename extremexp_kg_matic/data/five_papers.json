@@ -1,0 +1,1609 @@
+[{
+  "url": "https://arxiv.org/pdf/2103.14030v2.pdf",
+  "origin": "https://paperswithcode.com/paper/swin-transformer-hierarchical-vision",
+  "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+  "tasks": ["Image Classification", "Instance Segmentation", "Object Detection", "Real-Time Object Detection", "Semantic Segmentation", "Thermal Image Segmentation"],
+  "datasets": ["ImageNet", "MS COCO", "ADE20K", "MFNet", "OmniBenchmark", "FoodSeg103", "Separated COCO", "Occluded COCO"],
+  "results": [{
+    "task": "Semantic Segmentation",
+    "dataset": "ADE20K",
+    "model": "Swin-L (UperNet, ImageNet-22k pretrain)",
+    "metric": "Validation mIoU",
+    "value": "53.50",
+    "rank": "75"
+  }, {
+    "task": "Semantic Segmentation",
+    "dataset": "ADE20K",
+    "model": "Swin-L (UperNet, ImageNet-22k pretrain)",
+    "metric": "Test Score",
+    "value": "62.8",
+    "rank": "1"
+  }, {
+    "task": "Semantic Segmentation",
+    "dataset": "ADE20K",
+    "model": "Swin-B (UperNet, ImageNet-1k pretrain)",
+    "metric": "Validation mIoU",
+    "value": "49.7",
+    "rank": "121"
+  }, {
+    "task": "Semantic Segmentation",
+    "dataset": "ADE20K val",
+    "model": "Swin-B (UperNet, ImageNet-1k pretrain)",
+    "metric": "mIoU",
+    "value": "49.7",
+    "rank": "51"
+  }, {
+    "task": "Semantic Segmentation",
+    "dataset": "ADE20K val",
+    "model": "Swin-L (UperNet, ImageNet-22k pretrain)",
+    "metric": "mIoU",
+    "value": "53.5",
+    "rank": "37"
+  }, {
+    "task": "Object Detection",
+    "dataset": "COCO minival",
+    "model": "Swin-L (HTC++, single scale)",
+    "metric": "box AP",
+    "value": "57.1",
+    "rank": "39"
+  }, {
+    "task": "Instance Segmentation",
+    "dataset": "COCO minival",
+    "model": "Swin-L (HTC++, multi scale)",
+    "metric": "mask AP",
+    "value": "50.4",
+    "rank": "24"
+  }, {
+    "task": "Object Detection",
+    "dataset": "COCO minival",
+    "model": "Swin-L (HTC++, multi scale)",
+    "metric": "box AP",
+    "value": "58",
+    "rank": "35"
+  }, {
+    "task": "Instance Segmentation",
+    "dataset": "COCO minival",
+    "model": "Swin-L (HTC++, single scale)",
+    "metric": "mask AP",
+    "value": "49.5",
+    "rank": "27"
+  }, {
+    "task": "Instance Segmentation",
+    "dataset": "COCO test-dev",
+    "model": "Swin-L (HTC++, single scale)",
+    "metric": "mask AP",
+    "value": "50.2",
+    "rank": "22"
+  }, {
+    "task": "Instance Segmentation",
+    "dataset": "COCO test-dev",
+    "model": "Swin-L (HTC++, multi scale)",
+    "metric": "mask AP",
+    "value": "51.1",
+    "rank": "20"
+  }, {
+    "task": "Object Detection",
+    "dataset": "COCO test-dev",
+    "model": "Swin-L (HTC++, multi scale)",
+    "metric": "box mAP",
+    "value": "58.7",
+    "rank": "32"
+  }, {
+    "task": "Object Detection",
+    "dataset": "COCO test-dev",
+    "model": "Swin-L (HTC++, single scale)",
+    "metric": "box mAP",
+    "value": "57.7",
+    "rank": "34"
+  }, {
+    "task": "Semantic Segmentation",
+    "dataset": "FoodSeg103",
+    "model": "Swin-Transformer (Swin-Small)",
+    "metric": "mIoU",
+    "value": "41.6",
+    "rank": "4"
+  }, {
+    "task": "Image Classification",
+    "dataset": "ImageNet",
+    "model": "Swin-L",
+    "metric": "Top 1 Accuracy",
+    "value": "87.3%",
+    "rank": "104"
+  }, {
+    "task": "Image Classification",
+    "dataset": "ImageNet",
+    "model": "Swin-L",
+    "metric": "Number of params",
+    "value": "197M",
+    "rank": "946"
+  }, {
+    "task": "Image Classification",
+    "dataset": "ImageNet",
+    "model": "Swin-L",
+    "metric": "GFLOPs",
+    "value": "103.9",
+    "rank": "502"
+  }, {
+    "task": "Image Classification",
+    "dataset": "ImageNet",
+    "model": "Swin-B",
+    "metric": "Top 1 Accuracy",
+    "value": "86.4%",
+    "rank": "152"
+  }, {
+    "task": "Image Classification",
+    "dataset": "ImageNet",
+    "model": "Swin-B",
+    "metric": "Number of params",
+    "value": "88M",
+    "rank": "875"
+  }, {
+    "task": "Image Classification",
+    "dataset": "ImageNet",
+    "model": "Swin-B",
+    "metric": "GFLOPs",
+    "value": "47",
+    "rank": "465"
+  }, {
+    "task": "Image Classification",
+    "dataset": "ImageNet",
+    "model": "Swin-T",
+    "metric": "Top 1 Accuracy",
+    "value": "81.3%",
+    "rank": "646"
+  }, {
+    "task": "Image Classification",
+    "dataset": "ImageNet",
+    "model": "Swin-T",
+    "metric": "Number of params",
+    "value": "29M",
+    "rank": "665"
+  }, {
+    "task": "Image Classification",
+    "dataset": "ImageNet",
+    "model": "Swin-T",
+    "metric": "GFLOPs",
+    "value": "4.5",
+    "rank": "221"
+  }, {
+    "task": "Thermal Image Segmentation",
+    "dataset": "MFN Dataset",
+    "model": "SwinT",
+    "metric": "mIOU",
+    "value": "49.0",
+    "rank": "39"
+  }, {
+    "task": "Instance Segmentation",
+    "dataset": "Occluded COCO",
+    "model": "Swin-B + Cascade Mask R-CNN",
+    "metric": "Mean Recall",
+    "value": "62.90",
+    "rank": "2"
+  }, {
+    "task": "Instance Segmentation",
+    "dataset": "Occluded COCO",
+    "model": "Swin-T + Mask R-CNN",
+    "metric": "Mean Recall",
+    "value": "58.81",
+    "rank": "6"
+  }, {
+    "task": "Instance Segmentation",
+    "dataset": "Occluded COCO",
+    "model": "Swin-S + Mask R-CNN",
+    "metric": "Mean Recall",
+    "value": "61.14",
+    "rank": "5"
+  }, {
+    "task": "Image Classification",
+    "dataset": "OmniBenchmark",
+    "model": "SwinTransformer",
+    "metric": "Average Top-1 Accuracy",
+    "value": "46.4",
+    "rank": "2"
+  }, {
+    "task": "Instance Segmentation",
+    "dataset": "Separated COCO",
+    "model": "Swin-S + Mask R-CNN",
+    "metric": "Mean Recall",
+    "value": "33.67",
+    "rank": "5"
+  }, {
+    "task": "Instance Segmentation",
+    "dataset": "Separated COCO",
+    "model": "Swin-B + Cascade Mask R-CNN",
+    "metric": "Mean Recall",
+    "value": "36.31",
+    "rank": "2"
+  }, {
+    "task": "Instance Segmentation",
+    "dataset": "Separated COCO",
+    "model": "Swin-T + Mask R-CNN",
+    "metric": "Mean Recall",
+    "value": "31.94",
+    "rank": "6"
+  }],
+  "methods": ["Absolute Position Encodings", "AdamW", "BPE", "Cosine Annealing", "Dense Connections", "Dropout", "GELU", "Label Smoothing", "Layer Normalization", "Linear Layer", "Multi-Head Attention", "Position-Wise Feed-Forward Layer", "Residual Connection", "Scaled Dot-Product Attention", "Softmax", "Stochastic Depth", "Swin Transformer", "Transformer"]
+}, {
+  "url": "https://arxiv.org/pdf/1907.11692v1.pdf",
+  "origin": "https://paperswithcode.com/paper/roberta-a-robustly-optimized-bert-pretraining",
+  "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+  "tasks": ["Common Sense Reasoning", "Document Image Classification", "Language Modelling", "Lexical Simplification", "Linguistic Acceptability", "Multi-task Language Understanding", "Natural Language Inference", "Only Connect Walls Dataset Task 1 (Grouping)", "Question Answering", "Reading Comprehension", "Riddle Sense", "Semantic Textual Similarity", "Sentence Completion", "Sentiment Analysis", "Stock Market Prediction", "Text Classification", "Type prediction"],
+  "datasets": ["GLUE", "SST", "SQuAD", "MultiNLI", "SST-2", "MMLU", "QNLI", "HellaSwag", "MRPC", "CoLA", "PIQA", "CommonsenseQA", "WebText", "RACE", "ANLI", "SWAG", "RVL-CDIP", "SIQA", "Quora", "RTE", "Quora Question Pairs", "STS Benchmark", "WNLI", "Astock", "OCW", "ManyTypes4TypeScript", "arXiv-10"],
+  "results": [{
+    "task": "Natural Language Inference",
+    "dataset": "ANLI test",
+    "model": "RoBERTa (Large)",
+    "metric": "A1",
+    "value": "72.4",
+    "rank": "5"
+  }, {
+    "task": "Natural Language Inference",
+    "dataset": "ANLI test",
+    "model": "RoBERTa (Large)",
+    "metric": "A2",
+    "value": "49.8",
+    "rank": "14"
+  }, {
+    "task": "Natural Language Inference",
+    "dataset": "ANLI test",
+    "model": "RoBERTa (Large)",
+    "metric": "A3",
+    "value": "44.4",
+    "rank": "16"
+  }, {
+    "task": "Text Classification",
+    "dataset": "arXiv-10",
+    "model": "RoBERTa",
+    "metric": "Accuracy",
+    "value": "0.779",
+    "rank": "2"
+  }, {
+    "task": "Stock Market Prediction",
+    "dataset": "Astock",
+    "model": "RoBERTa WWM Ext (News)",
+    "metric": "Accuray",
+    "value": "61.34",
+    "rank": "12"
+  }, {
+    "task": "Stock Market Prediction",
+    "dataset": "Astock",
+    "model": "RoBERTa WWM Ext (News)",
+    "metric": "F1-score",
+    "value": "61.48",
+    "rank": "12"
+  }, {
+    "task": "Stock Market Prediction",
+    "dataset": "Astock",
+    "model": "RoBERTa WWM Ext (News)",
+    "metric": "Recall",
+    "value": "61.32",
+    "rank": "12"
+  }, {
+    "task": "Stock Market Prediction",
+    "dataset": "Astock",
+    "model": "RoBERTa WWM Ext (News)",
+    "metric": "Precision",
+    "value": "61.97",
+    "rank": "12"
+  }, {
+    "task": "Stock Market Prediction",
+    "dataset": "Astock",
+    "model": "RoBERTa WWM Ext (News+Factors)",
+    "metric": "Accuray",
+    "value": "62.49",
+    "rank": "11"
+  }, {
+    "task": "Stock Market Prediction",
+    "dataset": "Astock",
+    "model": "RoBERTa WWM Ext (News+Factors)",
+    "metric": "F1-score",
+    "value": "62.54",
+    "rank": "11"
+  }, {
+    "task": "Stock Market Prediction",
+    "dataset": "Astock",
+    "model": "RoBERTa WWM Ext (News+Factors)",
+    "metric": "Recall",
+    "value": "62.51",
+    "rank": "11"
+  }, {
+    "task": "Stock Market Prediction",
+    "dataset": "Astock",
+    "model": "RoBERTa WWM Ext (News+Factors)",
+    "metric": "Precision",
+    "value": "62.59",
+    "rank": "11"
+  }, {
+    "task": "Linguistic Acceptability",
+    "dataset": "CoLA",
+    "model": "RoBERTa (ensemble)",
+    "metric": "Accuracy",
+    "value": "67.8%",
+    "rank": "20"
+  }, {
+    "task": "Sentence Completion",
+    "dataset": "HellaSwag",
+    "model": "RoBERTa-Large 355M",
+    "metric": "Accuracy",
+    "value": "81.7",
+    "rank": "40"
+  }, {
+    "task": "Type prediction",
+    "dataset": "ManyTypes4TypeScript",
+    "model": "RoBERTa",
+    "metric": "Average Accuracy",
+    "value": "59.84",
+    "rank": "7"
+  }, {
+    "task": "Type prediction",
+    "dataset": "ManyTypes4TypeScript",
+    "model": "RoBERTa",
+    "metric": "Average Precision",
+    "value": "57.45",
+    "rank": "5"
+  }, {
+    "task": "Type prediction",
+    "dataset": "ManyTypes4TypeScript",
+    "model": "RoBERTa",
+    "metric": "Average Recall",
+    "value": "57.62",
+    "rank": "5"
+  }, {
+    "task": "Type prediction",
+    "dataset": "ManyTypes4TypeScript",
+    "model": "RoBERTa",
+    "metric": "Average F1",
+    "value": "57.54",
+    "rank": "5"
+  }, {
+    "task": "Multi-task Language Understanding",
+    "dataset": "MMLU",
+    "model": "RoBERTa-base 125M (fine-tuned)",
+    "metric": "Average (%)",
+    "value": "27.9",
+    "rank": "103"
+  }, {
+    "task": "Semantic Textual Similarity",
+    "dataset": "MRPC",
+    "model": "RoBERTa (ensemble)",
+    "metric": "Accuracy",
+    "value": "92.3%",
+    "rank": "3"
+  }, {
+    "task": "Natural Language Inference",
+    "dataset": "MultiNLI",
+    "model": "RoBERTa",
+    "metric": "Matched",
+    "value": "90.8",
+    "rank": "9"
+  }, {
+    "task": "Natural Language Inference",
+    "dataset": "MultiNLI",
+    "model": "RoBERTa (ensemble)",
+    "metric": "Mismatched",
+    "value": "90.2",
+    "rank": "7"
+  }, {
+    "task": "Only Connect Walls Dataset Task 1 (Grouping)",
+    "dataset": "OCW",
+    "model": "RoBERTa (LARGE)",
+    "metric": "# Correct Groups",
+    "value": "29 ± 3",
+    "rank": "21"
+  }, {
+    "task": "Only Connect Walls Dataset Task 1 (Grouping)",
+    "dataset": "OCW",
+    "model": "RoBERTa (LARGE)",
+    "metric": "Fowlkes Mallows Score (FMS)",
+    "value": "26.7 ± .2",
+    "rank": "19"
+  }, {
+    "task": "Only Connect Walls Dataset Task 1 (Grouping)",
+    "dataset": "OCW",
+    "model": "RoBERTa (LARGE)",
+    "metric": "Adjusted Rand Index (ARI)",
+    "value": "8.4 ± .3",
+    "rank": "19"
+  }, {
+    "task": "Only Connect Walls Dataset Task 1 (Grouping)",
+    "dataset": "OCW",
+    "model": "RoBERTa (LARGE)",
+    "metric": "Adjusted Mutual Information (AMI)",
+    "value": "9.4 ± .4",
+    "rank": "20"
+  }, {
+    "task": "Only Connect Walls Dataset Task 1 (Grouping)",
+    "dataset": "OCW",
+    "model": "RoBERTa (LARGE)",
+    "metric": "# Solved Walls",
+    "value": "0 ± 0",
+    "rank": "10"
+  }, {
+    "task": "Only Connect Walls Dataset Task 1 (Grouping)",
+    "dataset": "OCW",
+    "model": "RoBERTa (LARGE)",
+    "metric": "Wasserstein Distance (WD)",
+    "value": "88.4 ± .4",
+    "rank": "1"
+  }, {
+    "task": "Natural Language Inference",
+    "dataset": "QNLI",
+    "model": "RoBERTa (ensemble)",
+    "metric": "Accuracy",
+    "value": "98.9%",
+    "rank": "5"
+  }, {
+    "task": "Question Answering",
+    "dataset": "Quora Question Pairs",
+    "model": "RoBERTa (ensemble)",
+    "metric": "Accuracy",
+    "value": "90.2%",
+    "rank": "6"
+  }, {
+    "task": "Reading Comprehension",
+    "dataset": "RACE",
+    "model": "RoBERTa",
+    "metric": "Accuracy",
+    "value": "83.2",
+    "rank": "7"
+  }, {
+    "task": "Reading Comprehension",
+    "dataset": "RACE",
+    "model": "RoBERTa",
+    "metric": "Accuracy (High)",
+    "value": "81.3",
+    "rank": "6"
+  }, {
+    "task": "Reading Comprehension",
+    "dataset": "RACE",
+    "model": "RoBERTa",
+    "metric": "Accuracy (Middle)",
+    "value": "86.5",
+    "rank": "6"
+  }, {
+    "task": "Natural Language Inference",
+    "dataset": "RTE",
+    "model": "RoBERTa (ensemble)",
+    "metric": "Accuracy",
+    "value": "88.2%",
+    "rank": "18"
+  }, {
+    "task": "Natural Language Inference",
+    "dataset": "RTE",
+    "model": "RoBERTa",
+    "metric": "Accuracy",
+    "value": "88.2%",
+    "rank": "18"
+  }, {
+    "task": "Question Answering",
+    "dataset": "SQuAD2.0",
+    "model": "RoBERTa (single model)",
+    "metric": "EM",
+    "value": "86.820",
+    "rank": "90"
+  }, {
+    "task": "Question Answering",
+    "dataset": "SQuAD2.0",
+    "model": "RoBERTa (single model)",
+    "metric": "F1",
+    "value": "89.795",
+    "rank": "91"
+  }, {
+    "task": "Question Answering",
+    "dataset": "SQuAD2.0 dev",
+    "model": "RoBERTa (no data aug)",
+    "metric": "F1",
+    "value": "89.4",
+    "rank": "3"
+  }, {
+    "task": "Question Answering",
+    "dataset": "SQuAD2.0 dev",
+    "model": "RoBERTa (no data aug)",
+    "metric": "EM",
+    "value": "86.5",
+    "rank": "3"
+  }, {
+    "task": "Sentiment Analysis",
+    "dataset": "SST-2 Binary classification",
+    "model": "RoBERTa (ensemble)",
+    "metric": "Accuracy",
+    "value": "96.7",
+    "rank": "11"
+  }, {
+    "task": "Semantic Textual Similarity",
+    "dataset": "STS Benchmark",
+    "model": "RoBERTa",
+    "metric": "Pearson Correlation",
+    "value": "0.922",
+    "rank": "7"
+  }, {
+    "task": "Common Sense Reasoning",
+    "dataset": "SWAG",
+    "model": "RoBERTa",
+    "metric": "Test",
+    "value": "89.9",
+    "rank": "2"
+  }, {
+    "task": "Natural Language Inference",
+    "dataset": "WNLI",
+    "model": "RoBERTa (ensemble)",
+    "metric": "Accuracy",
+    "value": "89",
+    "rank": "8"
+  }],
+  "methods": ["Adam", "Attention Dropout", "BERT", "Dense Connections", "Dropout", "GELU", "Layer Normalization", "Linear Layer", "Linear Warmup With Linear Decay", "Multi-Head Attention", "Residual Connection", "RoBERTa", "Scaled Dot-Product Attention", "Softmax", "Weight Decay", "WordPiece"]
+}, {
+  "url": "https://arxiv.org/pdf/1710.10903v3.pdf",
+  "origin": "https://paperswithcode.com/paper/graph-attention-networks",
+  "title": "Graph Attention Networks",
+  "tasks": ["Document Classification", "Graph Attention", "Graph Classification", "Graph Embedding", "Graph Regression", "Heterogeneous Node Classification", "Link Prediction", "Molecular Property Prediction", "MUlTI-LABEL-ClASSIFICATION", "Node Classification", "Node Classification on Non-Homophilic (Heterophilic) Graphs", "Node Property Prediction", "Question Answering", "Skeleton Based Action Recognition"],
+  "datasets": ["CIFAR-10", "Pubmed", "OGB", "Flickr30k", "Cora", "Citeseer", "PROTEINS", "IMDB-BINARY", "PPI", "NCI1", "JHMDB", "ZINC", "ENZYMES", "NCI109", "Penn94", "genius", "ESOL (Estimated SOLubility)", "FreeSolv (Free Solvation)", "Deezer-Europe", "PubMed (60%/20%/20% random splits)", "Film (60%/20%/20% random splits)", "Squirrel (60%/20%/20% random splits)", "Wisconsin(60%/20%/20% random splits)", "dockstring", "Chameleon(60%/20%/20% random splits)", "Cornell (60%/20%/20% random splits)", "Texas(60%/20%/20% random splits)", "ACM (Heterogeneous Node Classification)", "DBLP (Heterogeneous Node Classification)", "IMDB (Heterogeneous Node Classification)", "Freebase (Heterogeneous Node Classification)", "USA Air-Traffic", "Brazil Air-Traffic"],
+  "results": [{
+    "task": "Heterogeneous Node Classification",
+    "dataset": "ACM (Heterogeneous Node Classification)",
+    "model": "GAT",
+    "metric": "Micro-F1",
+    "value": "92.19",
+    "rank": "6"
+  }, {
+    "task": "Heterogeneous Node Classification",
+    "dataset": "ACM (Heterogeneous Node Classification)",
+    "model": "GAT",
+    "metric": "Macro-F1",
+    "value": "92.26",
+    "rank": "1"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Chameleon (60%/20%/20% random splits)",
+    "model": "GAT",
+    "metric": "1:1 Accuracy",
+    "value": "63.9 ± 0.46",
+    "rank": "21"
+  }, {
+    "task": "Node Classification on Non-Homophilic (Heterophilic) Graphs",
+    "dataset": "Chameleon(60%/20%/20% random splits)",
+    "model": "GAT",
+    "metric": "1:1 Accuracy",
+    "value": "63.9 ± 0.46",
+    "rank": "18"
+  }, {
+    "task": "Graph Classification",
+    "dataset": "CIFAR10 100k",
+    "model": "GAT",
+    "metric": "Accuracy (%)",
+    "value": "65.48",
+    "rank": "17"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Citeseer",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "72.5 ± 0.7%",
+    "rank": "42"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Citeseer",
+    "model": "GAT",
+    "metric": "Training Split",
+    "value": "fixed 20 per node",
+    "rank": "3"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Citeseer",
+    "model": "GAT",
+    "metric": "Validation",
+    "value": "YES",
+    "rank": "1"
+  }, {
+    "task": "Node Classification",
+    "dataset": "CiteSeer (0.5%)",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "38.2%",
+    "rank": "13"
+  }, {
+    "task": "Node Classification",
+    "dataset": "CiteSeer (1%)",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "46.5%",
+    "rank": "14"
+  }, {
+    "task": "Node Classification",
+    "dataset": "CiteSeer (60%/20%/20% random splits)",
+    "model": "GAT",
+    "metric": "1:1 Accuracy",
+    "value": "67.20 ± 0.46",
+    "rank": "32"
+  }, {
+    "task": "Node Classification",
+    "dataset": "CiteSeer with Public Split: fixed 20 nodes per class",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "72.5 ± 0.7%",
+    "rank": "27"
+  }, {
+    "task": "Document Classification",
+    "dataset": "Cora",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "83.0%",
+    "rank": "3"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Cora",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "83.0% ± 0.7%",
+    "rank": "44"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Cora",
+    "model": "GAT",
+    "metric": "Training Split",
+    "value": "fixed 20 per node",
+    "rank": "3"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Cora",
+    "model": "GAT",
+    "metric": "Validation",
+    "value": "YES",
+    "rank": "1"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Cora (0.5%)",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "41.4%",
+    "rank": "13"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Cora (1%)",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "48.6%",
+    "rank": "14"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Cora (3%)",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "56.8%",
+    "rank": "15"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Cora (60%/20%/20% random splits)",
+    "model": "GAT",
+    "metric": "1:1 Accuracy",
+    "value": "76.70 ± 0.42",
+    "rank": "31"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Cora with Public Split: fixed 20 nodes per class",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "83.0 ± 0.7%",
+    "rank": "23"
+  }, {
+    "task": "Node Classification on Non-Homophilic (Heterophilic) Graphs",
+    "dataset": "Cornell (60%/20%/20% random splits)",
+    "model": "GAT",
+    "metric": "1:1 Accuracy",
+    "value": "76.00 ± 1.01",
+    "rank": "26"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Cornell (60%/20%/20% random splits)",
+    "model": "GAT",
+    "metric": "1:1 Accuracy",
+    "value": "76.00 ± 1.01",
+    "rank": "26"
+  }, {
+    "task": "Heterogeneous Node Classification",
+    "dataset": "DBLP (Heterogeneous Node Classification)",
+    "model": "GAT",
+    "metric": "Micro-F1",
+    "value": "93.39",
+    "rank": "8"
+  }, {
+    "task": "Heterogeneous Node Classification",
+    "dataset": "DBLP (Heterogeneous Node Classification)",
+    "model": "GAT",
+    "metric": "Macro-F1",
+    "value": "93.83",
+    "rank": "1"
+  }, {
+    "task": "Graph Classification",
+    "dataset": "D\u0026D",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "73.109±3.413",
+    "rank": "49"
+  }, {
+    "task": "Node Classification on Non-Homophilic (Heterophilic) Graphs",
+    "dataset": "Deezer-Europe",
+    "model": "GAT",
+    "metric": "1:1 Accuracy",
+    "value": "61.09±0.77",
+    "rank": "22"
+  }, {
+    "task": "Graph Classification",
+    "dataset": "ENZYMES",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "78.611±1.556",
+    "rank": "3"
+  }, {
+    "task": "Molecular Property Prediction",
+    "dataset": "ESOL",
+    "model": "GAT",
+    "metric": "RMSE",
+    "value": "0.540±0.027",
+    "rank": "6"
+  }, {
+    "task": "Molecular Property Prediction",
+    "dataset": "ESOL",
+    "model": "GAT",
+    "metric": "R2",
+    "value": "0.930±0.007",
+    "rank": "6"
+  }, {
+    "task": "Graph Regression",
+    "dataset": "ESR2",
+    "model": "GAT",
+    "metric": "R2",
+    "value": "0.666±0.000",
+    "rank": "5"
+  }, {
+    "task": "Graph Regression",
+    "dataset": "ESR2",
+    "model": "GAT",
+    "metric": "RMSE",
+    "value": "0.510±0.666",
+    "rank": "5"
+  }, {
+    "task": "Graph Regression",
+    "dataset": "F2",
+    "model": "GAT",
+    "metric": "R2",
+    "value": "0.886±0.000",
+    "rank": "4"
+  }, {
+    "task": "Graph Regression",
+    "dataset": "F2",
+    "model": "GAT",
+    "metric": "RMSE",
+    "value": "0.343±0.886",
+    "rank": "4"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Film (60%/20%/20% random splits)",
+    "model": "GAT",
+    "metric": "1:1 Accuracy",
+    "value": "35.98 ± 0.23",
+    "rank": "28"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Flickr",
+    "model": "GAT (Velickovic et al., 2018)",
+    "metric": "Accuracy",
+    "value": "0.359",
+    "rank": "8"
+  }, {
+    "task": "Heterogeneous Node Classification",
+    "dataset": "Freebase (Heterogeneous Node Classification)",
+    "model": "GAT",
+    "metric": "Macro-F1",
+    "value": "40.74",
+    "rank": "1"
+  }, {
+    "task": "Heterogeneous Node Classification",
+    "dataset": "Freebase (Heterogeneous Node Classification)",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "65.26",
+    "rank": "1"
+  }, {
+    "task": "Molecular Property Prediction",
+    "dataset": "FreeSolv",
+    "model": "GAT",
+    "metric": "RMSE",
+    "value": "0.791±0.101",
+    "rank": "5"
+  }, {
+    "task": "Molecular Property Prediction",
+    "dataset": "FreeSolv",
+    "model": "GAT",
+    "metric": "R2",
+    "value": "0.959±0.011",
+    "rank": "5"
+  }, {
+    "task": "Node Classification",
+    "dataset": "genius",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "55.80 ± 0.87",
+    "rank": "25"
+  }, {
+    "task": "Graph Classification",
+    "dataset": "IMDb-B",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "84.250±2.062",
+    "rank": "3"
+  }, {
+    "task": "Heterogeneous Node Classification",
+    "dataset": "IMDB (Heterogeneous Node Classification)",
+    "model": "GAT",
+    "metric": "Micro-F1",
+    "value": "64.86",
+    "rank": "8"
+  }, {
+    "task": "Heterogeneous Node Classification",
+    "dataset": "IMDB (Heterogeneous Node Classification)",
+    "model": "GAT",
+    "metric": "Macro-F1",
+    "value": "58.94",
+    "rank": "1"
+  }, {
+    "task": "Skeleton Based Action Recognition",
+    "dataset": "J-HMBD Early Action",
+    "model": "GAT",
+    "metric": "10%",
+    "value": "58.1",
+    "rank": "2"
+  }, {
+    "task": "Graph Regression",
+    "dataset": "KIT",
+    "model": "GAT",
+    "metric": "R2",
+    "value": "0.833±0.000",
+    "rank": "4"
+  }, {
+    "task": "Graph Regression",
+    "dataset": "KIT",
+    "model": "GAT",
+    "metric": "RMSE",
+    "value": "0.443±0.833",
+    "rank": "4"
+  }, {
+    "task": "Graph Regression",
+    "dataset": "Lipophilicity",
+    "model": "GAT",
+    "metric": "RMSE",
+    "value": "0.95",
+    "rank": "1"
+  }, {
+    "task": "Graph Regression",
+    "dataset": "Lipophilicity",
+    "model": "GAT",
+    "metric": "RMSE",
+    "value": "0.536±0.020",
+    "rank": "3"
+  }, {
+    "task": "Graph Regression",
+    "dataset": "Lipophilicity",
+    "model": "GAT",
+    "metric": "R2",
+    "value": "0.820±0.014",
+    "rank": "3"
+  }, {
+    "task": "Graph Classification",
+    "dataset": "NCI1",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "85.109±1.107",
+    "rank": "14"
+  }, {
+    "task": "Graph Classification",
+    "dataset": "NCI109",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "82.560±0.601",
+    "rank": "16"
+  }, {
+    "task": "Graph Property Prediction",
+    "dataset": "ogbg-code2",
+    "model": "GAT",
+    "metric": "Test F1 score",
+    "value": "0.1569 ± 0.0010",
+    "rank": "15"
+  }, {
+    "task": "Graph Property Prediction",
+    "dataset": "ogbg-code2",
+    "model": "GAT",
+    "metric": "Validation F1 score",
+    "value": "0.1442 ± 0.0017",
+    "rank": "14"
+  }, {
+    "task": "Graph Property Prediction",
+    "dataset": "ogbg-code2",
+    "model": "GAT",
+    "metric": "Number of params",
+    "value": "11030210",
+    "rank": "13"
+  }, {
+    "task": "Graph Property Prediction",
+    "dataset": "ogbg-code2",
+    "model": "GAT",
+    "metric": "Ext. data",
+    "value": "No",
+    "rank": "1"
+  }, {
+    "task": "Node Property Prediction",
+    "dataset": "ogbn-arxiv",
+    "model": "GAT+label reuse+self KD",
+    "metric": "Test Accuracy",
+    "value": "0.7416 ± 0.0008",
+    "rank": "23"
+  }, {
+    "task": "Node Property Prediction",
+    "dataset": "ogbn-arxiv",
+    "model": "GAT+label reuse+self KD",
+    "metric": "Validation Accuracy",
+    "value": "0.7514 ± 0.0004",
+    "rank": "28"
+  }, {
+    "task": "Node Property Prediction",
+    "dataset": "ogbn-arxiv",
+    "model": "GAT+label reuse+self KD",
+    "metric": "Number of params",
+    "value": "1441580",
+    "rank": "34"
+  }, {
+    "task": "Node Property Prediction",
+    "dataset": "ogbn-arxiv",
+    "model": "GAT+label reuse+self KD",
+    "metric": "Ext. data",
+    "value": "No",
+    "rank": "1"
+  }, {
+    "task": "Node Property Prediction",
+    "dataset": "ogbn-arxiv",
+    "model": "GAT+label+reuse+topo loss",
+    "metric": "Test Accuracy",
+    "value": "0.7399 ± 0.0012",
+    "rank": "29"
+  }, {
+    "task": "Node Property Prediction",
+    "dataset": "ogbn-arxiv",
+    "model": "GAT+label+reuse+topo loss",
+    "metric": "Validation Accuracy",
+    "value": "0.7513 ± 0.0009",
+    "rank": "29"
+  }, {
+    "task": "Node Property Prediction",
+    "dataset": "ogbn-arxiv",
+    "model": "GAT+label+reuse+topo loss",
+    "metric": "Number of params",
+    "value": "1441580",
+    "rank": "34"
+  }, {
+    "task": "Node Property Prediction",
+    "dataset": "ogbn-arxiv",
+    "model": "GAT+label+reuse+topo loss",
+    "metric": "Ext. data",
+    "value": "No",
+    "rank": "1"
+  }, {
+    "task": "Node Property Prediction",
+    "dataset": "ogbn-products",
+    "model": "GAT with NeighborSampling",
+    "metric": "Test Accuracy",
+    "value": "0.7945 ± 0.0059",
+    "rank": "48"
+  }, {
+    "task": "Node Property Prediction",
+    "dataset": "ogbn-products",
+    "model": "GAT with NeighborSampling",
+    "metric": "Validation Accuracy",
+    "value": "Please tell us",
+    "rank": "61"
+  }, {
+    "task": "Node Property Prediction",
+    "dataset": "ogbn-products",
+    "model": "GAT with NeighborSampling",
+    "metric": "Number of params",
+    "value": "751574",
+    "rank": "34"
+  }, {
+    "task": "Node Property Prediction",
+    "dataset": "ogbn-products",
+    "model": "GAT with NeighborSampling",
+    "metric": "Ext. data",
+    "value": "No",
+    "rank": "1"
+  }, {
+    "task": "Node Property Prediction",
+    "dataset": "ogbn-proteins",
+    "model": "GAT + labels + node2vec",
+    "metric": "Test ROC-AUC",
+    "value": "0.8711 ± 0.0007",
+    "rank": "8"
+  }, {
+    "task": "Node Property Prediction",
+    "dataset": "ogbn-proteins",
+    "model": "GAT + labels + node2vec",
+    "metric": "Validation ROC-AUC",
+    "value": "0.9217 ± 0.0011",
+    "rank": "9"
+  }, {
+    "task": "Node Property Prediction",
+    "dataset": "ogbn-proteins",
+    "model": "GAT + labels + node2vec",
+    "metric": "Number of params",
+    "value": "6360470",
+    "rank": "8"
+  }, {
+    "task": "Node Property Prediction",
+    "dataset": "ogbn-proteins",
+    "model": "GAT + labels + node2vec",
+    "metric": "Ext. data",
+    "value": "No",
+    "rank": "1"
+  }, {
+    "task": "Graph Regression",
+    "dataset": "PARP1",
+    "model": "GAT",
+    "metric": "R2",
+    "value": "0.921±0.000",
+    "rank": "4"
+  }, {
+    "task": "Graph Regression",
+    "dataset": "PARP1",
+    "model": "GAT",
+    "metric": "RMSE",
+    "value": "0.353±0.921",
+    "rank": "4"
+  }, {
+    "task": "Node Classification on Non-Homophilic (Heterophilic) Graphs",
+    "dataset": "Penn94",
+    "model": "GAT",
+    "metric": "1:1 Accuracy",
+    "value": "81.53 ± 0.55",
+    "rank": "14"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Penn94",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "81.53 ± 0.55",
+    "rank": "16"
+  }, {
+    "task": "Graph Regression",
+    "dataset": "PGR",
+    "model": "GAT",
+    "metric": "R2",
+    "value": "0.681±0.000",
+    "rank": "6"
+  }, {
+    "task": "Graph Regression",
+    "dataset": "PGR",
+    "model": "GAT",
+    "metric": "RMSE",
+    "value": "0.546±0.681",
+    "rank": "6"
+  }, {
+    "task": "Node Classification",
+    "dataset": "PPI",
+    "model": "GAT",
+    "metric": "F1",
+    "value": "97.3",
+    "rank": "16"
+  }, {
+    "task": "Graph Classification",
+    "dataset": "PROTEINS",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "76.786±1.670",
+    "rank": "37"
+  }, {
+    "task": "Node Classification on Non-Homophilic (Heterophilic) Graphs",
+    "dataset": "Pubmed",
+    "model": "GAT",
+    "metric": "F1-Score",
+    "value": "59.89 ± 4.12",
+    "rank": "1"
+  }, {
+    "task": "Node Classification on Non-Homophilic (Heterophilic) Graphs",
+    "dataset": "Pubmed",
+    "model": "GAT",
+    "metric": "NMI",
+    "value": "55.80 ± 0.87",
+    "rank": "1"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Pubmed",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "79.0 ± 0.3%",
+    "rank": "53"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Pubmed",
+    "model": "GAT",
+    "metric": "Training Split",
+    "value": "fixed 20 per node",
+    "rank": "4"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Pubmed",
+    "model": "GAT",
+    "metric": "Validation",
+    "value": "YES",
+    "rank": "1"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Pubmed",
+    "model": "GAT",
+    "metric": "F1-Score",
+    "value": "79.0",
+    "rank": "1"
+  }, {
+    "task": "Node Classification",
+    "dataset": "PubMed (0.03%)",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "50.9%",
+    "rank": "12"
+  }, {
+    "task": "Node Classification",
+    "dataset": "PubMed (0.05%)",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "50.4%",
+    "rank": "13"
+  }, {
+    "task": "Node Classification",
+    "dataset": "PubMed (0.1%)",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "59.6%",
+    "rank": "13"
+  }, {
+    "task": "Node Classification",
+    "dataset": "PubMed (60%/20%/20% random splits)",
+    "model": "GAT",
+    "metric": "1:1 Accuracy",
+    "value": "83.28 ± 0.12",
+    "rank": "37"
+  }, {
+    "task": "Node Classification",
+    "dataset": "PubMed with Public Split: fixed 20 nodes per class",
+    "model": "GAT",
+    "metric": "Accuracy",
+    "value": "79.0%",
+    "rank": "23"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Squirrel (60%/20%/20% random splits)",
+    "model": "GAT",
+    "metric": "1:1 Accuracy",
+    "value": "42.72 ± 0.33",
+    "rank": "24"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Texas (60%/20%/20% random splits)",
+    "model": "GAT",
+    "metric": "1:1 Accuracy",
+    "value": "78.87 ± 0.86",
+    "rank": "32"
+  }, {
+    "task": "Node Classification on Non-Homophilic (Heterophilic) Graphs",
+    "dataset": "Texas(60%/20%/20% random splits)",
+    "model": "GAT",
+    "metric": "1:1 Accuracy",
+    "value": "78.87 ± 0.86",
+    "rank": "29"
+  }, {
+    "task": "Node Classification",
+    "dataset": "Wisconsin (60%/20%/20% random splits)",
+    "model": "GAT",
+    "metric": "1:1 Accuracy",
+    "value": "71.01 ± 4.66",
+    "rank": "29"
+  }, {
+    "task": "Node Classification on Non-Homophilic (Heterophilic) Graphs",
+    "dataset": "Wisconsin(60%/20%/20% random splits)",
+    "model": "GAT",
+    "metric": "1:1 Accuracy",
+    "value": "71.01 ± 4.66",
+    "rank": "26"
+  }, {
+    "task": "Graph Regression",
+    "dataset": "ZINC 100k",
+    "model": "GAT",
+    "metric": "MAE",
+    "value": "0.463",
+    "rank": "8"
+  }, {
+    "task": "Graph Regression",
+    "dataset": "ZINC-full",
+    "model": "GAT",
+    "metric": "Test MAE",
+    "value": "0.078±0.006",
+    "rank": "13"
+  }],
+  "methods": ["GAT"]
+}, {
+  "url": "https://arxiv.org/pdf/2012.07436v3.pdf",
+  "origin": "https://paperswithcode.com/paper/informer-beyond-efficient-transformer-for",
+  "title": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting",
+  "tasks": ["Decoder", "Multivariate Time Series Forecasting", "Time Series", "Time Series Analysis", "Time Series Forecasting", "Univariate Time Series Forecasting"],
+  "datasets": ["ETT", "ETTh1 (96)", "ETTh1 (192)"],
+  "results": [{
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh1 (168) Multivariate",
+    "model": "Informer",
+    "metric": "MSE",
+    "value": "0.878",
+    "rank": "4"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh1 (168) Multivariate",
+    "model": "Informer",
+    "metric": "MAE",
+    "value": "0.722",
+    "rank": "1"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh1 (168) Univariate",
+    "model": "Informer",
+    "metric": "MSE",
+    "value": "0.183",
+    "rank": "4"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh1 (168) Univariate",
+    "model": "Informer",
+    "metric": "MAE",
+    "value": "0.337",
+    "rank": "1"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh1 (24) Multivariate",
+    "model": "Informer",
+    "metric": "MSE",
+    "value": "0.509",
+    "rank": "4"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh1 (24) Multivariate",
+    "model": "Informer",
+    "metric": "MAE",
+    "value": "0.523",
+    "rank": "1"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh1 (24) Univariate",
+    "model": "Informer",
+    "metric": "MSE",
+    "value": "0.046",
+    "rank": "3"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh1 (24) Univariate",
+    "model": "Informer",
+    "metric": "MAE",
+    "value": "0.152",
+    "rank": "3"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh1 (336) Multivariate",
+    "model": "Informer",
+    "metric": "MSE",
+    "value": "0.884",
+    "rank": "69"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh1 (336) Multivariate",
+    "model": "Informer",
+    "metric": "MAE",
+    "value": "0.753",
+    "rank": "1"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh1 (336) Univariate",
+    "model": "Informer",
+    "metric": "MSE",
+    "value": "0.189",
+    "rank": "10"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh1 (336) Univariate",
+    "model": "Informer",
+    "metric": "MAE",
+    "value": "0.346",
+    "rank": "1"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh1 (48) Multivariate",
+    "model": "Informer",
+    "metric": "MSE",
+    "value": "0.551",
+    "rank": "4"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh1 (48) Multivariate",
+    "model": "Informer",
+    "metric": "MAE",
+    "value": "0.563",
+    "rank": "1"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh1 (48) Univariate",
+    "model": "Informer",
+    "metric": "MSE",
+    "value": "0.129",
+    "rank": "4"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh1 (48) Univariate",
+    "model": "Informer",
+    "metric": "MAE",
+    "value": "0.274",
+    "rank": "1"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh1 (720) Multivariate",
+    "model": "Informer",
+    "metric": "MSE",
+    "value": "0.941",
+    "rank": "19"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh1 (720) Multivariate",
+    "model": "Informer",
+    "metric": "MAE",
+    "value": "0.768",
+    "rank": "3"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh1 (720) Univariate",
+    "model": "Informer",
+    "metric": "MSE",
+    "value": "0.201",
+    "rank": "10"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh1 (720) Univariate",
+    "model": "Informer",
+    "metric": "MAE",
+    "value": "0.357",
+    "rank": "4"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh2 (168) Multivariate",
+    "model": "Informer",
+    "metric": "MSE",
+    "value": "1.512",
+    "rank": "2"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh2 (168) Multivariate",
+    "model": "Informer",
+    "metric": "MAE",
+    "value": "0.996",
+    "rank": "2"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh2 (168) Univariate",
+    "model": "Informer",
+    "metric": "MSE",
+    "value": "0.154",
+    "rank": "1"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh2 (168) Univariate",
+    "model": "Informer",
+    "metric": "MAE",
+    "value": "0.306",
+    "rank": "4"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh2 (24) Multivariate",
+    "model": "Informer",
+    "metric": "MSE",
+    "value": "0.446",
+    "rank": "4"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh2 (24) Multivariate",
+    "model": "Informer",
+    "metric": "MAE",
+    "value": "0.523",
+    "rank": "1"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh2 (24) Univariate",
+    "model": "Informer",
+    "metric": "MSE",
+    "value": "0.083",
+    "rank": "2"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh2 (24) Univariate",
+    "model": "Informer",
+    "metric": "MAE",
+    "value": "0.213",
+    "rank": "3"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh2 (336) Multivariate",
+    "model": "Informer",
+    "metric": "MSE",
+    "value": "1.665",
+    "rank": "18"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh2 (336) Multivariate",
+    "model": "Informer",
+    "metric": "MAE",
+    "value": "1.035",
+    "rank": "3"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh2 (336) Univariate",
+    "model": "Informer",
+    "metric": "MSE",
+    "value": "0.166",
+    "rank": "1"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh2 (336) Univariate",
+    "model": "Informer",
+    "metric": "MAE",
+    "value": "0.323",
+    "rank": "10"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh2 (48) Multivariate",
+    "model": "Informer",
+    "metric": "MSE",
+    "value": "0.934",
+    "rank": "2"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh2 (48) Multivariate",
+    "model": "Informer",
+    "metric": "MAE",
+    "value": "0.733",
+    "rank": "3"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh2 (48) Univariate",
+    "model": "Informer",
+    "metric": "MSE",
+    "value": "0.111",
+    "rank": "2"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh2 (48) Univariate",
+    "model": "Informer",
+    "metric": "MAE",
+    "value": "0.249",
+    "rank": "3"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh2 (720) Multivariate",
+    "model": "Informer",
+    "metric": "MSE",
+    "value": "2.34",
+    "rank": "18"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh2 (720) Multivariate",
+    "model": "Informer",
+    "metric": "MAE",
+    "value": "1.209",
+    "rank": "3"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh2 (720) Univariate",
+    "model": "Informer",
+    "metric": "MSE",
+    "value": "0.181",
+    "rank": "2"
+  }, {
+    "task": "Time Series Forecasting",
+    "dataset": "ETTh2 (720) Univariate",
+    "model": "Informer",
+    "metric": "MAE",
+    "value": "0.338",
+    "rank": "1"
+  }],
+  "methods": ["Absolute Position Encodings", "Adam", "BPE", "Dense Connections", "Dropout", "Label Smoothing", "Layer Normalization", "Linear Layer", "Multi-Head Attention", "Position-Wise Feed-Forward Layer", "Residual Connection", "Scaled Dot-Product Attention", "Softmax", "Transformer"]
+}, {
+  "url": "https://arxiv.org/pdf/1801.01290v2.pdf",
+  "origin": "https://paperswithcode.com/paper/soft-actor-critic-off-policy-maximum-entropy",
+  "title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor",
+  "tasks": ["Continuous Control", "Decision Making", "Deep Reinforcement Learning", "Omniverse Isaac Gym", "OpenAI Gym", "Q-Learning", "reinforcement-learning", "Reinforcement Learning", "Reinforcement Learning (RL)"],
+  "datasets": ["OpenAI Gym", "Omniverse Isaac Gym"],
+  "results": [{
+    "task": "Omniverse Isaac Gym",
+    "dataset": "AllegroHand",
+    "model": "SAC",
+    "metric": "Average Return",
+    "value": "296.49",
+    "rank": "2"
+  }, {
+    "task": "Omniverse Isaac Gym",
+    "dataset": "Ant",
+    "model": "SAC",
+    "metric": "Average Return",
+    "value": "7717.93",
+    "rank": "2"
+  }, {
+    "task": "OpenAI Gym",
+    "dataset": "Ant-v4",
+    "model": "SAC",
+    "metric": "Average Return",
+    "value": "5208.09",
+    "rank": "3"
+  }, {
+    "task": "Omniverse Isaac Gym",
+    "dataset": "Anymal",
+    "model": "SAC",
+    "metric": "Average Return",
+    "value": "11.87",
+    "rank": "2"
+  }, {
+    "task": "Omniverse Isaac Gym",
+    "dataset": "FrankaCabinet",
+    "model": "SAC",
+    "metric": "Average Return",
+    "value": "1721.98",
+    "rank": "2"
+  }, {
+    "task": "OpenAI Gym",
+    "dataset": "HalfCheetah-v4",
+    "model": "SAC",
+    "metric": "Average Return",
+    "value": "15836.04",
+    "rank": "1"
+  }, {
+    "task": "OpenAI Gym",
+    "dataset": "Hopper-v4",
+    "model": "SAC",
+    "metric": "Average Return",
+    "value": "2882.56",
+    "rank": "3"
+  }, {
+    "task": "Omniverse Isaac Gym",
+    "dataset": "Humanoid",
+    "model": "SAC",
+    "metric": "Average Return",
+    "value": "4028.31",
+    "rank": "2"
+  }, {
+    "task": "OpenAI Gym",
+    "dataset": "Humanoid-v4",
+    "model": "SAC",
+    "metric": "Average Return",
+    "value": "6211.50",
+    "rank": "2"
+  }, {
+    "task": "Omniverse Isaac Gym",
+    "dataset": "Ingenuity",
+    "model": "SAC",
+    "metric": "Average Return",
+    "value": "5301.99",
+    "rank": "1"
+  }, {
+    "task": "Continuous Control",
+    "dataset": "Lunar Lander (OpenAI Gym)",
+    "model": "SAC",
+    "metric": "Score",
+    "value": "284.59±0.97",
+    "rank": "1"
+  }, {
+    "task": "OpenAI Gym",
+    "dataset": "Walker2d-v4",
+    "model": "SAC",
+    "metric": "Average Return",
+    "value": "5745.27",
+    "rank": "1"
+  }],
+  "methods": ["Adam", "Dense Connections", "Experience Replay", "ReLU", "Soft Actor Critic"]
+}]

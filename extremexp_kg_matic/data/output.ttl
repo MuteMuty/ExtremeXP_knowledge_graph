@@ -1,0 +1,3307 @@
+@prefix ex: <http://extremexp.eu/ontology/matic_papers/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Dataset_ANLI a ex:Dataset ;
+    ex:datasetName "ANLI"^^xsd:string .
+
+ex:Dataset_AllegroHand a ex:Dataset ;
+    ex:datasetName "AllegroHand" .
+
+ex:Dataset_Ant a ex:Dataset ;
+    ex:datasetName "Ant" .
+
+ex:Dataset_Ant_v4 a ex:Dataset ;
+    ex:datasetName "Ant-v4" .
+
+ex:Dataset_Anymal a ex:Dataset ;
+    ex:datasetName "Anymal" .
+
+ex:Dataset_Brazil_Air_Traffic a ex:Dataset ;
+    ex:datasetName "Brazil Air-Traffic"^^xsd:string .
+
+ex:Dataset_CIFAR10_100k a ex:Dataset ;
+    ex:datasetName "CIFAR10 100k" .
+
+ex:Dataset_CIFAR_10 a ex:Dataset ;
+    ex:datasetName "CIFAR-10"^^xsd:string .
+
+ex:Dataset_Chameleon_602020_random_splits a ex:Dataset ;
+    ex:datasetName "Chameleon (60%/20%/20% random splits)" .
+
+ex:Dataset_CiteSeer_05 a ex:Dataset ;
+    ex:datasetName "CiteSeer (0.5%)" .
+
+ex:Dataset_CiteSeer_1 a ex:Dataset ;
+    ex:datasetName "CiteSeer (1%)" .
+
+ex:Dataset_CiteSeer_602020_random_splits a ex:Dataset ;
+    ex:datasetName "CiteSeer (60%/20%/20% random splits)" .
+
+ex:Dataset_CiteSeer_with_Public_Split_fixed_20_nodes_per_class a ex:Dataset ;
+    ex:datasetName "CiteSeer with Public Split: fixed 20 nodes per class" .
+
+ex:Dataset_CommonsenseQA a ex:Dataset ;
+    ex:datasetName "CommonsenseQA"^^xsd:string .
+
+ex:Dataset_Cora_05 a ex:Dataset ;
+    ex:datasetName "Cora (0.5%)" .
+
+ex:Dataset_Cora_1 a ex:Dataset ;
+    ex:datasetName "Cora (1%)" .
+
+ex:Dataset_Cora_3 a ex:Dataset ;
+    ex:datasetName "Cora (3%)" .
+
+ex:Dataset_Cora_602020_random_splits a ex:Dataset ;
+    ex:datasetName "Cora (60%/20%/20% random splits)" .
+
+ex:Dataset_Cora_with_Public_Split_fixed_20_nodes_per_class a ex:Dataset ;
+    ex:datasetName "Cora with Public Split: fixed 20 nodes per class" .
+
+ex:Dataset_DD a ex:Dataset ;
+    ex:datasetName "D&D" .
+
+ex:Dataset_ESOL_Estimated_SOLubility a ex:Dataset ;
+    ex:datasetName "ESOL (Estimated SOLubility)"^^xsd:string .
+
+ex:Dataset_ETT a ex:Dataset ;
+    ex:datasetName "ETT"^^xsd:string .
+
+ex:Dataset_ETTh1_192 a ex:Dataset ;
+    ex:datasetName "ETTh1 (192)"^^xsd:string .
+
+ex:Dataset_ETTh1_96 a ex:Dataset ;
+    ex:datasetName "ETTh1 (96)"^^xsd:string .
+
+ex:Dataset_Flickr a ex:Dataset ;
+    ex:datasetName "Flickr" .
+
+ex:Dataset_Flickr30k a ex:Dataset ;
+    ex:datasetName "Flickr30k"^^xsd:string .
+
+ex:Dataset_FrankaCabinet a ex:Dataset ;
+    ex:datasetName "FrankaCabinet" .
+
+ex:Dataset_FreeSolv_Free_Solvation a ex:Dataset ;
+    ex:datasetName "FreeSolv (Free Solvation)"^^xsd:string .
+
+ex:Dataset_GLUE a ex:Dataset ;
+    ex:datasetName "GLUE"^^xsd:string .
+
+ex:Dataset_HalfCheetah_v4 a ex:Dataset ;
+    ex:datasetName "HalfCheetah-v4" .
+
+ex:Dataset_Hopper_v4 a ex:Dataset ;
+    ex:datasetName "Hopper-v4" .
+
+ex:Dataset_Humanoid a ex:Dataset ;
+    ex:datasetName "Humanoid" .
+
+ex:Dataset_Humanoid_v4 a ex:Dataset ;
+    ex:datasetName "Humanoid-v4" .
+
+ex:Dataset_IMDB_BINARY a ex:Dataset ;
+    ex:datasetName "IMDB-BINARY"^^xsd:string .
+
+ex:Dataset_IMDb_B a ex:Dataset ;
+    ex:datasetName "IMDb-B" .
+
+ex:Dataset_Ingenuity a ex:Dataset ;
+    ex:datasetName "Ingenuity" .
+
+ex:Dataset_JHMDB a ex:Dataset ;
+    ex:datasetName "JHMDB"^^xsd:string .
+
+ex:Dataset_J_HMBD_Early_Action a ex:Dataset ;
+    ex:datasetName "J-HMBD Early Action" .
+
+ex:Dataset_Lunar_Lander_OpenAI_Gym a ex:Dataset ;
+    ex:datasetName "Lunar Lander (OpenAI Gym)" .
+
+ex:Dataset_MFN_Dataset a ex:Dataset ;
+    ex:datasetName "MFN Dataset" .
+
+ex:Dataset_MFNet a ex:Dataset ;
+    ex:datasetName "MFNet"^^xsd:string .
+
+ex:Dataset_MS_COCO a ex:Dataset ;
+    ex:datasetName "MS COCO"^^xsd:string .
+
+ex:Dataset_OGB a ex:Dataset ;
+    ex:datasetName "OGB"^^xsd:string .
+
+ex:Dataset_Omniverse_Isaac_Gym a ex:Dataset ;
+    ex:datasetName "Omniverse Isaac Gym"^^xsd:string .
+
+ex:Dataset_OpenAI_Gym a ex:Dataset ;
+    ex:datasetName "OpenAI Gym"^^xsd:string .
+
+ex:Dataset_PIQA a ex:Dataset ;
+    ex:datasetName "PIQA"^^xsd:string .
+
+ex:Dataset_PubMed_003 a ex:Dataset ;
+    ex:datasetName "PubMed (0.03%)" .
+
+ex:Dataset_PubMed_005 a ex:Dataset ;
+    ex:datasetName "PubMed (0.05%)" .
+
+ex:Dataset_PubMed_01 a ex:Dataset ;
+    ex:datasetName "PubMed (0.1%)" .
+
+ex:Dataset_PubMed_with_Public_Split_fixed_20_nodes_per_class a ex:Dataset ;
+    ex:datasetName "PubMed with Public Split: fixed 20 nodes per class" .
+
+ex:Dataset_Quora a ex:Dataset ;
+    ex:datasetName "Quora"^^xsd:string .
+
+ex:Dataset_RVL_CDIP a ex:Dataset ;
+    ex:datasetName "RVL-CDIP"^^xsd:string .
+
+ex:Dataset_SIQA a ex:Dataset ;
+    ex:datasetName "SIQA"^^xsd:string .
+
+ex:Dataset_SQuAD a ex:Dataset ;
+    ex:datasetName "SQuAD"^^xsd:string .
+
+ex:Dataset_SST a ex:Dataset ;
+    ex:datasetName "SST"^^xsd:string .
+
+ex:Dataset_SST_2 a ex:Dataset ;
+    ex:datasetName "SST-2"^^xsd:string .
+
+ex:Dataset_SST_2_Binary_classification a ex:Dataset ;
+    ex:datasetName "SST-2 Binary classification" .
+
+ex:Dataset_Texas_602020_random_splits a ex:Dataset ;
+    ex:datasetName "Texas (60%/20%/20% random splits)" .
+
+ex:Dataset_USA_Air_Traffic a ex:Dataset ;
+    ex:datasetName "USA Air-Traffic"^^xsd:string .
+
+ex:Dataset_Walker2d_v4 a ex:Dataset ;
+    ex:datasetName "Walker2d-v4" .
+
+ex:Dataset_WebText a ex:Dataset ;
+    ex:datasetName "WebText"^^xsd:string .
+
+ex:Dataset_Wisconsin_602020_random_splits a ex:Dataset ;
+    ex:datasetName "Wisconsin (60%/20%/20% random splits)" .
+
+ex:Dataset_ZINC a ex:Dataset ;
+    ex:datasetName "ZINC"^^xsd:string .
+
+ex:Dataset_ZINC_100k a ex:Dataset ;
+    ex:datasetName "ZINC 100k" .
+
+ex:Dataset_ZINC_full a ex:Dataset ;
+    ex:datasetName "ZINC-full" .
+
+ex:Dataset_dockstring a ex:Dataset ;
+    ex:datasetName "dockstring"^^xsd:string .
+
+ex:Graph_Attention_Networks_result_0 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Heterogeneous_Node_Classification ;
+    ex:metricName "Micro-F1"^^xsd:string ;
+    ex:metricValue 92.19 ;
+    ex:onDataset ex:Dataset_ACM_Heterogeneous_Node_Classification ;
+    ex:rank 6 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_1 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Heterogeneous_Node_Classification ;
+    ex:metricName "Macro-F1"^^xsd:string ;
+    ex:metricValue 92.26 ;
+    ex:onDataset ex:Dataset_ACM_Heterogeneous_Node_Classification ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_10 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "1:1 Accuracy"^^xsd:string ;
+    ex:metricValue "67.20 ± 0.46"^^xsd:string ;
+    ex:onDataset ex:Dataset_CiteSeer_602020_random_splits ;
+    ex:rank 32 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_11 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue "72.5 ± 0.7%"^^xsd:string ;
+    ex:onDataset ex:Dataset_CiteSeer_with_Public_Split_fixed_20_nodes_per_class ;
+    ex:rank 27 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_12 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Document_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 0.83 ;
+    ex:onDataset ex:Dataset_Cora ;
+    ex:rank 3 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_13 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue "83.0% ± 0.7%"^^xsd:string ;
+    ex:onDataset ex:Dataset_Cora ;
+    ex:rank 44 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_14 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Training Split"^^xsd:string ;
+    ex:metricValue "fixed 20 per node"^^xsd:string ;
+    ex:onDataset ex:Dataset_Cora ;
+    ex:rank 3 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_15 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Validation"^^xsd:string ;
+    ex:metricValue "YES"^^xsd:string ;
+    ex:onDataset ex:Dataset_Cora ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_16 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 0.414 ;
+    ex:onDataset ex:Dataset_Cora_05 ;
+    ex:rank 13 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_17 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 0.486 ;
+    ex:onDataset ex:Dataset_Cora_1 ;
+    ex:rank 14 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_18 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 0.568 ;
+    ex:onDataset ex:Dataset_Cora_3 ;
+    ex:rank 15 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_19 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "1:1 Accuracy"^^xsd:string ;
+    ex:metricValue "76.70 ± 0.42"^^xsd:string ;
+    ex:onDataset ex:Dataset_Cora_602020_random_splits ;
+    ex:rank 31 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_2 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "1:1 Accuracy"^^xsd:string ;
+    ex:metricValue "63.9 ± 0.46"^^xsd:string ;
+    ex:onDataset ex:Dataset_Chameleon_602020_random_splits ;
+    ex:rank 21 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_20 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue "83.0 ± 0.7%"^^xsd:string ;
+    ex:onDataset ex:Dataset_Cora_with_Public_Split_fixed_20_nodes_per_class ;
+    ex:rank 23 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_21 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification_on_Non_Homophilic_Heterophilic_Graphs ;
+    ex:metricName "1:1 Accuracy"^^xsd:string ;
+    ex:metricValue "76.00 ± 1.01"^^xsd:string ;
+    ex:onDataset ex:Dataset_Cornell_602020_random_splits ;
+    ex:rank 26 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_22 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "1:1 Accuracy"^^xsd:string ;
+    ex:metricValue "76.00 ± 1.01"^^xsd:string ;
+    ex:onDataset ex:Dataset_Cornell_602020_random_splits ;
+    ex:rank 26 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_23 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Heterogeneous_Node_Classification ;
+    ex:metricName "Micro-F1"^^xsd:string ;
+    ex:metricValue 93.39 ;
+    ex:onDataset ex:Dataset_DBLP_Heterogeneous_Node_Classification ;
+    ex:rank 8 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_24 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Heterogeneous_Node_Classification ;
+    ex:metricName "Macro-F1"^^xsd:string ;
+    ex:metricValue 93.83 ;
+    ex:onDataset ex:Dataset_DBLP_Heterogeneous_Node_Classification ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_25 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue "73.109±3.413"^^xsd:string ;
+    ex:onDataset ex:Dataset_DD ;
+    ex:rank 49 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_26 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification_on_Non_Homophilic_Heterophilic_Graphs ;
+    ex:metricName "1:1 Accuracy"^^xsd:string ;
+    ex:metricValue "61.09±0.77"^^xsd:string ;
+    ex:onDataset ex:Dataset_Deezer_Europe ;
+    ex:rank 22 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_27 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue "78.611±1.556"^^xsd:string ;
+    ex:onDataset ex:Dataset_ENZYMES ;
+    ex:rank 3 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_28 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Molecular_Property_Prediction ;
+    ex:metricName "RMSE"^^xsd:string ;
+    ex:metricValue "0.540±0.027"^^xsd:string ;
+    ex:onDataset ex:Dataset_ESOL ;
+    ex:rank 6 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_29 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Molecular_Property_Prediction ;
+    ex:metricName "R2"^^xsd:string ;
+    ex:metricValue "0.930±0.007"^^xsd:string ;
+    ex:onDataset ex:Dataset_ESOL ;
+    ex:rank 6 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_3 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification_on_Non_Homophilic_Heterophilic_Graphs ;
+    ex:metricName "1:1 Accuracy"^^xsd:string ;
+    ex:metricValue "63.9 ± 0.46"^^xsd:string ;
+    ex:onDataset ex:Dataset_Chameleon602020_random_splits ;
+    ex:rank 18 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_30 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Regression ;
+    ex:metricName "R2"^^xsd:string ;
+    ex:metricValue "0.666±0.000"^^xsd:string ;
+    ex:onDataset ex:Dataset_ESR2 ;
+    ex:rank 5 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_31 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Regression ;
+    ex:metricName "RMSE"^^xsd:string ;
+    ex:metricValue "0.510±0.666"^^xsd:string ;
+    ex:onDataset ex:Dataset_ESR2 ;
+    ex:rank 5 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_32 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Regression ;
+    ex:metricName "R2"^^xsd:string ;
+    ex:metricValue "0.886±0.000"^^xsd:string ;
+    ex:onDataset ex:Dataset_F2 ;
+    ex:rank 4 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_33 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Regression ;
+    ex:metricName "RMSE"^^xsd:string ;
+    ex:metricValue "0.343±0.886"^^xsd:string ;
+    ex:onDataset ex:Dataset_F2 ;
+    ex:rank 4 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_34 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "1:1 Accuracy"^^xsd:string ;
+    ex:metricValue "35.98 ± 0.23"^^xsd:string ;
+    ex:onDataset ex:Dataset_Film_602020_random_splits ;
+    ex:rank 28 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_35 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT_Velickovic_et_al_2018 ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 0.359 ;
+    ex:onDataset ex:Dataset_Flickr ;
+    ex:rank 8 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_36 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Heterogeneous_Node_Classification ;
+    ex:metricName "Macro-F1"^^xsd:string ;
+    ex:metricValue 40.74 ;
+    ex:onDataset ex:Dataset_Freebase_Heterogeneous_Node_Classification ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_37 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Heterogeneous_Node_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 65.26 ;
+    ex:onDataset ex:Dataset_Freebase_Heterogeneous_Node_Classification ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_38 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Molecular_Property_Prediction ;
+    ex:metricName "RMSE"^^xsd:string ;
+    ex:metricValue "0.791±0.101"^^xsd:string ;
+    ex:onDataset ex:Dataset_FreeSolv ;
+    ex:rank 5 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_39 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Molecular_Property_Prediction ;
+    ex:metricName "R2"^^xsd:string ;
+    ex:metricValue "0.959±0.011"^^xsd:string ;
+    ex:onDataset ex:Dataset_FreeSolv ;
+    ex:rank 5 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_4 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Classification ;
+    ex:metricName "Accuracy (%)"^^xsd:string ;
+    ex:metricValue 65.48 ;
+    ex:onDataset ex:Dataset_CIFAR10_100k ;
+    ex:rank 17 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_40 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue "55.80 ± 0.87"^^xsd:string ;
+    ex:onDataset ex:Dataset_genius ;
+    ex:rank 25 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_41 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue "84.250±2.062"^^xsd:string ;
+    ex:onDataset ex:Dataset_IMDb_B ;
+    ex:rank 3 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_42 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Heterogeneous_Node_Classification ;
+    ex:metricName "Micro-F1"^^xsd:string ;
+    ex:metricValue 64.86 ;
+    ex:onDataset ex:Dataset_IMDB_Heterogeneous_Node_Classification ;
+    ex:rank 8 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_43 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Heterogeneous_Node_Classification ;
+    ex:metricName "Macro-F1"^^xsd:string ;
+    ex:metricValue 58.94 ;
+    ex:onDataset ex:Dataset_IMDB_Heterogeneous_Node_Classification ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_44 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Skeleton_Based_Action_Recognition ;
+    ex:metricName "10%"^^xsd:string ;
+    ex:metricValue 58.1 ;
+    ex:onDataset ex:Dataset_J_HMBD_Early_Action ;
+    ex:rank 2 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_45 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Regression ;
+    ex:metricName "R2"^^xsd:string ;
+    ex:metricValue "0.833±0.000"^^xsd:string ;
+    ex:onDataset ex:Dataset_KIT ;
+    ex:rank 4 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_46 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Regression ;
+    ex:metricName "RMSE"^^xsd:string ;
+    ex:metricValue "0.443±0.833"^^xsd:string ;
+    ex:onDataset ex:Dataset_KIT ;
+    ex:rank 4 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_47 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Regression ;
+    ex:metricName "RMSE"^^xsd:string ;
+    ex:metricValue 0.95 ;
+    ex:onDataset ex:Dataset_Lipophilicity ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_48 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Regression ;
+    ex:metricName "RMSE"^^xsd:string ;
+    ex:metricValue "0.536±0.020"^^xsd:string ;
+    ex:onDataset ex:Dataset_Lipophilicity ;
+    ex:rank 3 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_49 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Regression ;
+    ex:metricName "R2"^^xsd:string ;
+    ex:metricValue "0.820±0.014"^^xsd:string ;
+    ex:onDataset ex:Dataset_Lipophilicity ;
+    ex:rank 3 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_5 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue "72.5 ± 0.7%"^^xsd:string ;
+    ex:onDataset ex:Dataset_Citeseer ;
+    ex:rank 42 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_50 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue "85.109±1.107"^^xsd:string ;
+    ex:onDataset ex:Dataset_NCI1 ;
+    ex:rank 14 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_51 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue "82.560±0.601"^^xsd:string ;
+    ex:onDataset ex:Dataset_NCI109 ;
+    ex:rank 16 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_52 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Property_Prediction ;
+    ex:metricName "Test F1 score"^^xsd:string ;
+    ex:metricValue "0.1569 ± 0.0010"^^xsd:string ;
+    ex:onDataset ex:Dataset_ogbg_code2 ;
+    ex:rank 15 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_53 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Property_Prediction ;
+    ex:metricName "Validation F1 score"^^xsd:string ;
+    ex:metricValue "0.1442 ± 0.0017"^^xsd:string ;
+    ex:onDataset ex:Dataset_ogbg_code2 ;
+    ex:rank 14 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_54 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Property_Prediction ;
+    ex:metricName "Number of params"^^xsd:string ;
+    ex:metricValue 11030210.0 ;
+    ex:onDataset ex:Dataset_ogbg_code2 ;
+    ex:rank 13 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_55 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Property_Prediction ;
+    ex:metricName "Ext. data"^^xsd:string ;
+    ex:metricValue "No"^^xsd:string ;
+    ex:onDataset ex:Dataset_ogbg_code2 ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_56 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GATlabel_reuseself_KD ;
+    ex:evaluatesTask ex:Task_Node_Property_Prediction ;
+    ex:metricName "Test Accuracy"^^xsd:string ;
+    ex:metricValue "0.7416 ± 0.0008"^^xsd:string ;
+    ex:onDataset ex:Dataset_ogbn_arxiv ;
+    ex:rank 23 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_57 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GATlabel_reuseself_KD ;
+    ex:evaluatesTask ex:Task_Node_Property_Prediction ;
+    ex:metricName "Validation Accuracy"^^xsd:string ;
+    ex:metricValue "0.7514 ± 0.0004"^^xsd:string ;
+    ex:onDataset ex:Dataset_ogbn_arxiv ;
+    ex:rank 28 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_58 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GATlabel_reuseself_KD ;
+    ex:evaluatesTask ex:Task_Node_Property_Prediction ;
+    ex:metricName "Number of params"^^xsd:string ;
+    ex:metricValue 1441580.0 ;
+    ex:onDataset ex:Dataset_ogbn_arxiv ;
+    ex:rank 34 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_59 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GATlabel_reuseself_KD ;
+    ex:evaluatesTask ex:Task_Node_Property_Prediction ;
+    ex:metricName "Ext. data"^^xsd:string ;
+    ex:metricValue "No"^^xsd:string ;
+    ex:onDataset ex:Dataset_ogbn_arxiv ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_6 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Training Split"^^xsd:string ;
+    ex:metricValue "fixed 20 per node"^^xsd:string ;
+    ex:onDataset ex:Dataset_Citeseer ;
+    ex:rank 3 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_60 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GATlabelreusetopo_loss ;
+    ex:evaluatesTask ex:Task_Node_Property_Prediction ;
+    ex:metricName "Test Accuracy"^^xsd:string ;
+    ex:metricValue "0.7399 ± 0.0012"^^xsd:string ;
+    ex:onDataset ex:Dataset_ogbn_arxiv ;
+    ex:rank 29 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_61 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GATlabelreusetopo_loss ;
+    ex:evaluatesTask ex:Task_Node_Property_Prediction ;
+    ex:metricName "Validation Accuracy"^^xsd:string ;
+    ex:metricValue "0.7513 ± 0.0009"^^xsd:string ;
+    ex:onDataset ex:Dataset_ogbn_arxiv ;
+    ex:rank 29 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_62 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GATlabelreusetopo_loss ;
+    ex:evaluatesTask ex:Task_Node_Property_Prediction ;
+    ex:metricName "Number of params"^^xsd:string ;
+    ex:metricValue 1441580.0 ;
+    ex:onDataset ex:Dataset_ogbn_arxiv ;
+    ex:rank 34 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_63 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GATlabelreusetopo_loss ;
+    ex:evaluatesTask ex:Task_Node_Property_Prediction ;
+    ex:metricName "Ext. data"^^xsd:string ;
+    ex:metricValue "No"^^xsd:string ;
+    ex:onDataset ex:Dataset_ogbn_arxiv ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_64 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT_with_NeighborSampling ;
+    ex:evaluatesTask ex:Task_Node_Property_Prediction ;
+    ex:metricName "Test Accuracy"^^xsd:string ;
+    ex:metricValue "0.7945 ± 0.0059"^^xsd:string ;
+    ex:onDataset ex:Dataset_ogbn_products ;
+    ex:rank 48 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_65 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT_with_NeighborSampling ;
+    ex:evaluatesTask ex:Task_Node_Property_Prediction ;
+    ex:metricName "Validation Accuracy"^^xsd:string ;
+    ex:metricValue "Please tell us"^^xsd:string ;
+    ex:onDataset ex:Dataset_ogbn_products ;
+    ex:rank 61 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_66 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT_with_NeighborSampling ;
+    ex:evaluatesTask ex:Task_Node_Property_Prediction ;
+    ex:metricName "Number of params"^^xsd:string ;
+    ex:metricValue 751574.0 ;
+    ex:onDataset ex:Dataset_ogbn_products ;
+    ex:rank 34 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_67 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT_with_NeighborSampling ;
+    ex:evaluatesTask ex:Task_Node_Property_Prediction ;
+    ex:metricName "Ext. data"^^xsd:string ;
+    ex:metricValue "No"^^xsd:string ;
+    ex:onDataset ex:Dataset_ogbn_products ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_68 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT_labels_node2vec ;
+    ex:evaluatesTask ex:Task_Node_Property_Prediction ;
+    ex:metricName "Test ROC-AUC"^^xsd:string ;
+    ex:metricValue "0.8711 ± 0.0007"^^xsd:string ;
+    ex:onDataset ex:Dataset_ogbn_proteins ;
+    ex:rank 8 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_69 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT_labels_node2vec ;
+    ex:evaluatesTask ex:Task_Node_Property_Prediction ;
+    ex:metricName "Validation ROC-AUC"^^xsd:string ;
+    ex:metricValue "0.9217 ± 0.0011"^^xsd:string ;
+    ex:onDataset ex:Dataset_ogbn_proteins ;
+    ex:rank 9 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_7 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Validation"^^xsd:string ;
+    ex:metricValue "YES"^^xsd:string ;
+    ex:onDataset ex:Dataset_Citeseer ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_70 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT_labels_node2vec ;
+    ex:evaluatesTask ex:Task_Node_Property_Prediction ;
+    ex:metricName "Number of params"^^xsd:string ;
+    ex:metricValue 6360470.0 ;
+    ex:onDataset ex:Dataset_ogbn_proteins ;
+    ex:rank 8 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_71 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT_labels_node2vec ;
+    ex:evaluatesTask ex:Task_Node_Property_Prediction ;
+    ex:metricName "Ext. data"^^xsd:string ;
+    ex:metricValue "No"^^xsd:string ;
+    ex:onDataset ex:Dataset_ogbn_proteins ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_72 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Regression ;
+    ex:metricName "R2"^^xsd:string ;
+    ex:metricValue "0.921±0.000"^^xsd:string ;
+    ex:onDataset ex:Dataset_PARP1 ;
+    ex:rank 4 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_73 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Regression ;
+    ex:metricName "RMSE"^^xsd:string ;
+    ex:metricValue "0.353±0.921"^^xsd:string ;
+    ex:onDataset ex:Dataset_PARP1 ;
+    ex:rank 4 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_74 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification_on_Non_Homophilic_Heterophilic_Graphs ;
+    ex:metricName "1:1 Accuracy"^^xsd:string ;
+    ex:metricValue "81.53 ± 0.55"^^xsd:string ;
+    ex:onDataset ex:Dataset_Penn94 ;
+    ex:rank 14 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_75 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue "81.53 ± 0.55"^^xsd:string ;
+    ex:onDataset ex:Dataset_Penn94 ;
+    ex:rank 16 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_76 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Regression ;
+    ex:metricName "R2"^^xsd:string ;
+    ex:metricValue "0.681±0.000"^^xsd:string ;
+    ex:onDataset ex:Dataset_PGR ;
+    ex:rank 6 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_77 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Regression ;
+    ex:metricName "RMSE"^^xsd:string ;
+    ex:metricValue "0.546±0.681"^^xsd:string ;
+    ex:onDataset ex:Dataset_PGR ;
+    ex:rank 6 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_78 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "F1"^^xsd:string ;
+    ex:metricValue 97.3 ;
+    ex:onDataset ex:Dataset_PPI ;
+    ex:rank 16 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_79 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue "76.786±1.670"^^xsd:string ;
+    ex:onDataset ex:Dataset_PROTEINS ;
+    ex:rank 37 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_8 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 0.382 ;
+    ex:onDataset ex:Dataset_CiteSeer_05 ;
+    ex:rank 13 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_80 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification_on_Non_Homophilic_Heterophilic_Graphs ;
+    ex:metricName "F1-Score"^^xsd:string ;
+    ex:metricValue "59.89 ± 4.12"^^xsd:string ;
+    ex:onDataset ex:Dataset_Pubmed ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_81 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification_on_Non_Homophilic_Heterophilic_Graphs ;
+    ex:metricName "NMI"^^xsd:string ;
+    ex:metricValue "55.80 ± 0.87"^^xsd:string ;
+    ex:onDataset ex:Dataset_Pubmed ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_82 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue "79.0 ± 0.3%"^^xsd:string ;
+    ex:onDataset ex:Dataset_Pubmed ;
+    ex:rank 53 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_83 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Training Split"^^xsd:string ;
+    ex:metricValue "fixed 20 per node"^^xsd:string ;
+    ex:onDataset ex:Dataset_Pubmed ;
+    ex:rank 4 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_84 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Validation"^^xsd:string ;
+    ex:metricValue "YES"^^xsd:string ;
+    ex:onDataset ex:Dataset_Pubmed ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_85 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "F1-Score"^^xsd:string ;
+    ex:metricValue 79.0 ;
+    ex:onDataset ex:Dataset_Pubmed ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_86 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 0.509 ;
+    ex:onDataset ex:Dataset_PubMed_003 ;
+    ex:rank 12 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_87 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 0.504 ;
+    ex:onDataset ex:Dataset_PubMed_005 ;
+    ex:rank 13 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_88 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 0.596 ;
+    ex:onDataset ex:Dataset_PubMed_01 ;
+    ex:rank 13 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_89 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "1:1 Accuracy"^^xsd:string ;
+    ex:metricValue "83.28 ± 0.12"^^xsd:string ;
+    ex:onDataset ex:Dataset_PubMed_602020_random_splits ;
+    ex:rank 37 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_9 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 0.465 ;
+    ex:onDataset ex:Dataset_CiteSeer_1 ;
+    ex:rank 14 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_90 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 0.79 ;
+    ex:onDataset ex:Dataset_PubMed_with_Public_Split_fixed_20_nodes_per_class ;
+    ex:rank 23 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_91 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "1:1 Accuracy"^^xsd:string ;
+    ex:metricValue "42.72 ± 0.33"^^xsd:string ;
+    ex:onDataset ex:Dataset_Squirrel_602020_random_splits ;
+    ex:rank 24 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_92 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "1:1 Accuracy"^^xsd:string ;
+    ex:metricValue "78.87 ± 0.86"^^xsd:string ;
+    ex:onDataset ex:Dataset_Texas_602020_random_splits ;
+    ex:rank 32 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_93 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification_on_Non_Homophilic_Heterophilic_Graphs ;
+    ex:metricName "1:1 Accuracy"^^xsd:string ;
+    ex:metricValue "78.87 ± 0.86"^^xsd:string ;
+    ex:onDataset ex:Dataset_Texas602020_random_splits ;
+    ex:rank 29 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_94 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification ;
+    ex:metricName "1:1 Accuracy"^^xsd:string ;
+    ex:metricValue "71.01 ± 4.66"^^xsd:string ;
+    ex:onDataset ex:Dataset_Wisconsin_602020_random_splits ;
+    ex:rank 29 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_95 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Node_Classification_on_Non_Homophilic_Heterophilic_Graphs ;
+    ex:metricName "1:1 Accuracy"^^xsd:string ;
+    ex:metricValue "71.01 ± 4.66"^^xsd:string ;
+    ex:onDataset ex:Dataset_Wisconsin602020_random_splits ;
+    ex:rank 26 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_96 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Regression ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 0.463 ;
+    ex:onDataset ex:Dataset_ZINC_100k ;
+    ex:rank 8 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Graph_Attention_Networks_result_97 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_GAT ;
+    ex:evaluatesTask ex:Task_Graph_Regression ;
+    ex:metricName "Test MAE"^^xsd:string ;
+    ex:metricValue "0.078±0.006"^^xsd:string ;
+    ex:onDataset ex:Dataset_ZINC_full ;
+    ex:rank 13 ;
+    ex:reportedInPaper ex:Paper_Graph_Attention_Networks .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_0 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MSE"^^xsd:string ;
+    ex:metricValue 0.878 ;
+    ex:onDataset ex:Dataset_ETTh1_168_Multivariate ;
+    ex:rank 4 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_1 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 0.722 ;
+    ex:onDataset ex:Dataset_ETTh1_168_Multivariate ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_10 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MSE"^^xsd:string ;
+    ex:metricValue 0.189 ;
+    ex:onDataset ex:Dataset_ETTh1_336_Univariate ;
+    ex:rank 10 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_11 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 0.346 ;
+    ex:onDataset ex:Dataset_ETTh1_336_Univariate ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_12 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MSE"^^xsd:string ;
+    ex:metricValue 0.551 ;
+    ex:onDataset ex:Dataset_ETTh1_48_Multivariate ;
+    ex:rank 4 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_13 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 0.563 ;
+    ex:onDataset ex:Dataset_ETTh1_48_Multivariate ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_14 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MSE"^^xsd:string ;
+    ex:metricValue 0.129 ;
+    ex:onDataset ex:Dataset_ETTh1_48_Univariate ;
+    ex:rank 4 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_15 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 0.274 ;
+    ex:onDataset ex:Dataset_ETTh1_48_Univariate ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_16 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MSE"^^xsd:string ;
+    ex:metricValue 0.941 ;
+    ex:onDataset ex:Dataset_ETTh1_720_Multivariate ;
+    ex:rank 19 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_17 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 0.768 ;
+    ex:onDataset ex:Dataset_ETTh1_720_Multivariate ;
+    ex:rank 3 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_18 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MSE"^^xsd:string ;
+    ex:metricValue 0.201 ;
+    ex:onDataset ex:Dataset_ETTh1_720_Univariate ;
+    ex:rank 10 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_19 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 0.357 ;
+    ex:onDataset ex:Dataset_ETTh1_720_Univariate ;
+    ex:rank 4 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_2 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MSE"^^xsd:string ;
+    ex:metricValue 0.183 ;
+    ex:onDataset ex:Dataset_ETTh1_168_Univariate ;
+    ex:rank 4 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_20 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MSE"^^xsd:string ;
+    ex:metricValue 1.512 ;
+    ex:onDataset ex:Dataset_ETTh2_168_Multivariate ;
+    ex:rank 2 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_21 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 0.996 ;
+    ex:onDataset ex:Dataset_ETTh2_168_Multivariate ;
+    ex:rank 2 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_22 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MSE"^^xsd:string ;
+    ex:metricValue 0.154 ;
+    ex:onDataset ex:Dataset_ETTh2_168_Univariate ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_23 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 0.306 ;
+    ex:onDataset ex:Dataset_ETTh2_168_Univariate ;
+    ex:rank 4 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_24 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MSE"^^xsd:string ;
+    ex:metricValue 0.446 ;
+    ex:onDataset ex:Dataset_ETTh2_24_Multivariate ;
+    ex:rank 4 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_25 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 0.523 ;
+    ex:onDataset ex:Dataset_ETTh2_24_Multivariate ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_26 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MSE"^^xsd:string ;
+    ex:metricValue 0.083 ;
+    ex:onDataset ex:Dataset_ETTh2_24_Univariate ;
+    ex:rank 2 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_27 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 0.213 ;
+    ex:onDataset ex:Dataset_ETTh2_24_Univariate ;
+    ex:rank 3 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_28 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MSE"^^xsd:string ;
+    ex:metricValue 1.665 ;
+    ex:onDataset ex:Dataset_ETTh2_336_Multivariate ;
+    ex:rank 18 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_29 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 1.035 ;
+    ex:onDataset ex:Dataset_ETTh2_336_Multivariate ;
+    ex:rank 3 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_3 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 0.337 ;
+    ex:onDataset ex:Dataset_ETTh1_168_Univariate ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_30 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MSE"^^xsd:string ;
+    ex:metricValue 0.166 ;
+    ex:onDataset ex:Dataset_ETTh2_336_Univariate ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_31 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 0.323 ;
+    ex:onDataset ex:Dataset_ETTh2_336_Univariate ;
+    ex:rank 10 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_32 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MSE"^^xsd:string ;
+    ex:metricValue 0.934 ;
+    ex:onDataset ex:Dataset_ETTh2_48_Multivariate ;
+    ex:rank 2 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_33 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 0.733 ;
+    ex:onDataset ex:Dataset_ETTh2_48_Multivariate ;
+    ex:rank 3 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_34 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MSE"^^xsd:string ;
+    ex:metricValue 0.111 ;
+    ex:onDataset ex:Dataset_ETTh2_48_Univariate ;
+    ex:rank 2 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_35 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 0.249 ;
+    ex:onDataset ex:Dataset_ETTh2_48_Univariate ;
+    ex:rank 3 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_36 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MSE"^^xsd:string ;
+    ex:metricValue 2.34 ;
+    ex:onDataset ex:Dataset_ETTh2_720_Multivariate ;
+    ex:rank 18 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_37 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 1.209 ;
+    ex:onDataset ex:Dataset_ETTh2_720_Multivariate ;
+    ex:rank 3 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_38 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MSE"^^xsd:string ;
+    ex:metricValue 0.181 ;
+    ex:onDataset ex:Dataset_ETTh2_720_Univariate ;
+    ex:rank 2 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_39 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 0.338 ;
+    ex:onDataset ex:Dataset_ETTh2_720_Univariate ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_4 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MSE"^^xsd:string ;
+    ex:metricValue 0.509 ;
+    ex:onDataset ex:Dataset_ETTh1_24_Multivariate ;
+    ex:rank 4 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_5 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 0.523 ;
+    ex:onDataset ex:Dataset_ETTh1_24_Multivariate ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_6 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MSE"^^xsd:string ;
+    ex:metricValue 0.046 ;
+    ex:onDataset ex:Dataset_ETTh1_24_Univariate ;
+    ex:rank 3 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_7 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 0.152 ;
+    ex:onDataset ex:Dataset_ETTh1_24_Univariate ;
+    ex:rank 3 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_8 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MSE"^^xsd:string ;
+    ex:metricValue 0.884 ;
+    ex:onDataset ex:Dataset_ETTh1_336_Multivariate ;
+    ex:rank 69 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_9 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Informer ;
+    ex:evaluatesTask ex:Task_Time_Series_Forecasting ;
+    ex:metricName "MAE"^^xsd:string ;
+    ex:metricValue 0.753 ;
+    ex:onDataset ex:Dataset_ETTh1_336_Multivariate ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ex:Method_AdamW a ex:Method ;
+    ex:methodName "AdamW"^^xsd:string .
+
+ex:Method_Attention_Dropout a ex:Method ;
+    ex:methodName "Attention Dropout"^^xsd:string .
+
+ex:Method_BERT a ex:Method ;
+    ex:methodName "BERT"^^xsd:string .
+
+ex:Method_Cosine_Annealing a ex:Method ;
+    ex:methodName "Cosine Annealing"^^xsd:string .
+
+ex:Method_Experience_Replay a ex:Method ;
+    ex:methodName "Experience Replay"^^xsd:string .
+
+ex:Method_GAT a ex:Method ;
+    ex:methodName "GAT"^^xsd:string .
+
+ex:Method_Linear_Warmup_With_Linear_Decay a ex:Method ;
+    ex:methodName "Linear Warmup With Linear Decay"^^xsd:string .
+
+ex:Method_ReLU a ex:Method ;
+    ex:methodName "ReLU"^^xsd:string .
+
+ex:Method_RoBERTa a ex:Method ;
+    ex:methodName "RoBERTa"^^xsd:string .
+
+ex:Method_Soft_Actor_Critic a ex:Method ;
+    ex:methodName "Soft Actor Critic"^^xsd:string .
+
+ex:Method_Stochastic_Depth a ex:Method ;
+    ex:methodName "Stochastic Depth"^^xsd:string .
+
+ex:Method_Swin_Transformer a ex:Method ;
+    ex:methodName "Swin Transformer"^^xsd:string .
+
+ex:Method_Weight_Decay a ex:Method ;
+    ex:methodName "Weight Decay"^^xsd:string .
+
+ex:Method_WordPiece a ex:Method ;
+    ex:methodName "WordPiece"^^xsd:string .
+
+ex:ModelConfiguration_GAT_Velickovic_et_al_2018 a ex:ModelConfiguration ;
+    ex:configurationString "GAT (Velickovic et al., 2018)"^^xsd:string .
+
+ex:ModelConfiguration_RoBERTa_Large_355M a ex:ModelConfiguration ;
+    ex:configurationString "RoBERTa-Large 355M"^^xsd:string .
+
+ex:ModelConfiguration_RoBERTa_base_125M_fine_tuned a ex:ModelConfiguration ;
+    ex:configurationString "RoBERTa-base 125M (fine-tuned)"^^xsd:string .
+
+ex:ModelConfiguration_SwinT a ex:ModelConfiguration ;
+    ex:configurationString "SwinT"^^xsd:string .
+
+ex:ModelConfiguration_SwinTransformer a ex:ModelConfiguration ;
+    ex:configurationString "SwinTransformer"^^xsd:string .
+
+ex:ModelConfiguration_Swin_Transformer_Swin_Small a ex:ModelConfiguration ;
+    ex:configurationString "Swin-Transformer (Swin-Small)"^^xsd:string .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_0 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_Large ;
+    ex:evaluatesTask ex:Task_Natural_Language_Inference ;
+    ex:metricName "A1"^^xsd:string ;
+    ex:metricValue 72.4 ;
+    ex:onDataset ex:Dataset_ANLI_test ;
+    ex:rank 5 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_1 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_Large ;
+    ex:evaluatesTask ex:Task_Natural_Language_Inference ;
+    ex:metricName "A2"^^xsd:string ;
+    ex:metricValue 49.8 ;
+    ex:onDataset ex:Dataset_ANLI_test ;
+    ex:rank 14 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_10 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_WWM_Ext_NewsFactors ;
+    ex:evaluatesTask ex:Task_Stock_Market_Prediction ;
+    ex:metricName "Recall"^^xsd:string ;
+    ex:metricValue 62.51 ;
+    ex:onDataset ex:Dataset_Astock ;
+    ex:rank 11 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_11 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_WWM_Ext_NewsFactors ;
+    ex:evaluatesTask ex:Task_Stock_Market_Prediction ;
+    ex:metricName "Precision"^^xsd:string ;
+    ex:metricValue 62.59 ;
+    ex:onDataset ex:Dataset_Astock ;
+    ex:rank 11 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_12 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_ensemble ;
+    ex:evaluatesTask ex:Task_Linguistic_Acceptability ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 0.6779999999999999 ;
+    ex:onDataset ex:Dataset_CoLA ;
+    ex:rank 20 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_13 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_Large_355M ;
+    ex:evaluatesTask ex:Task_Sentence_Completion ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 81.7 ;
+    ex:onDataset ex:Dataset_HellaSwag ;
+    ex:rank 40 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_14 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa ;
+    ex:evaluatesTask ex:Task_Type_prediction ;
+    ex:metricName "Average Accuracy"^^xsd:string ;
+    ex:metricValue 59.84 ;
+    ex:onDataset ex:Dataset_ManyTypes4TypeScript ;
+    ex:rank 7 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_15 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa ;
+    ex:evaluatesTask ex:Task_Type_prediction ;
+    ex:metricName "Average Precision"^^xsd:string ;
+    ex:metricValue 57.45 ;
+    ex:onDataset ex:Dataset_ManyTypes4TypeScript ;
+    ex:rank 5 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_16 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa ;
+    ex:evaluatesTask ex:Task_Type_prediction ;
+    ex:metricName "Average Recall"^^xsd:string ;
+    ex:metricValue 57.62 ;
+    ex:onDataset ex:Dataset_ManyTypes4TypeScript ;
+    ex:rank 5 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_17 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa ;
+    ex:evaluatesTask ex:Task_Type_prediction ;
+    ex:metricName "Average F1"^^xsd:string ;
+    ex:metricValue 57.54 ;
+    ex:onDataset ex:Dataset_ManyTypes4TypeScript ;
+    ex:rank 5 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_18 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_base_125M_fine_tuned ;
+    ex:evaluatesTask ex:Task_Multi_task_Language_Understanding ;
+    ex:metricName "Average (%)"^^xsd:string ;
+    ex:metricValue 27.9 ;
+    ex:onDataset ex:Dataset_MMLU ;
+    ex:rank 103 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_19 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_ensemble ;
+    ex:evaluatesTask ex:Task_Semantic_Textual_Similarity ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 0.9229999999999999 ;
+    ex:onDataset ex:Dataset_MRPC ;
+    ex:rank 3 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_2 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_Large ;
+    ex:evaluatesTask ex:Task_Natural_Language_Inference ;
+    ex:metricName "A3"^^xsd:string ;
+    ex:metricValue 44.4 ;
+    ex:onDataset ex:Dataset_ANLI_test ;
+    ex:rank 16 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_20 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa ;
+    ex:evaluatesTask ex:Task_Natural_Language_Inference ;
+    ex:metricName "Matched"^^xsd:string ;
+    ex:metricValue 90.8 ;
+    ex:onDataset ex:Dataset_MultiNLI ;
+    ex:rank 9 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_21 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_ensemble ;
+    ex:evaluatesTask ex:Task_Natural_Language_Inference ;
+    ex:metricName "Mismatched"^^xsd:string ;
+    ex:metricValue 90.2 ;
+    ex:onDataset ex:Dataset_MultiNLI ;
+    ex:rank 7 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_22 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_LARGE ;
+    ex:evaluatesTask ex:Task_Only_Connect_Walls_Dataset_Task_1_Grouping ;
+    ex:metricName "# Correct Groups"^^xsd:string ;
+    ex:metricValue "29 ± 3"^^xsd:string ;
+    ex:onDataset ex:Dataset_OCW ;
+    ex:rank 21 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_23 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_LARGE ;
+    ex:evaluatesTask ex:Task_Only_Connect_Walls_Dataset_Task_1_Grouping ;
+    ex:metricName "Fowlkes Mallows Score (FMS)"^^xsd:string ;
+    ex:metricValue "26.7 ± .2"^^xsd:string ;
+    ex:onDataset ex:Dataset_OCW ;
+    ex:rank 19 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_24 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_LARGE ;
+    ex:evaluatesTask ex:Task_Only_Connect_Walls_Dataset_Task_1_Grouping ;
+    ex:metricName "Adjusted Rand Index (ARI)"^^xsd:string ;
+    ex:metricValue "8.4 ± .3"^^xsd:string ;
+    ex:onDataset ex:Dataset_OCW ;
+    ex:rank 19 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_25 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_LARGE ;
+    ex:evaluatesTask ex:Task_Only_Connect_Walls_Dataset_Task_1_Grouping ;
+    ex:metricName "Adjusted Mutual Information (AMI)"^^xsd:string ;
+    ex:metricValue "9.4 ± .4"^^xsd:string ;
+    ex:onDataset ex:Dataset_OCW ;
+    ex:rank 20 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_26 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_LARGE ;
+    ex:evaluatesTask ex:Task_Only_Connect_Walls_Dataset_Task_1_Grouping ;
+    ex:metricName "# Solved Walls"^^xsd:string ;
+    ex:metricValue "0 ± 0"^^xsd:string ;
+    ex:onDataset ex:Dataset_OCW ;
+    ex:rank 10 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_27 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_LARGE ;
+    ex:evaluatesTask ex:Task_Only_Connect_Walls_Dataset_Task_1_Grouping ;
+    ex:metricName "Wasserstein Distance (WD)"^^xsd:string ;
+    ex:metricValue "88.4 ± .4"^^xsd:string ;
+    ex:onDataset ex:Dataset_OCW ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_28 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_ensemble ;
+    ex:evaluatesTask ex:Task_Natural_Language_Inference ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 0.9890000000000001 ;
+    ex:onDataset ex:Dataset_QNLI ;
+    ex:rank 5 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_29 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_ensemble ;
+    ex:evaluatesTask ex:Task_Question_Answering ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 0.902 ;
+    ex:onDataset ex:Dataset_Quora_Question_Pairs ;
+    ex:rank 6 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_3 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa ;
+    ex:evaluatesTask ex:Task_Text_Classification ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 0.779 ;
+    ex:onDataset ex:Dataset_arXiv_10 ;
+    ex:rank 2 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_30 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa ;
+    ex:evaluatesTask ex:Task_Reading_Comprehension ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 83.2 ;
+    ex:onDataset ex:Dataset_RACE ;
+    ex:rank 7 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_31 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa ;
+    ex:evaluatesTask ex:Task_Reading_Comprehension ;
+    ex:metricName "Accuracy (High)"^^xsd:string ;
+    ex:metricValue 81.3 ;
+    ex:onDataset ex:Dataset_RACE ;
+    ex:rank 6 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_32 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa ;
+    ex:evaluatesTask ex:Task_Reading_Comprehension ;
+    ex:metricName "Accuracy (Middle)"^^xsd:string ;
+    ex:metricValue 86.5 ;
+    ex:onDataset ex:Dataset_RACE ;
+    ex:rank 6 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_33 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_ensemble ;
+    ex:evaluatesTask ex:Task_Natural_Language_Inference ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 0.882 ;
+    ex:onDataset ex:Dataset_RTE ;
+    ex:rank 18 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_34 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa ;
+    ex:evaluatesTask ex:Task_Natural_Language_Inference ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 0.882 ;
+    ex:onDataset ex:Dataset_RTE ;
+    ex:rank 18 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_35 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_single_model ;
+    ex:evaluatesTask ex:Task_Question_Answering ;
+    ex:metricName "EM"^^xsd:string ;
+    ex:metricValue 86.82 ;
+    ex:onDataset ex:Dataset_SQuAD20 ;
+    ex:rank 90 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_36 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_single_model ;
+    ex:evaluatesTask ex:Task_Question_Answering ;
+    ex:metricName "F1"^^xsd:string ;
+    ex:metricValue 89.795 ;
+    ex:onDataset ex:Dataset_SQuAD20 ;
+    ex:rank 91 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_37 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_no_data_aug ;
+    ex:evaluatesTask ex:Task_Question_Answering ;
+    ex:metricName "F1"^^xsd:string ;
+    ex:metricValue 89.4 ;
+    ex:onDataset ex:Dataset_SQuAD20_dev ;
+    ex:rank 3 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_38 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_no_data_aug ;
+    ex:evaluatesTask ex:Task_Question_Answering ;
+    ex:metricName "EM"^^xsd:string ;
+    ex:metricValue 86.5 ;
+    ex:onDataset ex:Dataset_SQuAD20_dev ;
+    ex:rank 3 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_39 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_ensemble ;
+    ex:evaluatesTask ex:Task_Sentiment_Analysis ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 96.7 ;
+    ex:onDataset ex:Dataset_SST_2_Binary_classification ;
+    ex:rank 11 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_4 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_WWM_Ext_News ;
+    ex:evaluatesTask ex:Task_Stock_Market_Prediction ;
+    ex:metricName "Accuray"^^xsd:string ;
+    ex:metricValue 61.34 ;
+    ex:onDataset ex:Dataset_Astock ;
+    ex:rank 12 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_40 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa ;
+    ex:evaluatesTask ex:Task_Semantic_Textual_Similarity ;
+    ex:metricName "Pearson Correlation"^^xsd:string ;
+    ex:metricValue 0.922 ;
+    ex:onDataset ex:Dataset_STS_Benchmark ;
+    ex:rank 7 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_41 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa ;
+    ex:evaluatesTask ex:Task_Common_Sense_Reasoning ;
+    ex:metricName "Test"^^xsd:string ;
+    ex:metricValue 89.9 ;
+    ex:onDataset ex:Dataset_SWAG ;
+    ex:rank 2 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_42 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_ensemble ;
+    ex:evaluatesTask ex:Task_Natural_Language_Inference ;
+    ex:metricName "Accuracy"^^xsd:string ;
+    ex:metricValue 89.0 ;
+    ex:onDataset ex:Dataset_WNLI ;
+    ex:rank 8 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_5 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_WWM_Ext_News ;
+    ex:evaluatesTask ex:Task_Stock_Market_Prediction ;
+    ex:metricName "F1-score"^^xsd:string ;
+    ex:metricValue 61.48 ;
+    ex:onDataset ex:Dataset_Astock ;
+    ex:rank 12 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_6 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_WWM_Ext_News ;
+    ex:evaluatesTask ex:Task_Stock_Market_Prediction ;
+    ex:metricName "Recall"^^xsd:string ;
+    ex:metricValue 61.32 ;
+    ex:onDataset ex:Dataset_Astock ;
+    ex:rank 12 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_7 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_WWM_Ext_News ;
+    ex:evaluatesTask ex:Task_Stock_Market_Prediction ;
+    ex:metricName "Precision"^^xsd:string ;
+    ex:metricValue 61.97 ;
+    ex:onDataset ex:Dataset_Astock ;
+    ex:rank 12 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_8 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_WWM_Ext_NewsFactors ;
+    ex:evaluatesTask ex:Task_Stock_Market_Prediction ;
+    ex:metricName "Accuray"^^xsd:string ;
+    ex:metricValue 62.49 ;
+    ex:onDataset ex:Dataset_Astock ;
+    ex:rank 11 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_9 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_RoBERTa_WWM_Ext_NewsFactors ;
+    ex:evaluatesTask ex:Task_Stock_Market_Prediction ;
+    ex:metricName "F1-score"^^xsd:string ;
+    ex:metricValue 62.54 ;
+    ex:onDataset ex:Dataset_Astock ;
+    ex:rank 11 ;
+    ex:reportedInPaper ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_0 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_SAC ;
+    ex:evaluatesTask ex:Task_Omniverse_Isaac_Gym ;
+    ex:metricName "Average Return"^^xsd:string ;
+    ex:metricValue 296.49 ;
+    ex:onDataset ex:Dataset_AllegroHand ;
+    ex:rank 2 ;
+    ex:reportedInPaper ex:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_1 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_SAC ;
+    ex:evaluatesTask ex:Task_Omniverse_Isaac_Gym ;
+    ex:metricName "Average Return"^^xsd:string ;
+    ex:metricValue 7717.93 ;
+    ex:onDataset ex:Dataset_Ant ;
+    ex:rank 2 ;
+    ex:reportedInPaper ex:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_10 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_SAC ;
+    ex:evaluatesTask ex:Task_Continuous_Control ;
+    ex:metricName "Score"^^xsd:string ;
+    ex:metricValue "284.59±0.97"^^xsd:string ;
+    ex:onDataset ex:Dataset_Lunar_Lander_OpenAI_Gym ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_11 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_SAC ;
+    ex:evaluatesTask ex:Task_OpenAI_Gym ;
+    ex:metricName "Average Return"^^xsd:string ;
+    ex:metricValue 5745.27 ;
+    ex:onDataset ex:Dataset_Walker2d_v4 ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_2 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_SAC ;
+    ex:evaluatesTask ex:Task_OpenAI_Gym ;
+    ex:metricName "Average Return"^^xsd:string ;
+    ex:metricValue 5208.09 ;
+    ex:onDataset ex:Dataset_Ant_v4 ;
+    ex:rank 3 ;
+    ex:reportedInPaper ex:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_3 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_SAC ;
+    ex:evaluatesTask ex:Task_Omniverse_Isaac_Gym ;
+    ex:metricName "Average Return"^^xsd:string ;
+    ex:metricValue 11.87 ;
+    ex:onDataset ex:Dataset_Anymal ;
+    ex:rank 2 ;
+    ex:reportedInPaper ex:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_4 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_SAC ;
+    ex:evaluatesTask ex:Task_Omniverse_Isaac_Gym ;
+    ex:metricName "Average Return"^^xsd:string ;
+    ex:metricValue 1721.98 ;
+    ex:onDataset ex:Dataset_FrankaCabinet ;
+    ex:rank 2 ;
+    ex:reportedInPaper ex:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_5 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_SAC ;
+    ex:evaluatesTask ex:Task_OpenAI_Gym ;
+    ex:metricName "Average Return"^^xsd:string ;
+    ex:metricValue 15836.04 ;
+    ex:onDataset ex:Dataset_HalfCheetah_v4 ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_6 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_SAC ;
+    ex:evaluatesTask ex:Task_OpenAI_Gym ;
+    ex:metricName "Average Return"^^xsd:string ;
+    ex:metricValue 2882.56 ;
+    ex:onDataset ex:Dataset_Hopper_v4 ;
+    ex:rank 3 ;
+    ex:reportedInPaper ex:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_7 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_SAC ;
+    ex:evaluatesTask ex:Task_Omniverse_Isaac_Gym ;
+    ex:metricName "Average Return"^^xsd:string ;
+    ex:metricValue 4028.31 ;
+    ex:onDataset ex:Dataset_Humanoid ;
+    ex:rank 2 ;
+    ex:reportedInPaper ex:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_8 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_SAC ;
+    ex:evaluatesTask ex:Task_OpenAI_Gym ;
+    ex:metricName "Average Return"^^xsd:string ;
+    ex:metricValue 6211.5 ;
+    ex:onDataset ex:Dataset_Humanoid_v4 ;
+    ex:rank 2 ;
+    ex:reportedInPaper ex:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_9 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_SAC ;
+    ex:evaluatesTask ex:Task_Omniverse_Isaac_Gym ;
+    ex:metricName "Average Return"^^xsd:string ;
+    ex:metricValue 5301.99 ;
+    ex:onDataset ex:Dataset_Ingenuity ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_0 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_L_UperNet_ImageNet_22k_pretrain ;
+    ex:evaluatesTask ex:Task_Semantic_Segmentation ;
+    ex:metricName "Validation mIoU"^^xsd:string ;
+    ex:metricValue 53.5 ;
+    ex:onDataset ex:Dataset_ADE20K ;
+    ex:rank 75 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_1 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_L_UperNet_ImageNet_22k_pretrain ;
+    ex:evaluatesTask ex:Task_Semantic_Segmentation ;
+    ex:metricName "Test Score"^^xsd:string ;
+    ex:metricValue 62.8 ;
+    ex:onDataset ex:Dataset_ADE20K ;
+    ex:rank 1 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_10 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_L_HTC_multi_scale ;
+    ex:evaluatesTask ex:Task_Instance_Segmentation ;
+    ex:metricName "mask AP"^^xsd:string ;
+    ex:metricValue 51.1 ;
+    ex:onDataset ex:Dataset_COCO_test_dev ;
+    ex:rank 20 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_11 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_L_HTC_multi_scale ;
+    ex:evaluatesTask ex:Task_Object_Detection ;
+    ex:metricName "box mAP"^^xsd:string ;
+    ex:metricValue 58.7 ;
+    ex:onDataset ex:Dataset_COCO_test_dev ;
+    ex:rank 32 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_12 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_L_HTC_single_scale ;
+    ex:evaluatesTask ex:Task_Object_Detection ;
+    ex:metricName "box mAP"^^xsd:string ;
+    ex:metricValue 57.7 ;
+    ex:onDataset ex:Dataset_COCO_test_dev ;
+    ex:rank 34 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_13 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_Transformer_Swin_Small ;
+    ex:evaluatesTask ex:Task_Semantic_Segmentation ;
+    ex:metricName "mIoU"^^xsd:string ;
+    ex:metricValue 41.6 ;
+    ex:onDataset ex:Dataset_FoodSeg103 ;
+    ex:rank 4 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_14 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_L ;
+    ex:evaluatesTask ex:Task_Image_Classification ;
+    ex:metricName "Top 1 Accuracy"^^xsd:string ;
+    ex:metricValue 0.873 ;
+    ex:onDataset ex:Dataset_ImageNet ;
+    ex:rank 104 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_15 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_L ;
+    ex:evaluatesTask ex:Task_Image_Classification ;
+    ex:metricName "Number of params"^^xsd:string ;
+    ex:metricValue "197M"^^xsd:string ;
+    ex:onDataset ex:Dataset_ImageNet ;
+    ex:rank 946 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_16 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_L ;
+    ex:evaluatesTask ex:Task_Image_Classification ;
+    ex:metricName "GFLOPs"^^xsd:string ;
+    ex:metricValue 103.9 ;
+    ex:onDataset ex:Dataset_ImageNet ;
+    ex:rank 502 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_17 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_B ;
+    ex:evaluatesTask ex:Task_Image_Classification ;
+    ex:metricName "Top 1 Accuracy"^^xsd:string ;
+    ex:metricValue 0.8640000000000001 ;
+    ex:onDataset ex:Dataset_ImageNet ;
+    ex:rank 152 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_18 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_B ;
+    ex:evaluatesTask ex:Task_Image_Classification ;
+    ex:metricName "Number of params"^^xsd:string ;
+    ex:metricValue "88M"^^xsd:string ;
+    ex:onDataset ex:Dataset_ImageNet ;
+    ex:rank 875 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_19 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_B ;
+    ex:evaluatesTask ex:Task_Image_Classification ;
+    ex:metricName "GFLOPs"^^xsd:string ;
+    ex:metricValue 47.0 ;
+    ex:onDataset ex:Dataset_ImageNet ;
+    ex:rank 465 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_2 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_B_UperNet_ImageNet_1k_pretrain ;
+    ex:evaluatesTask ex:Task_Semantic_Segmentation ;
+    ex:metricName "Validation mIoU"^^xsd:string ;
+    ex:metricValue 49.7 ;
+    ex:onDataset ex:Dataset_ADE20K ;
+    ex:rank 121 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_20 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_T ;
+    ex:evaluatesTask ex:Task_Image_Classification ;
+    ex:metricName "Top 1 Accuracy"^^xsd:string ;
+    ex:metricValue 0.813 ;
+    ex:onDataset ex:Dataset_ImageNet ;
+    ex:rank 646 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_21 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_T ;
+    ex:evaluatesTask ex:Task_Image_Classification ;
+    ex:metricName "Number of params"^^xsd:string ;
+    ex:metricValue "29M"^^xsd:string ;
+    ex:onDataset ex:Dataset_ImageNet ;
+    ex:rank 665 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_22 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_T ;
+    ex:evaluatesTask ex:Task_Image_Classification ;
+    ex:metricName "GFLOPs"^^xsd:string ;
+    ex:metricValue 4.5 ;
+    ex:onDataset ex:Dataset_ImageNet ;
+    ex:rank 221 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_23 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_SwinT ;
+    ex:evaluatesTask ex:Task_Thermal_Image_Segmentation ;
+    ex:metricName "mIOU"^^xsd:string ;
+    ex:metricValue 49.0 ;
+    ex:onDataset ex:Dataset_MFN_Dataset ;
+    ex:rank 39 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_24 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_B_Cascade_Mask_R_CNN ;
+    ex:evaluatesTask ex:Task_Instance_Segmentation ;
+    ex:metricName "Mean Recall"^^xsd:string ;
+    ex:metricValue 62.9 ;
+    ex:onDataset ex:Dataset_Occluded_COCO ;
+    ex:rank 2 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_25 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_T_Mask_R_CNN ;
+    ex:evaluatesTask ex:Task_Instance_Segmentation ;
+    ex:metricName "Mean Recall"^^xsd:string ;
+    ex:metricValue 58.81 ;
+    ex:onDataset ex:Dataset_Occluded_COCO ;
+    ex:rank 6 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_26 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_S_Mask_R_CNN ;
+    ex:evaluatesTask ex:Task_Instance_Segmentation ;
+    ex:metricName "Mean Recall"^^xsd:string ;
+    ex:metricValue 61.14 ;
+    ex:onDataset ex:Dataset_Occluded_COCO ;
+    ex:rank 5 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_27 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_SwinTransformer ;
+    ex:evaluatesTask ex:Task_Image_Classification ;
+    ex:metricName "Average Top-1 Accuracy"^^xsd:string ;
+    ex:metricValue 46.4 ;
+    ex:onDataset ex:Dataset_OmniBenchmark ;
+    ex:rank 2 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_28 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_S_Mask_R_CNN ;
+    ex:evaluatesTask ex:Task_Instance_Segmentation ;
+    ex:metricName "Mean Recall"^^xsd:string ;
+    ex:metricValue 33.67 ;
+    ex:onDataset ex:Dataset_Separated_COCO ;
+    ex:rank 5 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_29 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_B_Cascade_Mask_R_CNN ;
+    ex:evaluatesTask ex:Task_Instance_Segmentation ;
+    ex:metricName "Mean Recall"^^xsd:string ;
+    ex:metricValue 36.31 ;
+    ex:onDataset ex:Dataset_Separated_COCO ;
+    ex:rank 2 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_3 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_B_UperNet_ImageNet_1k_pretrain ;
+    ex:evaluatesTask ex:Task_Semantic_Segmentation ;
+    ex:metricName "mIoU"^^xsd:string ;
+    ex:metricValue 49.7 ;
+    ex:onDataset ex:Dataset_ADE20K_val ;
+    ex:rank 51 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_30 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_T_Mask_R_CNN ;
+    ex:evaluatesTask ex:Task_Instance_Segmentation ;
+    ex:metricName "Mean Recall"^^xsd:string ;
+    ex:metricValue 31.94 ;
+    ex:onDataset ex:Dataset_Separated_COCO ;
+    ex:rank 6 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_4 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_L_UperNet_ImageNet_22k_pretrain ;
+    ex:evaluatesTask ex:Task_Semantic_Segmentation ;
+    ex:metricName "mIoU"^^xsd:string ;
+    ex:metricValue 53.5 ;
+    ex:onDataset ex:Dataset_ADE20K_val ;
+    ex:rank 37 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_5 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_L_HTC_single_scale ;
+    ex:evaluatesTask ex:Task_Object_Detection ;
+    ex:metricName "box AP"^^xsd:string ;
+    ex:metricValue 57.1 ;
+    ex:onDataset ex:Dataset_COCO_minival ;
+    ex:rank 39 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_6 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_L_HTC_multi_scale ;
+    ex:evaluatesTask ex:Task_Instance_Segmentation ;
+    ex:metricName "mask AP"^^xsd:string ;
+    ex:metricValue 50.4 ;
+    ex:onDataset ex:Dataset_COCO_minival ;
+    ex:rank 24 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_7 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_L_HTC_multi_scale ;
+    ex:evaluatesTask ex:Task_Object_Detection ;
+    ex:metricName "box AP"^^xsd:string ;
+    ex:metricValue 58.0 ;
+    ex:onDataset ex:Dataset_COCO_minival ;
+    ex:rank 35 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_8 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_L_HTC_single_scale ;
+    ex:evaluatesTask ex:Task_Instance_Segmentation ;
+    ex:metricName "mask AP"^^xsd:string ;
+    ex:metricValue 49.5 ;
+    ex:onDataset ex:Dataset_COCO_minival ;
+    ex:rank 27 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_9 a ex:ReportedResult ;
+    ex:achievedByModel ex:ModelConfiguration_Swin_L_HTC_single_scale ;
+    ex:evaluatesTask ex:Task_Instance_Segmentation ;
+    ex:metricName "mask AP"^^xsd:string ;
+    ex:metricValue 50.2 ;
+    ex:onDataset ex:Dataset_COCO_test_dev ;
+    ex:rank 22 ;
+    ex:reportedInPaper ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ex:Task_Decision_Making a ex:Task ;
+    ex:taskName "Decision Making"^^xsd:string .
+
+ex:Task_Decoder a ex:Task ;
+    ex:taskName "Decoder"^^xsd:string .
+
+ex:Task_Deep_Reinforcement_Learning a ex:Task ;
+    ex:taskName "Deep Reinforcement Learning"^^xsd:string .
+
+ex:Task_Document_Image_Classification a ex:Task ;
+    ex:taskName "Document Image Classification"^^xsd:string .
+
+ex:Task_Graph_Attention a ex:Task ;
+    ex:taskName "Graph Attention"^^xsd:string .
+
+ex:Task_Graph_Embedding a ex:Task ;
+    ex:taskName "Graph Embedding"^^xsd:string .
+
+ex:Task_Language_Modelling a ex:Task ;
+    ex:taskName "Language Modelling"^^xsd:string .
+
+ex:Task_Lexical_Simplification a ex:Task ;
+    ex:taskName "Lexical Simplification"^^xsd:string .
+
+ex:Task_Link_Prediction a ex:Task ;
+    ex:taskName "Link Prediction"^^xsd:string .
+
+ex:Task_MUlTI_LABEL_ClASSIFICATION a ex:Task ;
+    ex:taskName "MUlTI-LABEL-ClASSIFICATION"^^xsd:string .
+
+ex:Task_Multivariate_Time_Series_Forecasting a ex:Task ;
+    ex:taskName "Multivariate Time Series Forecasting"^^xsd:string .
+
+ex:Task_Q_Learning a ex:Task ;
+    ex:taskName "Q-Learning"^^xsd:string .
+
+ex:Task_Real_Time_Object_Detection a ex:Task ;
+    ex:taskName "Real-Time Object Detection"^^xsd:string .
+
+ex:Task_Reinforcement_Learning a ex:Task ;
+    ex:taskName "Reinforcement Learning"^^xsd:string .
+
+ex:Task_Reinforcement_Learning_RL a ex:Task ;
+    ex:taskName "Reinforcement Learning (RL)"^^xsd:string .
+
+ex:Task_Riddle_Sense a ex:Task ;
+    ex:taskName "Riddle Sense"^^xsd:string .
+
+ex:Task_Time_Series a ex:Task ;
+    ex:taskName "Time Series"^^xsd:string .
+
+ex:Task_Time_Series_Analysis a ex:Task ;
+    ex:taskName "Time Series Analysis"^^xsd:string .
+
+ex:Task_Univariate_Time_Series_Forecasting a ex:Task ;
+    ex:taskName "Univariate Time Series Forecasting"^^xsd:string .
+
+ex:Task_reinforcement_learning a ex:Task ;
+    ex:taskName "reinforcement-learning"^^xsd:string .
+
+ex:Dataset_ADE20K_val a ex:Dataset ;
+    ex:datasetName "ADE20K val" .
+
+ex:Dataset_Chameleon602020_random_splits a ex:Dataset ;
+    ex:datasetName "Chameleon(60%/20%/20% random splits)"^^xsd:string,
+        "Chameleon(60%/20%/20% random splits)" .
+
+ex:Dataset_CoLA a ex:Dataset ;
+    ex:datasetName "CoLA"^^xsd:string,
+        "CoLA" .
+
+ex:Dataset_Deezer_Europe a ex:Dataset ;
+    ex:datasetName "Deezer-Europe"^^xsd:string,
+        "Deezer-Europe" .
+
+ex:Dataset_ENZYMES a ex:Dataset ;
+    ex:datasetName "ENZYMES"^^xsd:string,
+        "ENZYMES" .
+
+ex:Dataset_ESOL a ex:Dataset ;
+    ex:datasetName "ESOL" .
+
+ex:Dataset_ESR2 a ex:Dataset ;
+    ex:datasetName "ESR2" .
+
+ex:Dataset_ETTh1_168_Multivariate a ex:Dataset ;
+    ex:datasetName "ETTh1 (168) Multivariate" .
+
+ex:Dataset_ETTh1_168_Univariate a ex:Dataset ;
+    ex:datasetName "ETTh1 (168) Univariate" .
+
+ex:Dataset_ETTh1_24_Multivariate a ex:Dataset ;
+    ex:datasetName "ETTh1 (24) Multivariate" .
+
+ex:Dataset_ETTh1_24_Univariate a ex:Dataset ;
+    ex:datasetName "ETTh1 (24) Univariate" .
+
+ex:Dataset_ETTh1_336_Multivariate a ex:Dataset ;
+    ex:datasetName "ETTh1 (336) Multivariate" .
+
+ex:Dataset_ETTh1_336_Univariate a ex:Dataset ;
+    ex:datasetName "ETTh1 (336) Univariate" .
+
+ex:Dataset_ETTh1_48_Multivariate a ex:Dataset ;
+    ex:datasetName "ETTh1 (48) Multivariate" .
+
+ex:Dataset_ETTh1_48_Univariate a ex:Dataset ;
+    ex:datasetName "ETTh1 (48) Univariate" .
+
+ex:Dataset_ETTh1_720_Multivariate a ex:Dataset ;
+    ex:datasetName "ETTh1 (720) Multivariate" .
+
+ex:Dataset_ETTh1_720_Univariate a ex:Dataset ;
+    ex:datasetName "ETTh1 (720) Univariate" .
+
+ex:Dataset_ETTh2_168_Multivariate a ex:Dataset ;
+    ex:datasetName "ETTh2 (168) Multivariate" .
+
+ex:Dataset_ETTh2_168_Univariate a ex:Dataset ;
+    ex:datasetName "ETTh2 (168) Univariate" .
+
+ex:Dataset_ETTh2_24_Multivariate a ex:Dataset ;
+    ex:datasetName "ETTh2 (24) Multivariate" .
+
+ex:Dataset_ETTh2_24_Univariate a ex:Dataset ;
+    ex:datasetName "ETTh2 (24) Univariate" .
+
+ex:Dataset_ETTh2_336_Multivariate a ex:Dataset ;
+    ex:datasetName "ETTh2 (336) Multivariate" .
+
+ex:Dataset_ETTh2_336_Univariate a ex:Dataset ;
+    ex:datasetName "ETTh2 (336) Univariate" .
+
+ex:Dataset_ETTh2_48_Multivariate a ex:Dataset ;
+    ex:datasetName "ETTh2 (48) Multivariate" .
+
+ex:Dataset_ETTh2_48_Univariate a ex:Dataset ;
+    ex:datasetName "ETTh2 (48) Univariate" .
+
+ex:Dataset_ETTh2_720_Multivariate a ex:Dataset ;
+    ex:datasetName "ETTh2 (720) Multivariate" .
+
+ex:Dataset_ETTh2_720_Univariate a ex:Dataset ;
+    ex:datasetName "ETTh2 (720) Univariate" .
+
+ex:Dataset_F2 a ex:Dataset ;
+    ex:datasetName "F2" .
+
+ex:Dataset_Film_602020_random_splits a ex:Dataset ;
+    ex:datasetName "Film (60%/20%/20% random splits)"^^xsd:string,
+        "Film (60%/20%/20% random splits)" .
+
+ex:Dataset_FoodSeg103 a ex:Dataset ;
+    ex:datasetName "FoodSeg103"^^xsd:string,
+        "FoodSeg103" .
+
+ex:Dataset_FreeSolv a ex:Dataset ;
+    ex:datasetName "FreeSolv" .
+
+ex:Dataset_HellaSwag a ex:Dataset ;
+    ex:datasetName "HellaSwag"^^xsd:string,
+        "HellaSwag" .
+
+ex:Dataset_KIT a ex:Dataset ;
+    ex:datasetName "KIT" .
+
+ex:Dataset_MMLU a ex:Dataset ;
+    ex:datasetName "MMLU"^^xsd:string,
+        "MMLU" .
+
+ex:Dataset_MRPC a ex:Dataset ;
+    ex:datasetName "MRPC"^^xsd:string,
+        "MRPC" .
+
+ex:Dataset_NCI1 a ex:Dataset ;
+    ex:datasetName "NCI1"^^xsd:string,
+        "NCI1" .
+
+ex:Dataset_NCI109 a ex:Dataset ;
+    ex:datasetName "NCI109"^^xsd:string,
+        "NCI109" .
+
+ex:Dataset_OmniBenchmark a ex:Dataset ;
+    ex:datasetName "OmniBenchmark"^^xsd:string,
+        "OmniBenchmark" .
+
+ex:Dataset_PARP1 a ex:Dataset ;
+    ex:datasetName "PARP1" .
+
+ex:Dataset_PGR a ex:Dataset ;
+    ex:datasetName "PGR" .
+
+ex:Dataset_PPI a ex:Dataset ;
+    ex:datasetName "PPI"^^xsd:string,
+        "PPI" .
+
+ex:Dataset_PROTEINS a ex:Dataset ;
+    ex:datasetName "PROTEINS"^^xsd:string,
+        "PROTEINS" .
+
+ex:Dataset_PubMed_602020_random_splits a ex:Dataset ;
+    ex:datasetName "PubMed (60%/20%/20% random splits)"^^xsd:string,
+        "PubMed (60%/20%/20% random splits)" .
+
+ex:Dataset_QNLI a ex:Dataset ;
+    ex:datasetName "QNLI"^^xsd:string,
+        "QNLI" .
+
+ex:Dataset_Quora_Question_Pairs a ex:Dataset ;
+    ex:datasetName "Quora Question Pairs"^^xsd:string,
+        "Quora Question Pairs" .
+
+ex:Dataset_SQuAD20 a ex:Dataset ;
+    ex:datasetName "SQuAD2.0" .
+
+ex:Dataset_SQuAD20_dev a ex:Dataset ;
+    ex:datasetName "SQuAD2.0 dev" .
+
+ex:Dataset_STS_Benchmark a ex:Dataset ;
+    ex:datasetName "STS Benchmark"^^xsd:string,
+        "STS Benchmark" .
+
+ex:Dataset_SWAG a ex:Dataset ;
+    ex:datasetName "SWAG"^^xsd:string,
+        "SWAG" .
+
+ex:Dataset_Squirrel_602020_random_splits a ex:Dataset ;
+    ex:datasetName "Squirrel (60%/20%/20% random splits)"^^xsd:string,
+        "Squirrel (60%/20%/20% random splits)" .
+
+ex:Dataset_Texas602020_random_splits a ex:Dataset ;
+    ex:datasetName "Texas(60%/20%/20% random splits)"^^xsd:string,
+        "Texas(60%/20%/20% random splits)" .
+
+ex:Dataset_WNLI a ex:Dataset ;
+    ex:datasetName "WNLI"^^xsd:string,
+        "WNLI" .
+
+ex:Dataset_Wisconsin602020_random_splits a ex:Dataset ;
+    ex:datasetName "Wisconsin(60%/20%/20% random splits)"^^xsd:string,
+        "Wisconsin(60%/20%/20% random splits)" .
+
+ex:Dataset_arXiv_10 a ex:Dataset ;
+    ex:datasetName "arXiv-10"^^xsd:string,
+        "arXiv-10" .
+
+ex:Dataset_genius a ex:Dataset ;
+    ex:datasetName "genius"^^xsd:string,
+        "genius" .
+
+ex:Method_Absolute_Position_Encodings a ex:Method ;
+    ex:methodName "Absolute Position Encodings"^^xsd:string .
+
+ex:Method_BPE a ex:Method ;
+    ex:methodName "BPE"^^xsd:string .
+
+ex:Method_GELU a ex:Method ;
+    ex:methodName "GELU"^^xsd:string .
+
+ex:Method_Label_Smoothing a ex:Method ;
+    ex:methodName "Label Smoothing"^^xsd:string .
+
+ex:Method_Position_Wise_Feed_Forward_Layer a ex:Method ;
+    ex:methodName "Position-Wise Feed-Forward Layer"^^xsd:string .
+
+ex:Method_Transformer a ex:Method ;
+    ex:methodName "Transformer"^^xsd:string .
+
+ex:ModelConfiguration_RoBERTa_no_data_aug a ex:ModelConfiguration ;
+    ex:configurationString "RoBERTa (no data aug)"^^xsd:string .
+
+ex:ModelConfiguration_RoBERTa_single_model a ex:ModelConfiguration ;
+    ex:configurationString "RoBERTa (single model)"^^xsd:string .
+
+ex:ModelConfiguration_Swin_B_Cascade_Mask_R_CNN a ex:ModelConfiguration ;
+    ex:configurationString "Swin-B + Cascade Mask R-CNN"^^xsd:string .
+
+ex:ModelConfiguration_Swin_B_UperNet_ImageNet_1k_pretrain a ex:ModelConfiguration ;
+    ex:configurationString "Swin-B (UperNet, ImageNet-1k pretrain)"^^xsd:string .
+
+ex:ModelConfiguration_Swin_S_Mask_R_CNN a ex:ModelConfiguration ;
+    ex:configurationString "Swin-S + Mask R-CNN"^^xsd:string .
+
+ex:ModelConfiguration_Swin_T_Mask_R_CNN a ex:ModelConfiguration ;
+    ex:configurationString "Swin-T + Mask R-CNN"^^xsd:string .
+
+ex:Task_Common_Sense_Reasoning a ex:Task ;
+    ex:taskName "Common Sense Reasoning"^^xsd:string,
+        "Common Sense Reasoning" .
+
+ex:Task_Continuous_Control a ex:Task ;
+    ex:taskName "Continuous Control"^^xsd:string,
+        "Continuous Control" .
+
+ex:Task_Document_Classification a ex:Task ;
+    ex:taskName "Document Classification"^^xsd:string,
+        "Document Classification" .
+
+ex:Task_Linguistic_Acceptability a ex:Task ;
+    ex:taskName "Linguistic Acceptability"^^xsd:string,
+        "Linguistic Acceptability" .
+
+ex:Task_Multi_task_Language_Understanding a ex:Task ;
+    ex:taskName "Multi-task Language Understanding"^^xsd:string,
+        "Multi-task Language Understanding" .
+
+ex:Task_Sentence_Completion a ex:Task ;
+    ex:taskName "Sentence Completion"^^xsd:string,
+        "Sentence Completion" .
+
+ex:Task_Sentiment_Analysis a ex:Task ;
+    ex:taskName "Sentiment Analysis"^^xsd:string,
+        "Sentiment Analysis" .
+
+ex:Task_Skeleton_Based_Action_Recognition a ex:Task ;
+    ex:taskName "Skeleton Based Action Recognition"^^xsd:string,
+        "Skeleton Based Action Recognition" .
+
+ex:Task_Text_Classification a ex:Task ;
+    ex:taskName "Text Classification"^^xsd:string,
+        "Text Classification" .
+
+ex:Task_Thermal_Image_Segmentation a ex:Task ;
+    ex:taskName "Thermal Image Segmentation"^^xsd:string,
+        "Thermal Image Segmentation" .
+
+ex:Dataset_ACM_Heterogeneous_Node_Classification a ex:Dataset ;
+    ex:datasetName "ACM (Heterogeneous Node Classification)"^^xsd:string,
+        "ACM (Heterogeneous Node Classification)" .
+
+ex:Dataset_ANLI_test a ex:Dataset ;
+    ex:datasetName "ANLI test" .
+
+ex:Dataset_Cornell_602020_random_splits a ex:Dataset ;
+    ex:datasetName "Cornell (60%/20%/20% random splits)"^^xsd:string,
+        "Cornell (60%/20%/20% random splits)" .
+
+ex:Dataset_DBLP_Heterogeneous_Node_Classification a ex:Dataset ;
+    ex:datasetName "DBLP (Heterogeneous Node Classification)"^^xsd:string,
+        "DBLP (Heterogeneous Node Classification)" .
+
+ex:Dataset_Freebase_Heterogeneous_Node_Classification a ex:Dataset ;
+    ex:datasetName "Freebase (Heterogeneous Node Classification)"^^xsd:string,
+        "Freebase (Heterogeneous Node Classification)" .
+
+ex:Dataset_IMDB_Heterogeneous_Node_Classification a ex:Dataset ;
+    ex:datasetName "IMDB (Heterogeneous Node Classification)"^^xsd:string,
+        "IMDB (Heterogeneous Node Classification)" .
+
+ex:Dataset_Lipophilicity a ex:Dataset ;
+    ex:datasetName "Lipophilicity" .
+
+ex:Dataset_MultiNLI a ex:Dataset ;
+    ex:datasetName "MultiNLI"^^xsd:string,
+        "MultiNLI" .
+
+ex:Dataset_Penn94 a ex:Dataset ;
+    ex:datasetName "Penn94"^^xsd:string,
+        "Penn94" .
+
+ex:Dataset_RTE a ex:Dataset ;
+    ex:datasetName "RTE"^^xsd:string,
+        "RTE" .
+
+ex:Method_Adam a ex:Method ;
+    ex:methodName "Adam"^^xsd:string .
+
+ex:Method_Dropout a ex:Method ;
+    ex:methodName "Dropout"^^xsd:string .
+
+ex:Method_Layer_Normalization a ex:Method ;
+    ex:methodName "Layer Normalization"^^xsd:string .
+
+ex:Method_Linear_Layer a ex:Method ;
+    ex:methodName "Linear Layer"^^xsd:string .
+
+ex:Method_Multi_Head_Attention a ex:Method ;
+    ex:methodName "Multi-Head Attention"^^xsd:string .
+
+ex:Method_Residual_Connection a ex:Method ;
+    ex:methodName "Residual Connection"^^xsd:string .
+
+ex:Method_Scaled_Dot_Product_Attention a ex:Method ;
+    ex:methodName "Scaled Dot-Product Attention"^^xsd:string .
+
+ex:Method_Softmax a ex:Method ;
+    ex:methodName "Softmax"^^xsd:string .
+
+ex:ModelConfiguration_RoBERTa_Large a ex:ModelConfiguration ;
+    ex:configurationString "RoBERTa (Large)"^^xsd:string .
+
+ex:ModelConfiguration_Swin_B a ex:ModelConfiguration ;
+    ex:configurationString "Swin-B"^^xsd:string .
+
+ex:ModelConfiguration_Swin_L a ex:ModelConfiguration ;
+    ex:configurationString "Swin-L"^^xsd:string .
+
+ex:ModelConfiguration_Swin_L_UperNet_ImageNet_22k_pretrain a ex:ModelConfiguration ;
+    ex:configurationString "Swin-L (UperNet, ImageNet-22k pretrain)"^^xsd:string .
+
+ex:ModelConfiguration_Swin_T a ex:ModelConfiguration ;
+    ex:configurationString "Swin-T"^^xsd:string .
+
+ex:Task_Semantic_Textual_Similarity a ex:Task ;
+    ex:taskName "Semantic Textual Similarity"^^xsd:string,
+        "Semantic Textual Similarity" .
+
+ex:Dataset_ADE20K a ex:Dataset ;
+    ex:datasetName "ADE20K"^^xsd:string,
+        "ADE20K" .
+
+ex:Dataset_COCO_minival a ex:Dataset ;
+    ex:datasetName "COCO minival" .
+
+ex:Dataset_COCO_test_dev a ex:Dataset ;
+    ex:datasetName "COCO test-dev" .
+
+ex:Dataset_Citeseer a ex:Dataset ;
+    ex:datasetName "Citeseer"^^xsd:string,
+        "Citeseer" .
+
+ex:Dataset_Occluded_COCO a ex:Dataset ;
+    ex:datasetName "Occluded COCO"^^xsd:string,
+        "Occluded COCO" .
+
+ex:Dataset_RACE a ex:Dataset ;
+    ex:datasetName "RACE"^^xsd:string,
+        "RACE" .
+
+ex:Dataset_Separated_COCO a ex:Dataset ;
+    ex:datasetName "Separated COCO"^^xsd:string,
+        "Separated COCO" .
+
+ex:Dataset_ogbg_code2 a ex:Dataset ;
+    ex:datasetName "ogbg-code2" .
+
+ex:Dataset_ogbn_products a ex:Dataset ;
+    ex:datasetName "ogbn-products" .
+
+ex:Dataset_ogbn_proteins a ex:Dataset ;
+    ex:datasetName "ogbn-proteins" .
+
+ex:Method_Dense_Connections a ex:Method ;
+    ex:methodName "Dense Connections"^^xsd:string .
+
+ex:ModelConfiguration_GAT_labels_node2vec a ex:ModelConfiguration ;
+    ex:configurationString "GAT + labels + node2vec"^^xsd:string .
+
+ex:ModelConfiguration_GAT_with_NeighborSampling a ex:ModelConfiguration ;
+    ex:configurationString "GAT with NeighborSampling"^^xsd:string .
+
+ex:ModelConfiguration_GATlabel_reuseself_KD a ex:ModelConfiguration ;
+    ex:configurationString "GAT+label reuse+self KD"^^xsd:string .
+
+ex:ModelConfiguration_GATlabelreusetopo_loss a ex:ModelConfiguration ;
+    ex:configurationString "GAT+label+reuse+topo loss"^^xsd:string .
+
+ex:ModelConfiguration_RoBERTa_WWM_Ext_News a ex:ModelConfiguration ;
+    ex:configurationString "RoBERTa WWM Ext (News)"^^xsd:string .
+
+ex:ModelConfiguration_RoBERTa_WWM_Ext_NewsFactors a ex:ModelConfiguration ;
+    ex:configurationString "RoBERTa WWM Ext (News+Factors)"^^xsd:string .
+
+ex:ModelConfiguration_Swin_L_HTC_multi_scale a ex:ModelConfiguration ;
+    ex:configurationString "Swin-L (HTC++, multi scale)"^^xsd:string .
+
+ex:ModelConfiguration_Swin_L_HTC_single_scale a ex:ModelConfiguration ;
+    ex:configurationString "Swin-L (HTC++, single scale)"^^xsd:string .
+
+ex:Task_Graph_Property_Prediction a ex:Task ;
+    ex:taskName "Graph Property Prediction" .
+
+ex:Task_Reading_Comprehension a ex:Task ;
+    ex:taskName "Reading Comprehension"^^xsd:string,
+        "Reading Comprehension" .
+
+ex:Dataset_Cora a ex:Dataset ;
+    ex:datasetName "Cora"^^xsd:string,
+        "Cora" .
+
+ex:Dataset_ManyTypes4TypeScript a ex:Dataset ;
+    ex:datasetName "ManyTypes4TypeScript"^^xsd:string,
+        "ManyTypes4TypeScript" .
+
+ex:Task_Molecular_Property_Prediction a ex:Task ;
+    ex:taskName "Molecular Property Prediction"^^xsd:string,
+        "Molecular Property Prediction" .
+
+ex:Task_Object_Detection a ex:Task ;
+    ex:taskName "Object Detection"^^xsd:string,
+        "Object Detection" .
+
+ex:Task_Type_prediction a ex:Task ;
+    ex:taskName "Type prediction"^^xsd:string,
+        "Type prediction" .
+
+ex:ModelConfiguration_RoBERTa_LARGE a ex:ModelConfiguration ;
+    ex:configurationString "RoBERTa (LARGE)"^^xsd:string .
+
+ex:Task_OpenAI_Gym a ex:Task ;
+    ex:taskName "OpenAI Gym"^^xsd:string,
+        "OpenAI Gym" .
+
+ex:Dataset_OCW a ex:Dataset ;
+    ex:datasetName "OCW"^^xsd:string,
+        "OCW" .
+
+ex:Dataset_Pubmed a ex:Dataset ;
+    ex:datasetName "Pubmed"^^xsd:string,
+        "Pubmed" .
+
+ex:Task_Omniverse_Isaac_Gym a ex:Task ;
+    ex:taskName "Omniverse Isaac Gym"^^xsd:string,
+        "Omniverse Isaac Gym" .
+
+ex:Task_Only_Connect_Walls_Dataset_Task_1_Grouping a ex:Task ;
+    ex:taskName "Only Connect Walls Dataset Task 1 (Grouping)"^^xsd:string,
+        "Only Connect Walls Dataset Task 1 (Grouping)" .
+
+ex:Task_Question_Answering a ex:Task ;
+    ex:taskName "Question Answering"^^xsd:string,
+        "Question Answering" .
+
+ex:Task_Semantic_Segmentation a ex:Task ;
+    ex:taskName "Semantic Segmentation"^^xsd:string,
+        "Semantic Segmentation" .
+
+ex:Dataset_ogbn_arxiv a ex:Dataset ;
+    ex:datasetName "ogbn-arxiv" .
+
+ex:ModelConfiguration_RoBERTa_ensemble a ex:ModelConfiguration ;
+    ex:configurationString "RoBERTa (ensemble)"^^xsd:string .
+
+ex:Task_Graph_Classification a ex:Task ;
+    ex:taskName "Graph Classification"^^xsd:string,
+        "Graph Classification" .
+
+ex:Dataset_Astock a ex:Dataset ;
+    ex:datasetName "Astock"^^xsd:string,
+        "Astock" .
+
+ex:Task_Heterogeneous_Node_Classification a ex:Task ;
+    ex:taskName "Heterogeneous Node Classification"^^xsd:string,
+        "Heterogeneous Node Classification" .
+
+ex:Task_Node_Classification_on_Non_Homophilic_Heterophilic_Graphs a ex:Task ;
+    ex:taskName "Node Classification on Non-Homophilic (Heterophilic) Graphs"^^xsd:string,
+        "Node Classification on Non-Homophilic (Heterophilic) Graphs" .
+
+ex:Task_Stock_Market_Prediction a ex:Task ;
+    ex:taskName "Stock Market Prediction"^^xsd:string,
+        "Stock Market Prediction" .
+
+ex:Dataset_ImageNet a ex:Dataset ;
+    ex:datasetName "ImageNet"^^xsd:string,
+        "ImageNet" .
+
+ex:Task_Natural_Language_Inference a ex:Task ;
+    ex:taskName "Natural Language Inference"^^xsd:string,
+        "Natural Language Inference" .
+
+ex:Task_Image_Classification a ex:Task ;
+    ex:taskName "Image Classification"^^xsd:string,
+        "Image Classification" .
+
+ex:Task_Instance_Segmentation a ex:Task ;
+    ex:taskName "Instance Segmentation"^^xsd:string,
+        "Instance Segmentation" .
+
+ex:ModelConfiguration_RoBERTa a ex:ModelConfiguration ;
+    ex:configurationString "RoBERTa"^^xsd:string .
+
+ex:ModelConfiguration_SAC a ex:ModelConfiguration ;
+    ex:configurationString "SAC"^^xsd:string .
+
+ex:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor a ex:Paper ;
+    ex:employsMethod ex:Method_Adam,
+        ex:Method_Dense_Connections,
+        ex:Method_Experience_Replay,
+        ex:Method_ReLU,
+        ex:Method_Soft_Actor_Critic ;
+    ex:mentionsDataset ex:Dataset_Omniverse_Isaac_Gym,
+        ex:Dataset_OpenAI_Gym ;
+    ex:mentionsTask ex:Task_Continuous_Control,
+        ex:Task_Decision_Making,
+        ex:Task_Deep_Reinforcement_Learning,
+        ex:Task_Omniverse_Isaac_Gym,
+        ex:Task_OpenAI_Gym,
+        ex:Task_Q_Learning,
+        ex:Task_Reinforcement_Learning,
+        ex:Task_Reinforcement_Learning_RL,
+        ex:Task_reinforcement_learning ;
+    ex:paperTitle "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor"^^xsd:string ;
+    ex:papersWithCodeUrl "https://paperswithcode.com/paper/soft-actor-critic-off-policy-maximum-entropy"^^xsd:anyURI ;
+    ex:pdfUrl "https://arxiv.org/pdf/1801.01290v2.pdf"^^xsd:anyURI ;
+    ex:reportsResult ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_0,
+        ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_1,
+        ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_10,
+        ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_11,
+        ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_2,
+        ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_3,
+        ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_4,
+        ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_5,
+        ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_6,
+        ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_7,
+        ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_8,
+        ex:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_9 ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:Task_Graph_Regression a ex:Task ;
+    ex:taskName "Graph Regression"^^xsd:string,
+        "Graph Regression" .
+
+ex:Task_Node_Property_Prediction a ex:Task ;
+    ex:taskName "Node Property Prediction"^^xsd:string,
+        "Node Property Prediction" .
+
+ex:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows a ex:Paper ;
+    ex:employsMethod ex:Method_Absolute_Position_Encodings,
+        ex:Method_AdamW,
+        ex:Method_BPE,
+        ex:Method_Cosine_Annealing,
+        ex:Method_Dense_Connections,
+        ex:Method_Dropout,
+        ex:Method_GELU,
+        ex:Method_Label_Smoothing,
+        ex:Method_Layer_Normalization,
+        ex:Method_Linear_Layer,
+        ex:Method_Multi_Head_Attention,
+        ex:Method_Position_Wise_Feed_Forward_Layer,
+        ex:Method_Residual_Connection,
+        ex:Method_Scaled_Dot_Product_Attention,
+        ex:Method_Softmax,
+        ex:Method_Stochastic_Depth,
+        ex:Method_Swin_Transformer,
+        ex:Method_Transformer ;
+    ex:mentionsDataset ex:Dataset_ADE20K,
+        ex:Dataset_FoodSeg103,
+        ex:Dataset_ImageNet,
+        ex:Dataset_MFNet,
+        ex:Dataset_MS_COCO,
+        ex:Dataset_Occluded_COCO,
+        ex:Dataset_OmniBenchmark,
+        ex:Dataset_Separated_COCO ;
+    ex:mentionsTask ex:Task_Image_Classification,
+        ex:Task_Instance_Segmentation,
+        ex:Task_Object_Detection,
+        ex:Task_Real_Time_Object_Detection,
+        ex:Task_Semantic_Segmentation,
+        ex:Task_Thermal_Image_Segmentation ;
+    ex:paperTitle "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows"^^xsd:string ;
+    ex:papersWithCodeUrl "https://paperswithcode.com/paper/swin-transformer-hierarchical-vision"^^xsd:anyURI ;
+    ex:pdfUrl "https://arxiv.org/pdf/2103.14030v2.pdf"^^xsd:anyURI ;
+    ex:reportsResult ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_0,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_1,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_10,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_11,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_12,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_13,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_14,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_15,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_16,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_17,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_18,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_19,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_2,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_20,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_21,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_22,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_23,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_24,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_25,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_26,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_27,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_28,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_29,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_3,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_30,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_4,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_5,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_6,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_7,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_8,
+        ex:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_9 ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:Task_Node_Classification a ex:Task ;
+    ex:taskName "Node Classification"^^xsd:string,
+        "Node Classification" .
+
+ex:ModelConfiguration_Informer a ex:ModelConfiguration ;
+    ex:configurationString "Informer"^^xsd:string .
+
+ex:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting a ex:Paper ;
+    ex:employsMethod ex:Method_Absolute_Position_Encodings,
+        ex:Method_Adam,
+        ex:Method_BPE,
+        ex:Method_Dense_Connections,
+        ex:Method_Dropout,
+        ex:Method_Label_Smoothing,
+        ex:Method_Layer_Normalization,
+        ex:Method_Linear_Layer,
+        ex:Method_Multi_Head_Attention,
+        ex:Method_Position_Wise_Feed_Forward_Layer,
+        ex:Method_Residual_Connection,
+        ex:Method_Scaled_Dot_Product_Attention,
+        ex:Method_Softmax,
+        ex:Method_Transformer ;
+    ex:mentionsDataset ex:Dataset_ETT,
+        ex:Dataset_ETTh1_192,
+        ex:Dataset_ETTh1_96 ;
+    ex:mentionsTask ex:Task_Decoder,
+        ex:Task_Multivariate_Time_Series_Forecasting,
+        ex:Task_Time_Series,
+        ex:Task_Time_Series_Analysis,
+        ex:Task_Time_Series_Forecasting,
+        ex:Task_Univariate_Time_Series_Forecasting ;
+    ex:paperTitle "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting"^^xsd:string ;
+    ex:papersWithCodeUrl "https://paperswithcode.com/paper/informer-beyond-efficient-transformer-for"^^xsd:anyURI ;
+    ex:pdfUrl "https://arxiv.org/pdf/2012.07436v3.pdf"^^xsd:anyURI ;
+    ex:reportsResult ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_0,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_1,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_10,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_11,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_12,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_13,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_14,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_15,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_16,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_17,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_18,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_19,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_2,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_20,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_21,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_22,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_23,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_24,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_25,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_26,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_27,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_28,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_29,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_3,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_30,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_31,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_32,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_33,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_34,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_35,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_36,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_37,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_38,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_39,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_4,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_5,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_6,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_7,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_8,
+        ex:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_9 ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:Task_Time_Series_Forecasting a ex:Task ;
+    ex:taskName "Time Series Forecasting"^^xsd:string,
+        "Time Series Forecasting" .
+
+ex:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach a ex:Paper ;
+    ex:employsMethod ex:Method_Adam,
+        ex:Method_Attention_Dropout,
+        ex:Method_BERT,
+        ex:Method_Dense_Connections,
+        ex:Method_Dropout,
+        ex:Method_GELU,
+        ex:Method_Layer_Normalization,
+        ex:Method_Linear_Layer,
+        ex:Method_Linear_Warmup_With_Linear_Decay,
+        ex:Method_Multi_Head_Attention,
+        ex:Method_Residual_Connection,
+        ex:Method_RoBERTa,
+        ex:Method_Scaled_Dot_Product_Attention,
+        ex:Method_Softmax,
+        ex:Method_Weight_Decay,
+        ex:Method_WordPiece ;
+    ex:mentionsDataset ex:Dataset_ANLI,
+        ex:Dataset_Astock,
+        ex:Dataset_CoLA,
+        ex:Dataset_CommonsenseQA,
+        ex:Dataset_GLUE,
+        ex:Dataset_HellaSwag,
+        ex:Dataset_MMLU,
+        ex:Dataset_MRPC,
+        ex:Dataset_ManyTypes4TypeScript,
+        ex:Dataset_MultiNLI,
+        ex:Dataset_OCW,
+        ex:Dataset_PIQA,
+        ex:Dataset_QNLI,
+        ex:Dataset_Quora,
+        ex:Dataset_Quora_Question_Pairs,
+        ex:Dataset_RACE,
+        ex:Dataset_RTE,
+        ex:Dataset_RVL_CDIP,
+        ex:Dataset_SIQA,
+        ex:Dataset_SQuAD,
+        ex:Dataset_SST,
+        ex:Dataset_SST_2,
+        ex:Dataset_STS_Benchmark,
+        ex:Dataset_SWAG,
+        ex:Dataset_WNLI,
+        ex:Dataset_WebText,
+        ex:Dataset_arXiv_10 ;
+    ex:mentionsTask ex:Task_Common_Sense_Reasoning,
+        ex:Task_Document_Image_Classification,
+        ex:Task_Language_Modelling,
+        ex:Task_Lexical_Simplification,
+        ex:Task_Linguistic_Acceptability,
+        ex:Task_Multi_task_Language_Understanding,
+        ex:Task_Natural_Language_Inference,
+        ex:Task_Only_Connect_Walls_Dataset_Task_1_Grouping,
+        ex:Task_Question_Answering,
+        ex:Task_Reading_Comprehension,
+        ex:Task_Riddle_Sense,
+        ex:Task_Semantic_Textual_Similarity,
+        ex:Task_Sentence_Completion,
+        ex:Task_Sentiment_Analysis,
+        ex:Task_Stock_Market_Prediction,
+        ex:Task_Text_Classification,
+        ex:Task_Type_prediction ;
+    ex:paperTitle "RoBERTa: A Robustly Optimized BERT Pretraining Approach"^^xsd:string ;
+    ex:papersWithCodeUrl "https://paperswithcode.com/paper/roberta-a-robustly-optimized-bert-pretraining"^^xsd:anyURI ;
+    ex:pdfUrl "https://arxiv.org/pdf/1907.11692v1.pdf"^^xsd:anyURI ;
+    ex:reportsResult ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_0,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_1,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_10,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_11,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_12,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_13,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_14,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_15,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_16,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_17,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_18,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_19,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_2,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_20,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_21,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_22,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_23,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_24,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_25,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_26,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_27,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_28,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_29,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_3,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_30,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_31,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_32,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_33,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_34,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_35,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_36,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_37,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_38,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_39,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_4,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_40,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_41,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_42,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_5,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_6,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_7,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_8,
+        ex:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_9 ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:ModelConfiguration_GAT a ex:ModelConfiguration ;
+    ex:configurationString "GAT"^^xsd:string .
+
+ex:Paper_Graph_Attention_Networks a ex:Paper ;
+    ex:employsMethod ex:Method_GAT ;
+    ex:mentionsDataset ex:Dataset_ACM_Heterogeneous_Node_Classification,
+        ex:Dataset_Brazil_Air_Traffic,
+        ex:Dataset_CIFAR_10,
+        ex:Dataset_Chameleon602020_random_splits,
+        ex:Dataset_Citeseer,
+        ex:Dataset_Cora,
+        ex:Dataset_Cornell_602020_random_splits,
+        ex:Dataset_DBLP_Heterogeneous_Node_Classification,
+        ex:Dataset_Deezer_Europe,
+        ex:Dataset_ENZYMES,
+        ex:Dataset_ESOL_Estimated_SOLubility,
+        ex:Dataset_Film_602020_random_splits,
+        ex:Dataset_Flickr30k,
+        ex:Dataset_FreeSolv_Free_Solvation,
+        ex:Dataset_Freebase_Heterogeneous_Node_Classification,
+        ex:Dataset_IMDB_BINARY,
+        ex:Dataset_IMDB_Heterogeneous_Node_Classification,
+        ex:Dataset_JHMDB,
+        ex:Dataset_NCI1,
+        ex:Dataset_NCI109,
+        ex:Dataset_OGB,
+        ex:Dataset_PPI,
+        ex:Dataset_PROTEINS,
+        ex:Dataset_Penn94,
+        ex:Dataset_PubMed_602020_random_splits,
+        ex:Dataset_Pubmed,
+        ex:Dataset_Squirrel_602020_random_splits,
+        ex:Dataset_Texas602020_random_splits,
+        ex:Dataset_USA_Air_Traffic,
+        ex:Dataset_Wisconsin602020_random_splits,
+        ex:Dataset_ZINC,
+        ex:Dataset_dockstring,
+        ex:Dataset_genius ;
+    ex:mentionsTask ex:Task_Document_Classification,
+        ex:Task_Graph_Attention,
+        ex:Task_Graph_Classification,
+        ex:Task_Graph_Embedding,
+        ex:Task_Graph_Regression,
+        ex:Task_Heterogeneous_Node_Classification,
+        ex:Task_Link_Prediction,
+        ex:Task_MUlTI_LABEL_ClASSIFICATION,
+        ex:Task_Molecular_Property_Prediction,
+        ex:Task_Node_Classification,
+        ex:Task_Node_Classification_on_Non_Homophilic_Heterophilic_Graphs,
+        ex:Task_Node_Property_Prediction,
+        ex:Task_Question_Answering,
+        ex:Task_Skeleton_Based_Action_Recognition ;
+    ex:paperTitle "Graph Attention Networks"^^xsd:string ;
+    ex:papersWithCodeUrl "https://paperswithcode.com/paper/graph-attention-networks"^^xsd:anyURI ;
+    ex:pdfUrl "https://arxiv.org/pdf/1710.10903v3.pdf"^^xsd:anyURI ;
+    ex:reportsResult ex:Graph_Attention_Networks_result_0,
+        ex:Graph_Attention_Networks_result_1,
+        ex:Graph_Attention_Networks_result_10,
+        ex:Graph_Attention_Networks_result_11,
+        ex:Graph_Attention_Networks_result_12,
+        ex:Graph_Attention_Networks_result_13,
+        ex:Graph_Attention_Networks_result_14,
+        ex:Graph_Attention_Networks_result_15,
+        ex:Graph_Attention_Networks_result_16,
+        ex:Graph_Attention_Networks_result_17,
+        ex:Graph_Attention_Networks_result_18,
+        ex:Graph_Attention_Networks_result_19,
+        ex:Graph_Attention_Networks_result_2,
+        ex:Graph_Attention_Networks_result_20,
+        ex:Graph_Attention_Networks_result_21,
+        ex:Graph_Attention_Networks_result_22,
+        ex:Graph_Attention_Networks_result_23,
+        ex:Graph_Attention_Networks_result_24,
+        ex:Graph_Attention_Networks_result_25,
+        ex:Graph_Attention_Networks_result_26,
+        ex:Graph_Attention_Networks_result_27,
+        ex:Graph_Attention_Networks_result_28,
+        ex:Graph_Attention_Networks_result_29,
+        ex:Graph_Attention_Networks_result_3,
+        ex:Graph_Attention_Networks_result_30,
+        ex:Graph_Attention_Networks_result_31,
+        ex:Graph_Attention_Networks_result_32,
+        ex:Graph_Attention_Networks_result_33,
+        ex:Graph_Attention_Networks_result_34,
+        ex:Graph_Attention_Networks_result_35,
+        ex:Graph_Attention_Networks_result_36,
+        ex:Graph_Attention_Networks_result_37,
+        ex:Graph_Attention_Networks_result_38,
+        ex:Graph_Attention_Networks_result_39,
+        ex:Graph_Attention_Networks_result_4,
+        ex:Graph_Attention_Networks_result_40,
+        ex:Graph_Attention_Networks_result_41,
+        ex:Graph_Attention_Networks_result_42,
+        ex:Graph_Attention_Networks_result_43,
+        ex:Graph_Attention_Networks_result_44,
+        ex:Graph_Attention_Networks_result_45,
+        ex:Graph_Attention_Networks_result_46,
+        ex:Graph_Attention_Networks_result_47,
+        ex:Graph_Attention_Networks_result_48,
+        ex:Graph_Attention_Networks_result_49,
+        ex:Graph_Attention_Networks_result_5,
+        ex:Graph_Attention_Networks_result_50,
+        ex:Graph_Attention_Networks_result_51,
+        ex:Graph_Attention_Networks_result_52,
+        ex:Graph_Attention_Networks_result_53,
+        ex:Graph_Attention_Networks_result_54,
+        ex:Graph_Attention_Networks_result_55,
+        ex:Graph_Attention_Networks_result_56,
+        ex:Graph_Attention_Networks_result_57,
+        ex:Graph_Attention_Networks_result_58,
+        ex:Graph_Attention_Networks_result_59,
+        ex:Graph_Attention_Networks_result_6,
+        ex:Graph_Attention_Networks_result_60,
+        ex:Graph_Attention_Networks_result_61,
+        ex:Graph_Attention_Networks_result_62,
+        ex:Graph_Attention_Networks_result_63,
+        ex:Graph_Attention_Networks_result_64,
+        ex:Graph_Attention_Networks_result_65,
+        ex:Graph_Attention_Networks_result_66,
+        ex:Graph_Attention_Networks_result_67,
+        ex:Graph_Attention_Networks_result_68,
+        ex:Graph_Attention_Networks_result_69,
+        ex:Graph_Attention_Networks_result_7,
+        ex:Graph_Attention_Networks_result_70,
+        ex:Graph_Attention_Networks_result_71,
+        ex:Graph_Attention_Networks_result_72,
+        ex:Graph_Attention_Networks_result_73,
+        ex:Graph_Attention_Networks_result_74,
+        ex:Graph_Attention_Networks_result_75,
+        ex:Graph_Attention_Networks_result_76,
+        ex:Graph_Attention_Networks_result_77,
+        ex:Graph_Attention_Networks_result_78,
+        ex:Graph_Attention_Networks_result_79,
+        ex:Graph_Attention_Networks_result_8,
+        ex:Graph_Attention_Networks_result_80,
+        ex:Graph_Attention_Networks_result_81,
+        ex:Graph_Attention_Networks_result_82,
+        ex:Graph_Attention_Networks_result_83,
+        ex:Graph_Attention_Networks_result_84,
+        ex:Graph_Attention_Networks_result_85,
+        ex:Graph_Attention_Networks_result_86,
+        ex:Graph_Attention_Networks_result_87,
+        ex:Graph_Attention_Networks_result_88,
+        ex:Graph_Attention_Networks_result_89,
+        ex:Graph_Attention_Networks_result_9,
+        ex:Graph_Attention_Networks_result_90,
+        ex:Graph_Attention_Networks_result_91,
+        ex:Graph_Attention_Networks_result_92,
+        ex:Graph_Attention_Networks_result_93,
+        ex:Graph_Attention_Networks_result_94,
+        ex:Graph_Attention_Networks_result_95,
+        ex:Graph_Attention_Networks_result_96,
+        ex:Graph_Attention_Networks_result_97 ;
+    ex:year "2017"^^xsd:gYear .
+

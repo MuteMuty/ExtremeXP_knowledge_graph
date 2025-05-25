@@ -1,0 +1,15 @@
+PREFIX ex: <http://extremexp.eu/ontology/matic_papers/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?paper ?title ?pdfUrl ?pwcUrl ?year
+WHERE {
+  ?paper rdf:type ex:Paper ;
+         ex:paperTitle ?title .
+  OPTIONAL { ?paper ex:pdfUrl ?pdfUrl . }
+  OPTIONAL { ?paper ex:papersWithCodeUrl ?pwcUrl . }
+  OPTIONAL { ?paper ex:year ?year . }
+  # Filter for a specific paper title if desired
+  # FILTER(CONTAINS(LCASE(STR(?title)), "swin transformer"))
+}
+LIMIT 10
