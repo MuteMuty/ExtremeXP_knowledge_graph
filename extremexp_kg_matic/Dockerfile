@@ -1,6 +1,9 @@
 # Use an official Python runtime as a parent image
 FROM python:3.9-slim
 
+# Install curl for health checks
+RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
+
 # Set the working directory in the container
 WORKDIR /app
 
@@ -13,14 +16,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the src directory into the container at /app/src
 COPY ./src ./src
 
-# Copy the data directory (for input json)
-COPY ./data ./data
-
-# Make data directory writable for output (if script writes there directly, though better to mount volumes)
-# RUN mkdir -p /app/data && chmod -R 777 /app/data
+# Create data directory
+RUN mkdir -p /app/data
 
 # Command to run the application
-# This will be overridden by docker-compose for the parser service,
-# but good to have a default.
-# CMD ["python", "src/main.py"]
 ENTRYPOINT ["python", "src/main.py"]

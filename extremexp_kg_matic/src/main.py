@@ -1,4 +1,6 @@
 import json
+import sys
+import time
 from rdflib import Graph, Literal, URIRef, RDF, XSD
 from kg_schema import (
     EX, Paper, Task, Dataset, Method, ModelConfiguration, ReportedResult,
@@ -9,6 +11,8 @@ from kg_schema import (
     rr_evaluatesTask, rr_onDataset, rr_achievedByModel, rr_reportedInPaper
 )
 from utils import sanitize_for_uri, get_year_from_pdf_url
+from fuseki_client import FusekiClient
+from file_watcher import FileWatcherService
 import os
 
 # --- Configuration ---
@@ -139,23 +143,54 @@ def create_rdf_graph(papers_data):
     return g
 
 if __name__ == "__main__":
-    # Ensure data directory exists for output
-    os.makedirs(os.path.dirname(OUTPUT_RDF_PATH), exist_ok=True)
+    # Check if we should run in service mode (default) or one-time mode
+    mode = os.environ.get("RUN_MODE", "service")  # "service" or "oneshot"
+    data_dir = "/app/data"
+    if mode == "service":
+        print("Starting ExtremeXP KG API Service...")
+        
+        # Initialize Fuseki client and wait for it to be available
+        fuseki_client = FusekiClient()
+        if not fuseki_client.wait_for_fuseki():
+            print("ERROR: Fuseki is not available. Exiting.")
+            sys.exit(1)
+        
+        print("Fuseki is ready. Starting FastAPI server...")
+        
+        # Start the FastAPI server
+        import uvicorn
+        import api
+        
+        # Run the FastAPI server
+        uvicorn.run(
+            "api:app",
+            host="0.0.0.0", 
+            port=8000, 
+            log_level="info",
+            reload=False
+        )
+            
+    else:  # oneshot mode - original functionality
+        print("Running in one-shot mode...")
+        
+        # Ensure data directory exists for output
+        os.makedirs(os.path.dirname(OUTPUT_RDF_PATH), exist_ok=True)
 
-    try:
-        with open(INPUT_JSON_PATH, 'r', encoding='utf-8') as f:
-            all_papers_data = json.load(f)
-    except FileNotFoundError:
-        print(f"Error: Input JSON file not found at {INPUT_JSON_PATH}")
-        exit(1)
-    except json.JSONDecodeError:
-        print(f"Error: Could not decode JSON from {INPUT_JSON_PATH}")
-        exit(1)
+        try:
+            with open(INPUT_JSON_PATH, 'r', encoding='utf-8') as f:
+                all_papers_data = json.load(f)
+        except FileNotFoundError:
+            print(f"Error: Input JSON file not found at {INPUT_JSON_PATH}")
+            sys.exit(1)
+        except json.JSONDecodeError:
+            print(f"Error: Could not decode JSON from {INPUT_JSON_PATH}")
+            sys.exit(1)
 
-    rdf_graph = create_rdf_graph(all_papers_data)
-    
-    try:
-        rdf_graph.serialize(destination=OUTPUT_RDF_PATH, format=OUTPUT_FORMAT, encoding="utf-8")
-        print(f"RDF graph successfully generated and saved to {OUTPUT_RDF_PATH} (Format: {OUTPUT_FORMAT})")
-    except Exception as e:
-        print(f"Error serializing RDF graph: {e}")
+        rdf_graph = create_rdf_graph(all_papers_data)
+        
+        try:
+            rdf_graph.serialize(destination=OUTPUT_RDF_PATH, format=OUTPUT_FORMAT, encoding="utf-8")
+            print(f"RDF graph successfully generated and saved to {OUTPUT_RDF_PATH} (Format: {OUTPUT_FORMAT})")
+        except Exception as e:
+            print(f"Error serializing RDF graph: {e}")
+            sys.exit(1)

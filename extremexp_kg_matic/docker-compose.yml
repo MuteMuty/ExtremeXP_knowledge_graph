@@ -1,36 +1,44 @@
 version: '3.8'
 
 services:
-  parser:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: extremexp_parser
-    volumes:
-      - ./data:/app/data  # Mount local data dir into container's /app/data
-                          # This way, input is read from local, output is written to local
-    depends_on:
-      - fuseki # Optional: wait for fuseki if you plan to upload directly
-    # The command is defined by ENTRYPOINT in Dockerfile,
-    # or you could override it here:
-    # command: python src/main.py
-
   fuseki:
-    image: stain/jena-fuseki:latest # Using the community image
+    image: stain/jena-fuseki:latest
     container_name: extremexp_fuseki
     ports:
       - "3030:3030"
     volumes:
-      - ./fuseki_data:/fuseki        # stain/jena-fuseki uses /fuseki for its data
-      - ./data:/staging              # Mount local ./data to /staging for uploads
+      - ./fuseki_data:/fuseki
+      - ./data:/staging
     environment:
       - ADMIN_PASSWORD=admin_password # CHANGE THIS to a secure password
-      - TDB=2                         # To enable TDB2, as per stain/jena-fuseki docs
-      - FUSEKI_DATASET_1=matic_papers_kg # Attempt to create a dataset named 'matic_papers_kg'
-                                      # The actual database files for this will be in /fuseki/databases/matic_papers_kg
-    # For stain/jena-fuseki, the command is often implicit or minimal,
-    # as configuration is primarily through environment variables.
-    # We remove the explicit 'command:' line that was intended for the official apache image.
+      - TDB=2
+      - FUSEKI_DATASET_1=matic_papers_kg
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3030/$/ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+  kg_service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: extremexp_kg_service
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - RUN_MODE=service  # Run in service mode instead of one-shot
+    depends_on:
+      fuseki:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import requests; requests.get('http://localhost:8000/health', timeout=5)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
 
 volumes:
   fuseki_data:

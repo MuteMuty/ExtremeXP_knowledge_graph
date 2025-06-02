@@ -1,13 +1,32 @@
-# ExtremeXP - Matic PapersWithCode KG Builder
+# ExtremeXP Knowledge Graph Service
 
-This project parses JSON data about scientific papers (sourced from PapersWithCode via Matic)
-and transforms it into an RDF knowledge graph. It uses Docker and Docker Compose for
-easy management and deployment with an Apache Jena Fuseki triplestore.
+An automated knowledge graph generation system that processes scientific paper metadata from Matic and maintains a queryable RDF triplestore with automatic data loading and file watching capabilities.
 
-## Prerequisites
+## Features
 
-- Docker (https://www.docker.com/get-started)
-- Docker Compose (usually comes with Docker Desktop)
+- **Automatic Data Loading**: All JSON files in the data directory are automatically processed and loaded into Fuseki on startup
+- **File Watching**: New JSON files added to the data directory are automatically processed and added to the knowledge graph
+- **Direct Fuseki Integration**: RDF data is uploaded directly to the triplestore without manual intervention
+- **Health Monitoring**: Built-in health checks ensure system reliability
+- **Backup Generation**: TTL files are automatically generated for backup purposes
+
+## Quick Start
+
+1. **Start the system**:
+   ```powershell
+   docker-compose up -d
+   ```
+
+2. **Verify the system is working**:
+   ```powershell
+   python test_system.py
+   ```
+
+3. **Access the Fuseki web interface**:
+   Open http://localhost:3030 in your browser
+
+4. **Query the knowledge graph**:
+   Navigate to http://localhost:3030/dataset.html?tab=query&ds=/matic_papers_kg
 
 ## Project Structure
 
