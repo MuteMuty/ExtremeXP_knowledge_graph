@@ -151,3 +151,35 @@ class FusekiClient:
                 
         except Exception as e:
             raise Exception(f"Error executing SPARQL query: {e}")
+    
+    def clear_dataset(self):
+        """Clear all data from the dataset."""
+        try:
+            # Use SPARQL UPDATE to clear all triples
+            clear_query = "CLEAR ALL"
+            
+            # Create basic auth header manually
+            credentials = base64.b64encode(b"admin:admin_password").decode('ascii')
+            headers = {
+                "Content-Type": "application/sparql-update",
+                "Authorization": f"Basic {credentials}"
+            }
+            
+            # Use the update endpoint
+            update_url = f"{self.fuseki_url}/{self.dataset}/update"
+            
+            response = requests.post(
+                update_url,
+                data=clear_query,
+                headers=headers,
+                timeout=30
+            )
+            
+            if response.status_code in [200, 204]:
+                print("Successfully cleared all data from the dataset")
+                return True
+            else:
+                raise Exception(f"Failed to clear dataset. Status: {response.status_code}, Response: {response.text}")
+                
+        except Exception as e:
+            raise Exception(f"Error clearing dataset: {e}")

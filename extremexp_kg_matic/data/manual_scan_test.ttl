@@ -1,0 +1,11 @@
+@prefix ns1: <http://extremexp.eu/ontology/matic_papers/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:Paper_Manual_Scan_Test_Paper a ns1:Paper ;
+    ns1:paperTitle "Manual Scan Test Paper"^^xsd:string ;
+    ns1:year "2025"^^xsd:gYear .
+
+ns1:Paper_Second_Paper_for_Manual_Scan a ns1:Paper ;
+    ns1:paperTitle "Second Paper for Manual Scan"^^xsd:string ;
+    ns1:year "2025"^^xsd:gYear .
+

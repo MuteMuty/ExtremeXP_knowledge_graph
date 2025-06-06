@@ -165,7 +165,7 @@ def sanitize_uri(text: str) -> str:
 def get_year_from_pdf_url(url):
     """
     Extract year from a PDF URL.
-    Looks for 4-digit year patterns in the URL.
+    Looks for 4-digit year patterns in the URL, specifically for arXiv URLs.
     
     Args:
         url: The URL string to extract year from
@@ -175,15 +175,34 @@ def get_year_from_pdf_url(url):
     """
     if not url:
         return None
+      # Special handling for arXiv URLs like: https://arxiv.org/pdf/1907.11692v1.pdf
+    # The arXiv ID format is YYMM.NNNNN where YY is last 2 digits of year, MM is month
+    arxiv_pattern = r'arxiv\.org/pdf/(\d{2})(\d{2})\.\d+'
+    arxiv_match = re.search(arxiv_pattern, url, re.IGNORECASE)
+    if arxiv_match:
+        yy = int(arxiv_match.group(1))  # First 2 digits: year
+        mm = int(arxiv_match.group(2))  # Next 2 digits: month
+        
+        # Validate month (01-12)
+        if mm < 1 or mm > 12:
+            # If month is invalid, fall through to general year pattern matching
+            pass
+        else:            # Determine century: arXiv started in April 1991
+            # If YY >= 91, it's 19XX, otherwise 20XX
+            # Special case: YY = 90 should be 1990 (pre-arXiv, but we handle it)
+            if yy >= 90:
+                year = 1900 + yy
+            else:
+                year = 2000 + yy
+            return str(year)
     
-    # Look for 4-digit year patterns (1900-2099)
-    year_pattern = r'(19|20)\d{2}'
+    # Fallback: Look for explicit 4-digit year patterns (1900-2099)
+    year_pattern = r'\b(19\d{2}|20\d{2})\b'
     matches = re.findall(year_pattern, url)
     
     if matches:
         # Return the last occurrence of a year pattern
-        years = [match[0] + match[1] for match in re.finditer(year_pattern, url)]
-        return years[-1] if years else None
+        return matches[-1]
     
     return None
 
@@ -209,14 +228,21 @@ def create_rdf_graph_from_papers(papers_data: list) -> Graph:
     
     g = Graph()
     uri_cache = {}
-    
     def get_uri(entity_type_ns, name_part, base_ns=EX):
         """Creates or retrieves a URI for an entity."""
         sanitized_name = sanitize_for_uri(name_part)
-        cache_key = f"{entity_type_ns}_{sanitized_name}"
+        
+        # Extract the class name from the URIRef
+        if hasattr(entity_type_ns, '__name__'):
+            class_name = entity_type_ns.__name__
+        else:
+            # For URIRef objects, get the last part after the namespace
+            class_name = str(entity_type_ns).split('/')[-1].split('#')[-1]
+        
+        cache_key = f"{class_name}_{sanitized_name}"
         
         if cache_key not in uri_cache:
-            uri_cache[cache_key] = URIRef(base_ns[f"{entity_type_ns.__name__}_{sanitized_name}"])
+            uri_cache[cache_key] = URIRef(base_ns[f"{class_name}_{sanitized_name}"])
         return uri_cache[cache_key]
     
     # Process each paper

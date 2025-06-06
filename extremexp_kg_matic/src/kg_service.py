@@ -8,7 +8,7 @@ import json
 import os
 from datetime import datetime
 from typing import Dict, List, Optional, Any
-from rdflib import Graph
+from rdflib import Graph, URIRef, Literal
 from collections import defaultdict, deque
 import threading
 
@@ -194,7 +194,6 @@ class KGService:
             logger.error(error_msg)
             self._record_error(error_msg)
             raise
-    
     def create_backup(self) -> str:
         """Create a backup of the current knowledge graph."""
         try:
@@ -211,8 +210,32 @@ class KGService:
             
             # Create backup graph
             backup_graph = Graph()
-            for row in result:
-                backup_graph.add((row['s'], row['p'], row['o']))
+              # Parse the SPARQL JSON response
+            if "results" in result and "bindings" in result["results"]:
+                for binding in result["results"]["bindings"]:
+                    # Convert string values to RDF terms
+                    s_value = binding['s']['value']
+                    s_type = binding['s']['type']
+                    if s_type == 'uri':
+                        s = URIRef(s_value)
+                    else:
+                        s = Literal(s_value)
+                    
+                    p_value = binding['p']['value'] 
+                    p_type = binding['p']['type']
+                    if p_type == 'uri':
+                        p = URIRef(p_value)
+                    else:
+                        p = Literal(p_value)
+                    
+                    o_value = binding['o']['value']
+                    o_type = binding['o']['type']
+                    if o_type == 'uri':
+                        o = URIRef(o_value)
+                    else:
+                        o = Literal(o_value)
+                    
+                    backup_graph.add((s, p, o))
             
             # Serialize to file
             backup_graph.serialize(destination=backup_path, format='turtle')

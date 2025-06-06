@@ -1,7 +1,0 @@
-@prefix ns1: <http://extremexp.eu/ontology/matic_papers/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-ns1:Paper_Advanced_Knowledge_Graph_Construction_for_Scientific_Literature a ns1:Paper ;
-    ns1:paperTitle "Advanced Knowledge Graph Construction for Scientific Literature"^^xsd:string ;
-    ns1:year "2025"^^xsd:gYear .
-

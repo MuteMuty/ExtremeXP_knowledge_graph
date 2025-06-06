@@ -32,12 +32,11 @@ async def lifespan(app: FastAPI):
     # Startup
     try:
         logger.info("Starting file watcher service...")
-        
-        # Initialize file watcher with data directory
+          # Initialize file watcher with data directory
         data_dir = "/app/data"
         file_watcher_service = FileWatcherService(
             data_dir=data_dir,
-            fuseki_client=kg_service.fuseki_client,
+            kg_service=kg_service,
             rdf_processor=create_rdf_graph_from_papers
         )
         
@@ -220,12 +219,26 @@ async def upload_file(file: UploadFile = File(...)):
         
         # Read and parse JSON content
         content = await file.read()
-        papers_data = json.loads(content.decode('utf-8'))
+        logger.info(f"Received file: {file.filename}, size: {len(content)} bytes")
+        
+        # Check if content is empty
+        if not content:
+            raise HTTPException(status_code=400, detail="Uploaded file is empty")
+        
+        try:
+            content_str = content.decode('utf-8')
+            logger.info(f"Decoded content preview: {content_str[:100]}...")
+        except UnicodeDecodeError as e:
+            logger.error(f"Unicode decode error: {e}")
+            raise HTTPException(status_code=400, detail=f"File encoding error: {str(e)}")
+        
+        papers_data = json.loads(content_str)
         
         # Ensure it's a list
         if not isinstance(papers_data, list):
             papers_data = [papers_data]
-          # Create RDF graph from papers
+        
+        # Create RDF graph from papers
         rdf_graph = create_rdf_graph_from_papers(papers_data)
         
         # Add to knowledge graph
@@ -312,6 +325,24 @@ async def get_metrics():
         return JSONResponse(content=metrics)
     except Exception as e:
         error_msg = f"Failed to get metrics: {str(e)}"
+        logger.error(error_msg)
+        raise HTTPException(status_code=500, detail=error_msg)
+
+@app.post("/scan-files")
+async def scan_files():
+    """Manually scan and process new files in the data directory."""
+    try:
+        if file_watcher_service:
+            processed_files = file_watcher_service.process_existing_files()
+            return {
+                "message": f"Scanned and processed {len(processed_files)} files",
+                "processed_files": processed_files,
+                "success": True
+            }
+        else:
+            raise HTTPException(status_code=500, detail="File watcher service not available")
+    except Exception as e:
+        error_msg = f"Failed to scan files: {str(e)}"
         logger.error(error_msg)
         raise HTTPException(status_code=500, detail=error_msg)
 
