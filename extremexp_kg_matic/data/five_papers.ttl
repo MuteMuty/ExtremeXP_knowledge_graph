@@ -118,6 +118,15 @@ ns1:Dataset_J_HMBD_Early_Action a ns1:Dataset ;
 ns1:Dataset_Lunar_Lander_OpenAI_Gym a ns1:Dataset ;
     ns1:datasetName "Lunar Lander (OpenAI Gym)" .
 
+ns1:Dataset_MFN_Dataset a ns1:Dataset ;
+    ns1:datasetName "MFN Dataset" .
+
+ns1:Dataset_MFNet a ns1:Dataset ;
+    ns1:datasetName "MFNet"^^xsd:string .
+
+ns1:Dataset_MS_COCO a ns1:Dataset ;
+    ns1:datasetName "MS COCO"^^xsd:string .
+
 ns1:Dataset_OGB a ns1:Dataset ;
     ns1:datasetName "OGB"^^xsd:string .
 
@@ -1432,8 +1441,8 @@ ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecast
     ns1:rank 1 ;
     ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
 
-ns1:Method_Absolute_Position_Encodings a ns1:Method ;
-    ns1:methodName "Absolute Position Encodings"^^xsd:string .
+ns1:Method_AdamW a ns1:Method ;
+    ns1:methodName "AdamW"^^xsd:string .
 
 ns1:Method_Attention_Dropout a ns1:Method ;
     ns1:methodName "Attention Dropout"^^xsd:string .
@@ -1441,8 +1450,8 @@ ns1:Method_Attention_Dropout a ns1:Method ;
 ns1:Method_BERT a ns1:Method ;
     ns1:methodName "BERT"^^xsd:string .
 
-ns1:Method_BPE a ns1:Method ;
-    ns1:methodName "BPE"^^xsd:string .
+ns1:Method_Cosine_Annealing a ns1:Method ;
+    ns1:methodName "Cosine Annealing"^^xsd:string .
 
 ns1:Method_Experience_Replay a ns1:Method ;
     ns1:methodName "Experience Replay"^^xsd:string .
@@ -1450,17 +1459,8 @@ ns1:Method_Experience_Replay a ns1:Method ;
 ns1:Method_GAT a ns1:Method ;
     ns1:methodName "GAT"^^xsd:string .
 
-ns1:Method_GELU a ns1:Method ;
-    ns1:methodName "GELU"^^xsd:string .
-
-ns1:Method_Label_Smoothing a ns1:Method ;
-    ns1:methodName "Label Smoothing"^^xsd:string .
-
 ns1:Method_Linear_Warmup_With_Linear_Decay a ns1:Method ;
     ns1:methodName "Linear Warmup With Linear Decay"^^xsd:string .
-
-ns1:Method_Position_Wise_Feed_Forward_Layer a ns1:Method ;
-    ns1:methodName "Position-Wise Feed-Forward Layer"^^xsd:string .
 
 ns1:Method_ReLU a ns1:Method ;
     ns1:methodName "ReLU"^^xsd:string .
@@ -1471,8 +1471,11 @@ ns1:Method_RoBERTa a ns1:Method ;
 ns1:Method_Soft_Actor_Critic a ns1:Method ;
     ns1:methodName "Soft Actor Critic"^^xsd:string .
 
-ns1:Method_Transformer a ns1:Method ;
-    ns1:methodName "Transformer"^^xsd:string .
+ns1:Method_Stochastic_Depth a ns1:Method ;
+    ns1:methodName "Stochastic Depth"^^xsd:string .
+
+ns1:Method_Swin_Transformer a ns1:Method ;
+    ns1:methodName "Swin Transformer"^^xsd:string .
 
 ns1:Method_Weight_Decay a ns1:Method ;
     ns1:methodName "Weight Decay"^^xsd:string .
@@ -1488,6 +1491,15 @@ ns1:ModelConfiguration_RoBERTa_Large_355M a ns1:ModelConfiguration ;
 
 ns1:ModelConfiguration_RoBERTa_base_125M_fine_tuned a ns1:ModelConfiguration ;
     ns1:configurationString "RoBERTa-base 125M (fine-tuned)"^^xsd:string .
+
+ns1:ModelConfiguration_SwinT a ns1:ModelConfiguration ;
+    ns1:configurationString "SwinT"^^xsd:string .
+
+ns1:ModelConfiguration_SwinTransformer a ns1:ModelConfiguration ;
+    ns1:configurationString "SwinTransformer"^^xsd:string .
+
+ns1:ModelConfiguration_Swin_Transformer_Swin_Small a ns1:ModelConfiguration ;
+    ns1:configurationString "Swin-Transformer (Swin-Small)"^^xsd:string .
 
 ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_0 a ns1:ReportedResult ;
     ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_Large ;
@@ -1984,6 +1996,285 @@ ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_wit
     ns1:rank 1 ;
     ns1:reportedInPaper ns1:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
 
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_0 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_L_UperNet_ImageNet_22k_pretrain ;
+    ns1:evaluatesTask ns1:Task_Semantic_Segmentation ;
+    ns1:metricName "Validation mIoU"^^xsd:string ;
+    ns1:metricValue 53.5 ;
+    ns1:onDataset ns1:Dataset_ADE20K ;
+    ns1:rank 75 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_1 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_L_UperNet_ImageNet_22k_pretrain ;
+    ns1:evaluatesTask ns1:Task_Semantic_Segmentation ;
+    ns1:metricName "Test Score"^^xsd:string ;
+    ns1:metricValue 62.8 ;
+    ns1:onDataset ns1:Dataset_ADE20K ;
+    ns1:rank 1 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_10 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_L_HTC_multi_scale ;
+    ns1:evaluatesTask ns1:Task_Instance_Segmentation ;
+    ns1:metricName "mask AP"^^xsd:string ;
+    ns1:metricValue 51.1 ;
+    ns1:onDataset ns1:Dataset_COCO_test_dev ;
+    ns1:rank 20 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_11 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_L_HTC_multi_scale ;
+    ns1:evaluatesTask ns1:Task_Object_Detection ;
+    ns1:metricName "box mAP"^^xsd:string ;
+    ns1:metricValue 58.7 ;
+    ns1:onDataset ns1:Dataset_COCO_test_dev ;
+    ns1:rank 32 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_12 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_L_HTC_single_scale ;
+    ns1:evaluatesTask ns1:Task_Object_Detection ;
+    ns1:metricName "box mAP"^^xsd:string ;
+    ns1:metricValue 57.7 ;
+    ns1:onDataset ns1:Dataset_COCO_test_dev ;
+    ns1:rank 34 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_13 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_Transformer_Swin_Small ;
+    ns1:evaluatesTask ns1:Task_Semantic_Segmentation ;
+    ns1:metricName "mIoU"^^xsd:string ;
+    ns1:metricValue 41.6 ;
+    ns1:onDataset ns1:Dataset_FoodSeg103 ;
+    ns1:rank 4 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_14 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_L ;
+    ns1:evaluatesTask ns1:Task_Image_Classification ;
+    ns1:metricName "Top 1 Accuracy"^^xsd:string ;
+    ns1:metricValue 0.873 ;
+    ns1:onDataset ns1:Dataset_ImageNet ;
+    ns1:rank 104 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_15 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_L ;
+    ns1:evaluatesTask ns1:Task_Image_Classification ;
+    ns1:metricName "Number of params"^^xsd:string ;
+    ns1:metricValue "197M"^^xsd:string ;
+    ns1:onDataset ns1:Dataset_ImageNet ;
+    ns1:rank 946 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_16 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_L ;
+    ns1:evaluatesTask ns1:Task_Image_Classification ;
+    ns1:metricName "GFLOPs"^^xsd:string ;
+    ns1:metricValue 103.9 ;
+    ns1:onDataset ns1:Dataset_ImageNet ;
+    ns1:rank 502 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_17 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_B ;
+    ns1:evaluatesTask ns1:Task_Image_Classification ;
+    ns1:metricName "Top 1 Accuracy"^^xsd:string ;
+    ns1:metricValue 0.8640000000000001 ;
+    ns1:onDataset ns1:Dataset_ImageNet ;
+    ns1:rank 152 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_18 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_B ;
+    ns1:evaluatesTask ns1:Task_Image_Classification ;
+    ns1:metricName "Number of params"^^xsd:string ;
+    ns1:metricValue "88M"^^xsd:string ;
+    ns1:onDataset ns1:Dataset_ImageNet ;
+    ns1:rank 875 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_19 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_B ;
+    ns1:evaluatesTask ns1:Task_Image_Classification ;
+    ns1:metricName "GFLOPs"^^xsd:string ;
+    ns1:metricValue 47.0 ;
+    ns1:onDataset ns1:Dataset_ImageNet ;
+    ns1:rank 465 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_2 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_B_UperNet_ImageNet_1k_pretrain ;
+    ns1:evaluatesTask ns1:Task_Semantic_Segmentation ;
+    ns1:metricName "Validation mIoU"^^xsd:string ;
+    ns1:metricValue 49.7 ;
+    ns1:onDataset ns1:Dataset_ADE20K ;
+    ns1:rank 121 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_20 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_T ;
+    ns1:evaluatesTask ns1:Task_Image_Classification ;
+    ns1:metricName "Top 1 Accuracy"^^xsd:string ;
+    ns1:metricValue 0.813 ;
+    ns1:onDataset ns1:Dataset_ImageNet ;
+    ns1:rank 646 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_21 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_T ;
+    ns1:evaluatesTask ns1:Task_Image_Classification ;
+    ns1:metricName "Number of params"^^xsd:string ;
+    ns1:metricValue "29M"^^xsd:string ;
+    ns1:onDataset ns1:Dataset_ImageNet ;
+    ns1:rank 665 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_22 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_T ;
+    ns1:evaluatesTask ns1:Task_Image_Classification ;
+    ns1:metricName "GFLOPs"^^xsd:string ;
+    ns1:metricValue 4.5 ;
+    ns1:onDataset ns1:Dataset_ImageNet ;
+    ns1:rank 221 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_23 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_SwinT ;
+    ns1:evaluatesTask ns1:Task_Thermal_Image_Segmentation ;
+    ns1:metricName "mIOU"^^xsd:string ;
+    ns1:metricValue 49.0 ;
+    ns1:onDataset ns1:Dataset_MFN_Dataset ;
+    ns1:rank 39 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_24 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_B_Cascade_Mask_R_CNN ;
+    ns1:evaluatesTask ns1:Task_Instance_Segmentation ;
+    ns1:metricName "Mean Recall"^^xsd:string ;
+    ns1:metricValue 62.9 ;
+    ns1:onDataset ns1:Dataset_Occluded_COCO ;
+    ns1:rank 2 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_25 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_T_Mask_R_CNN ;
+    ns1:evaluatesTask ns1:Task_Instance_Segmentation ;
+    ns1:metricName "Mean Recall"^^xsd:string ;
+    ns1:metricValue 58.81 ;
+    ns1:onDataset ns1:Dataset_Occluded_COCO ;
+    ns1:rank 6 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_26 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_S_Mask_R_CNN ;
+    ns1:evaluatesTask ns1:Task_Instance_Segmentation ;
+    ns1:metricName "Mean Recall"^^xsd:string ;
+    ns1:metricValue 61.14 ;
+    ns1:onDataset ns1:Dataset_Occluded_COCO ;
+    ns1:rank 5 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_27 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_SwinTransformer ;
+    ns1:evaluatesTask ns1:Task_Image_Classification ;
+    ns1:metricName "Average Top-1 Accuracy"^^xsd:string ;
+    ns1:metricValue 46.4 ;
+    ns1:onDataset ns1:Dataset_OmniBenchmark ;
+    ns1:rank 2 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_28 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_S_Mask_R_CNN ;
+    ns1:evaluatesTask ns1:Task_Instance_Segmentation ;
+    ns1:metricName "Mean Recall"^^xsd:string ;
+    ns1:metricValue 33.67 ;
+    ns1:onDataset ns1:Dataset_Separated_COCO ;
+    ns1:rank 5 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_29 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_B_Cascade_Mask_R_CNN ;
+    ns1:evaluatesTask ns1:Task_Instance_Segmentation ;
+    ns1:metricName "Mean Recall"^^xsd:string ;
+    ns1:metricValue 36.31 ;
+    ns1:onDataset ns1:Dataset_Separated_COCO ;
+    ns1:rank 2 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_3 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_B_UperNet_ImageNet_1k_pretrain ;
+    ns1:evaluatesTask ns1:Task_Semantic_Segmentation ;
+    ns1:metricName "mIoU"^^xsd:string ;
+    ns1:metricValue 49.7 ;
+    ns1:onDataset ns1:Dataset_ADE20K_val ;
+    ns1:rank 51 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_30 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_T_Mask_R_CNN ;
+    ns1:evaluatesTask ns1:Task_Instance_Segmentation ;
+    ns1:metricName "Mean Recall"^^xsd:string ;
+    ns1:metricValue 31.94 ;
+    ns1:onDataset ns1:Dataset_Separated_COCO ;
+    ns1:rank 6 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_4 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_L_UperNet_ImageNet_22k_pretrain ;
+    ns1:evaluatesTask ns1:Task_Semantic_Segmentation ;
+    ns1:metricName "mIoU"^^xsd:string ;
+    ns1:metricValue 53.5 ;
+    ns1:onDataset ns1:Dataset_ADE20K_val ;
+    ns1:rank 37 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_5 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_L_HTC_single_scale ;
+    ns1:evaluatesTask ns1:Task_Object_Detection ;
+    ns1:metricName "box AP"^^xsd:string ;
+    ns1:metricValue 57.1 ;
+    ns1:onDataset ns1:Dataset_COCO_minival ;
+    ns1:rank 39 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_6 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_L_HTC_multi_scale ;
+    ns1:evaluatesTask ns1:Task_Instance_Segmentation ;
+    ns1:metricName "mask AP"^^xsd:string ;
+    ns1:metricValue 50.4 ;
+    ns1:onDataset ns1:Dataset_COCO_minival ;
+    ns1:rank 24 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_7 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_L_HTC_multi_scale ;
+    ns1:evaluatesTask ns1:Task_Object_Detection ;
+    ns1:metricName "box AP"^^xsd:string ;
+    ns1:metricValue 58.0 ;
+    ns1:onDataset ns1:Dataset_COCO_minival ;
+    ns1:rank 35 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_8 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_L_HTC_single_scale ;
+    ns1:evaluatesTask ns1:Task_Instance_Segmentation ;
+    ns1:metricName "mask AP"^^xsd:string ;
+    ns1:metricValue 49.5 ;
+    ns1:onDataset ns1:Dataset_COCO_minival ;
+    ns1:rank 27 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
+ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_9 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Swin_L_HTC_single_scale ;
+    ns1:evaluatesTask ns1:Task_Instance_Segmentation ;
+    ns1:metricName "mask AP"^^xsd:string ;
+    ns1:metricValue 50.2 ;
+    ns1:onDataset ns1:Dataset_COCO_test_dev ;
+    ns1:rank 22 ;
+    ns1:reportedInPaper ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows .
+
 ns1:Task_Decision_Making a ns1:Task ;
     ns1:taskName "Decision Making"^^xsd:string .
 
@@ -2020,6 +2311,9 @@ ns1:Task_Multivariate_Time_Series_Forecasting a ns1:Task ;
 ns1:Task_Q_Learning a ns1:Task ;
     ns1:taskName "Q-Learning"^^xsd:string .
 
+ns1:Task_Real_Time_Object_Detection a ns1:Task ;
+    ns1:taskName "Real-Time Object Detection"^^xsd:string .
+
 ns1:Task_Reinforcement_Learning a ns1:Task ;
     ns1:taskName "Reinforcement Learning"^^xsd:string .
 
@@ -2040,6 +2334,9 @@ ns1:Task_Univariate_Time_Series_Forecasting a ns1:Task ;
 
 ns1:Task_reinforcement_learning a ns1:Task ;
     ns1:taskName "reinforcement-learning"^^xsd:string .
+
+ns1:Dataset_ADE20K_val a ns1:Dataset ;
+    ns1:datasetName "ADE20K val" .
 
 ns1:Dataset_Chameleon602020_random_splits a ns1:Dataset ;
     ns1:datasetName "Chameleon(60%/20%/20% random splits)"^^xsd:string,
@@ -2130,6 +2427,10 @@ ns1:Dataset_Film_602020_random_splits a ns1:Dataset ;
     ns1:datasetName "Film (60%/20%/20% random splits)"^^xsd:string,
         "Film (60%/20%/20% random splits)" .
 
+ns1:Dataset_FoodSeg103 a ns1:Dataset ;
+    ns1:datasetName "FoodSeg103"^^xsd:string,
+        "FoodSeg103" .
+
 ns1:Dataset_FreeSolv a ns1:Dataset ;
     ns1:datasetName "FreeSolv" .
 
@@ -2155,6 +2456,10 @@ ns1:Dataset_NCI1 a ns1:Dataset ;
 ns1:Dataset_NCI109 a ns1:Dataset ;
     ns1:datasetName "NCI109"^^xsd:string,
         "NCI109" .
+
+ns1:Dataset_OmniBenchmark a ns1:Dataset ;
+    ns1:datasetName "OmniBenchmark"^^xsd:string,
+        "OmniBenchmark" .
 
 ns1:Dataset_PARP1 a ns1:Dataset ;
     ns1:datasetName "PARP1" .
@@ -2220,32 +2525,41 @@ ns1:Dataset_genius a ns1:Dataset ;
     ns1:datasetName "genius"^^xsd:string,
         "genius" .
 
-ns1:Method_Dropout a ns1:Method ;
-    ns1:methodName "Dropout"^^xsd:string .
+ns1:Method_Absolute_Position_Encodings a ns1:Method ;
+    ns1:methodName "Absolute Position Encodings"^^xsd:string .
 
-ns1:Method_Layer_Normalization a ns1:Method ;
-    ns1:methodName "Layer Normalization"^^xsd:string .
+ns1:Method_BPE a ns1:Method ;
+    ns1:methodName "BPE"^^xsd:string .
 
-ns1:Method_Linear_Layer a ns1:Method ;
-    ns1:methodName "Linear Layer"^^xsd:string .
+ns1:Method_GELU a ns1:Method ;
+    ns1:methodName "GELU"^^xsd:string .
 
-ns1:Method_Multi_Head_Attention a ns1:Method ;
-    ns1:methodName "Multi-Head Attention"^^xsd:string .
+ns1:Method_Label_Smoothing a ns1:Method ;
+    ns1:methodName "Label Smoothing"^^xsd:string .
 
-ns1:Method_Residual_Connection a ns1:Method ;
-    ns1:methodName "Residual Connection"^^xsd:string .
+ns1:Method_Position_Wise_Feed_Forward_Layer a ns1:Method ;
+    ns1:methodName "Position-Wise Feed-Forward Layer"^^xsd:string .
 
-ns1:Method_Scaled_Dot_Product_Attention a ns1:Method ;
-    ns1:methodName "Scaled Dot-Product Attention"^^xsd:string .
-
-ns1:Method_Softmax a ns1:Method ;
-    ns1:methodName "Softmax"^^xsd:string .
+ns1:Method_Transformer a ns1:Method ;
+    ns1:methodName "Transformer"^^xsd:string .
 
 ns1:ModelConfiguration_RoBERTa_no_data_aug a ns1:ModelConfiguration ;
     ns1:configurationString "RoBERTa (no data aug)"^^xsd:string .
 
 ns1:ModelConfiguration_RoBERTa_single_model a ns1:ModelConfiguration ;
     ns1:configurationString "RoBERTa (single model)"^^xsd:string .
+
+ns1:ModelConfiguration_Swin_B_Cascade_Mask_R_CNN a ns1:ModelConfiguration ;
+    ns1:configurationString "Swin-B + Cascade Mask R-CNN"^^xsd:string .
+
+ns1:ModelConfiguration_Swin_B_UperNet_ImageNet_1k_pretrain a ns1:ModelConfiguration ;
+    ns1:configurationString "Swin-B (UperNet, ImageNet-1k pretrain)"^^xsd:string .
+
+ns1:ModelConfiguration_Swin_S_Mask_R_CNN a ns1:ModelConfiguration ;
+    ns1:configurationString "Swin-S + Mask R-CNN"^^xsd:string .
+
+ns1:ModelConfiguration_Swin_T_Mask_R_CNN a ns1:ModelConfiguration ;
+    ns1:configurationString "Swin-T + Mask R-CNN"^^xsd:string .
 
 ns1:Task_Common_Sense_Reasoning a ns1:Task ;
     ns1:taskName "Common Sense Reasoning"^^xsd:string,
@@ -2282,6 +2596,10 @@ ns1:Task_Skeleton_Based_Action_Recognition a ns1:Task ;
 ns1:Task_Text_Classification a ns1:Task ;
     ns1:taskName "Text Classification"^^xsd:string,
         "Text Classification" .
+
+ns1:Task_Thermal_Image_Segmentation a ns1:Task ;
+    ns1:taskName "Thermal Image Segmentation"^^xsd:string,
+        "Thermal Image Segmentation" .
 
 ns1:Dataset_ACM_Heterogeneous_Node_Classification a ns1:Dataset ;
     ns1:datasetName "ACM (Heterogeneous Node Classification)"^^xsd:string,
@@ -2324,23 +2642,71 @@ ns1:Dataset_RTE a ns1:Dataset ;
 ns1:Method_Adam a ns1:Method ;
     ns1:methodName "Adam"^^xsd:string .
 
-ns1:Method_Dense_Connections a ns1:Method ;
-    ns1:methodName "Dense Connections"^^xsd:string .
+ns1:Method_Dropout a ns1:Method ;
+    ns1:methodName "Dropout"^^xsd:string .
+
+ns1:Method_Layer_Normalization a ns1:Method ;
+    ns1:methodName "Layer Normalization"^^xsd:string .
+
+ns1:Method_Linear_Layer a ns1:Method ;
+    ns1:methodName "Linear Layer"^^xsd:string .
+
+ns1:Method_Multi_Head_Attention a ns1:Method ;
+    ns1:methodName "Multi-Head Attention"^^xsd:string .
+
+ns1:Method_Residual_Connection a ns1:Method ;
+    ns1:methodName "Residual Connection"^^xsd:string .
+
+ns1:Method_Scaled_Dot_Product_Attention a ns1:Method ;
+    ns1:methodName "Scaled Dot-Product Attention"^^xsd:string .
+
+ns1:Method_Softmax a ns1:Method ;
+    ns1:methodName "Softmax"^^xsd:string .
 
 ns1:ModelConfiguration_RoBERTa_Large a ns1:ModelConfiguration ;
     ns1:configurationString "RoBERTa (Large)"^^xsd:string .
+
+ns1:ModelConfiguration_Swin_B a ns1:ModelConfiguration ;
+    ns1:configurationString "Swin-B"^^xsd:string .
+
+ns1:ModelConfiguration_Swin_L a ns1:ModelConfiguration ;
+    ns1:configurationString "Swin-L"^^xsd:string .
+
+ns1:ModelConfiguration_Swin_L_UperNet_ImageNet_22k_pretrain a ns1:ModelConfiguration ;
+    ns1:configurationString "Swin-L (UperNet, ImageNet-22k pretrain)"^^xsd:string .
+
+ns1:ModelConfiguration_Swin_T a ns1:ModelConfiguration ;
+    ns1:configurationString "Swin-T"^^xsd:string .
 
 ns1:Task_Semantic_Textual_Similarity a ns1:Task ;
     ns1:taskName "Semantic Textual Similarity"^^xsd:string,
         "Semantic Textual Similarity" .
 
+ns1:Dataset_ADE20K a ns1:Dataset ;
+    ns1:datasetName "ADE20K"^^xsd:string,
+        "ADE20K" .
+
+ns1:Dataset_COCO_minival a ns1:Dataset ;
+    ns1:datasetName "COCO minival" .
+
+ns1:Dataset_COCO_test_dev a ns1:Dataset ;
+    ns1:datasetName "COCO test-dev" .
+
 ns1:Dataset_Citeseer a ns1:Dataset ;
     ns1:datasetName "Citeseer"^^xsd:string,
         "Citeseer" .
 
+ns1:Dataset_Occluded_COCO a ns1:Dataset ;
+    ns1:datasetName "Occluded COCO"^^xsd:string,
+        "Occluded COCO" .
+
 ns1:Dataset_RACE a ns1:Dataset ;
     ns1:datasetName "RACE"^^xsd:string,
         "RACE" .
+
+ns1:Dataset_Separated_COCO a ns1:Dataset ;
+    ns1:datasetName "Separated COCO"^^xsd:string,
+        "Separated COCO" .
 
 ns1:Dataset_ogbg_code2 a ns1:Dataset ;
     ns1:datasetName "ogbg-code2" .
@@ -2350,6 +2716,9 @@ ns1:Dataset_ogbn_products a ns1:Dataset ;
 
 ns1:Dataset_ogbn_proteins a ns1:Dataset ;
     ns1:datasetName "ogbn-proteins" .
+
+ns1:Method_Dense_Connections a ns1:Method ;
+    ns1:methodName "Dense Connections"^^xsd:string .
 
 ns1:ModelConfiguration_GAT_labels_node2vec a ns1:ModelConfiguration ;
     ns1:configurationString "GAT + labels + node2vec"^^xsd:string .
@@ -2369,6 +2738,12 @@ ns1:ModelConfiguration_RoBERTa_WWM_Ext_News a ns1:ModelConfiguration ;
 ns1:ModelConfiguration_RoBERTa_WWM_Ext_NewsFactors a ns1:ModelConfiguration ;
     ns1:configurationString "RoBERTa WWM Ext (News+Factors)"^^xsd:string .
 
+ns1:ModelConfiguration_Swin_L_HTC_multi_scale a ns1:ModelConfiguration ;
+    ns1:configurationString "Swin-L (HTC++, multi scale)"^^xsd:string .
+
+ns1:ModelConfiguration_Swin_L_HTC_single_scale a ns1:ModelConfiguration ;
+    ns1:configurationString "Swin-L (HTC++, single scale)"^^xsd:string .
+
 ns1:Task_Graph_Property_Prediction a ns1:Task ;
     ns1:taskName "Graph Property Prediction" .
 
@@ -2387,6 +2762,10 @@ ns1:Dataset_ManyTypes4TypeScript a ns1:Dataset ;
 ns1:Task_Molecular_Property_Prediction a ns1:Task ;
     ns1:taskName "Molecular Property Prediction"^^xsd:string,
         "Molecular Property Prediction" .
+
+ns1:Task_Object_Detection a ns1:Task ;
+    ns1:taskName "Object Detection"^^xsd:string,
+        "Object Detection" .
 
 ns1:Task_Type_prediction a ns1:Task ;
     ns1:taskName "Type prediction"^^xsd:string,
@@ -2419,6 +2798,10 @@ ns1:Task_Question_Answering a ns1:Task ;
     ns1:taskName "Question Answering"^^xsd:string,
         "Question Answering" .
 
+ns1:Task_Semantic_Segmentation a ns1:Task ;
+    ns1:taskName "Semantic Segmentation"^^xsd:string,
+        "Semantic Segmentation" .
+
 ns1:Dataset_ogbn_arxiv a ns1:Dataset ;
     ns1:datasetName "ogbn-arxiv" .
 
@@ -2445,9 +2828,21 @@ ns1:Task_Stock_Market_Prediction a ns1:Task ;
     ns1:taskName "Stock Market Prediction"^^xsd:string,
         "Stock Market Prediction" .
 
+ns1:Dataset_ImageNet a ns1:Dataset ;
+    ns1:datasetName "ImageNet"^^xsd:string,
+        "ImageNet" .
+
 ns1:Task_Natural_Language_Inference a ns1:Task ;
     ns1:taskName "Natural Language Inference"^^xsd:string,
         "Natural Language Inference" .
+
+ns1:Task_Image_Classification a ns1:Task ;
+    ns1:taskName "Image Classification"^^xsd:string,
+        "Image Classification" .
+
+ns1:Task_Instance_Segmentation a ns1:Task ;
+    ns1:taskName "Instance Segmentation"^^xsd:string,
+        "Instance Segmentation" .
 
 ns1:ModelConfiguration_RoBERTa a ns1:ModelConfiguration ;
     ns1:configurationString "RoBERTa"^^xsd:string .
@@ -2496,6 +2891,75 @@ ns1:Task_Graph_Regression a ns1:Task ;
 ns1:Task_Node_Property_Prediction a ns1:Task ;
     ns1:taskName "Node Property Prediction"^^xsd:string,
         "Node Property Prediction" .
+
+ns1:Paper_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows a ns1:Paper ;
+    ns1:employsMethod ns1:Method_Absolute_Position_Encodings,
+        ns1:Method_AdamW,
+        ns1:Method_BPE,
+        ns1:Method_Cosine_Annealing,
+        ns1:Method_Dense_Connections,
+        ns1:Method_Dropout,
+        ns1:Method_GELU,
+        ns1:Method_Label_Smoothing,
+        ns1:Method_Layer_Normalization,
+        ns1:Method_Linear_Layer,
+        ns1:Method_Multi_Head_Attention,
+        ns1:Method_Position_Wise_Feed_Forward_Layer,
+        ns1:Method_Residual_Connection,
+        ns1:Method_Scaled_Dot_Product_Attention,
+        ns1:Method_Softmax,
+        ns1:Method_Stochastic_Depth,
+        ns1:Method_Swin_Transformer,
+        ns1:Method_Transformer ;
+    ns1:mentionsDataset ns1:Dataset_ADE20K,
+        ns1:Dataset_FoodSeg103,
+        ns1:Dataset_ImageNet,
+        ns1:Dataset_MFNet,
+        ns1:Dataset_MS_COCO,
+        ns1:Dataset_Occluded_COCO,
+        ns1:Dataset_OmniBenchmark,
+        ns1:Dataset_Separated_COCO ;
+    ns1:mentionsTask ns1:Task_Image_Classification,
+        ns1:Task_Instance_Segmentation,
+        ns1:Task_Object_Detection,
+        ns1:Task_Real_Time_Object_Detection,
+        ns1:Task_Semantic_Segmentation,
+        ns1:Task_Thermal_Image_Segmentation ;
+    ns1:paperTitle "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows"^^xsd:string ;
+    ns1:papersWithCodeUrl "https://paperswithcode.com/paper/swin-transformer-hierarchical-vision"^^xsd:anyURI ;
+    ns1:pdfUrl "https://arxiv.org/pdf/2103.14030v2.pdf"^^xsd:anyURI ;
+    ns1:reportsResult ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_0,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_1,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_10,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_11,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_12,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_13,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_14,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_15,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_16,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_17,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_18,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_19,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_2,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_20,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_21,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_22,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_23,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_24,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_25,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_26,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_27,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_28,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_29,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_3,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_30,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_4,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_5,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_6,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_7,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_8,
+        ns1:Swin_Transformer_Hierarchical_Vision_Transformer_using_Shifted_Windows_result_9 ;
+    ns1:year "2021"^^xsd:gYear .
 
 ns1:Task_Node_Classification a ns1:Task ;
     ns1:taskName "Node Classification"^^xsd:string,

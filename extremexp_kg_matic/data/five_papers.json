@@ -1,4 +1,229 @@
 [{
+  "url": "https://arxiv.org/pdf/2103.14030v2.pdf",
+  "origin": "https://paperswithcode.com/paper/swin-transformer-hierarchical-vision",
+  "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+  "tasks": ["Image Classification", "Instance Segmentation", "Object Detection", "Real-Time Object Detection", "Semantic Segmentation", "Thermal Image Segmentation"],
+  "datasets": ["ImageNet", "MS COCO", "ADE20K", "MFNet", "OmniBenchmark", "FoodSeg103", "Separated COCO", "Occluded COCO"],
+  "results": [{
+    "task": "Semantic Segmentation",
+    "dataset": "ADE20K",
+    "model": "Swin-L (UperNet, ImageNet-22k pretrain)",
+    "metric": "Validation mIoU",
+    "value": "53.50",
+    "rank": "75"
+  }, {
+    "task": "Semantic Segmentation",
+    "dataset": "ADE20K",
+    "model": "Swin-L (UperNet, ImageNet-22k pretrain)",
+    "metric": "Test Score",
+    "value": "62.8",
+    "rank": "1"
+  }, {
+    "task": "Semantic Segmentation",
+    "dataset": "ADE20K",
+    "model": "Swin-B (UperNet, ImageNet-1k pretrain)",
+    "metric": "Validation mIoU",
+    "value": "49.7",
+    "rank": "121"
+  }, {
+    "task": "Semantic Segmentation",
+    "dataset": "ADE20K val",
+    "model": "Swin-B (UperNet, ImageNet-1k pretrain)",
+    "metric": "mIoU",
+    "value": "49.7",
+    "rank": "51"
+  }, {
+    "task": "Semantic Segmentation",
+    "dataset": "ADE20K val",
+    "model": "Swin-L (UperNet, ImageNet-22k pretrain)",
+    "metric": "mIoU",
+    "value": "53.5",
+    "rank": "37"
+  }, {
+    "task": "Object Detection",
+    "dataset": "COCO minival",
+    "model": "Swin-L (HTC++, single scale)",
+    "metric": "box AP",
+    "value": "57.1",
+    "rank": "39"
+  }, {
+    "task": "Instance Segmentation",
+    "dataset": "COCO minival",
+    "model": "Swin-L (HTC++, multi scale)",
+    "metric": "mask AP",
+    "value": "50.4",
+    "rank": "24"
+  }, {
+    "task": "Object Detection",
+    "dataset": "COCO minival",
+    "model": "Swin-L (HTC++, multi scale)",
+    "metric": "box AP",
+    "value": "58",
+    "rank": "35"
+  }, {
+    "task": "Instance Segmentation",
+    "dataset": "COCO minival",
+    "model": "Swin-L (HTC++, single scale)",
+    "metric": "mask AP",
+    "value": "49.5",
+    "rank": "27"
+  }, {
+    "task": "Instance Segmentation",
+    "dataset": "COCO test-dev",
+    "model": "Swin-L (HTC++, single scale)",
+    "metric": "mask AP",
+    "value": "50.2",
+    "rank": "22"
+  }, {
+    "task": "Instance Segmentation",
+    "dataset": "COCO test-dev",
+    "model": "Swin-L (HTC++, multi scale)",
+    "metric": "mask AP",
+    "value": "51.1",
+    "rank": "20"
+  }, {
+    "task": "Object Detection",
+    "dataset": "COCO test-dev",
+    "model": "Swin-L (HTC++, multi scale)",
+    "metric": "box mAP",
+    "value": "58.7",
+    "rank": "32"
+  }, {
+    "task": "Object Detection",
+    "dataset": "COCO test-dev",
+    "model": "Swin-L (HTC++, single scale)",
+    "metric": "box mAP",
+    "value": "57.7",
+    "rank": "34"
+  }, {
+    "task": "Semantic Segmentation",
+    "dataset": "FoodSeg103",
+    "model": "Swin-Transformer (Swin-Small)",
+    "metric": "mIoU",
+    "value": "41.6",
+    "rank": "4"
+  }, {
+    "task": "Image Classification",
+    "dataset": "ImageNet",
+    "model": "Swin-L",
+    "metric": "Top 1 Accuracy",
+    "value": "87.3%",
+    "rank": "104"
+  }, {
+    "task": "Image Classification",
+    "dataset": "ImageNet",
+    "model": "Swin-L",
+    "metric": "Number of params",
+    "value": "197M",
+    "rank": "946"
+  }, {
+    "task": "Image Classification",
+    "dataset": "ImageNet",
+    "model": "Swin-L",
+    "metric": "GFLOPs",
+    "value": "103.9",
+    "rank": "502"
+  }, {
+    "task": "Image Classification",
+    "dataset": "ImageNet",
+    "model": "Swin-B",
+    "metric": "Top 1 Accuracy",
+    "value": "86.4%",
+    "rank": "152"
+  }, {
+    "task": "Image Classification",
+    "dataset": "ImageNet",
+    "model": "Swin-B",
+    "metric": "Number of params",
+    "value": "88M",
+    "rank": "875"
+  }, {
+    "task": "Image Classification",
+    "dataset": "ImageNet",
+    "model": "Swin-B",
+    "metric": "GFLOPs",
+    "value": "47",
+    "rank": "465"
+  }, {
+    "task": "Image Classification",
+    "dataset": "ImageNet",
+    "model": "Swin-T",
+    "metric": "Top 1 Accuracy",
+    "value": "81.3%",
+    "rank": "646"
+  }, {
+    "task": "Image Classification",
+    "dataset": "ImageNet",
+    "model": "Swin-T",
+    "metric": "Number of params",
+    "value": "29M",
+    "rank": "665"
+  }, {
+    "task": "Image Classification",
+    "dataset": "ImageNet",
+    "model": "Swin-T",
+    "metric": "GFLOPs",
+    "value": "4.5",
+    "rank": "221"
+  }, {
+    "task": "Thermal Image Segmentation",
+    "dataset": "MFN Dataset",
+    "model": "SwinT",
+    "metric": "mIOU",
+    "value": "49.0",
+    "rank": "39"
+  }, {
+    "task": "Instance Segmentation",
+    "dataset": "Occluded COCO",
+    "model": "Swin-B + Cascade Mask R-CNN",
+    "metric": "Mean Recall",
+    "value": "62.90",
+    "rank": "2"
+  }, {
+    "task": "Instance Segmentation",
+    "dataset": "Occluded COCO",
+    "model": "Swin-T + Mask R-CNN",
+    "metric": "Mean Recall",
+    "value": "58.81",
+    "rank": "6"
+  }, {
+    "task": "Instance Segmentation",
+    "dataset": "Occluded COCO",
+    "model": "Swin-S + Mask R-CNN",
+    "metric": "Mean Recall",
+    "value": "61.14",
+    "rank": "5"
+  }, {
+    "task": "Image Classification",
+    "dataset": "OmniBenchmark",
+    "model": "SwinTransformer",
+    "metric": "Average Top-1 Accuracy",
+    "value": "46.4",
+    "rank": "2"
+  }, {
+    "task": "Instance Segmentation",
+    "dataset": "Separated COCO",
+    "model": "Swin-S + Mask R-CNN",
+    "metric": "Mean Recall",
+    "value": "33.67",
+    "rank": "5"
+  }, {
+    "task": "Instance Segmentation",
+    "dataset": "Separated COCO",
+    "model": "Swin-B + Cascade Mask R-CNN",
+    "metric": "Mean Recall",
+    "value": "36.31",
+    "rank": "2"
+  }, {
+    "task": "Instance Segmentation",
+    "dataset": "Separated COCO",
+    "model": "Swin-T + Mask R-CNN",
+    "metric": "Mean Recall",
+    "value": "31.94",
+    "rank": "6"
+  }],
+  "methods": ["Absolute Position Encodings", "AdamW", "BPE", "Cosine Annealing", "Dense Connections", "Dropout", "GELU", "Label Smoothing", "Layer Normalization", "Linear Layer", "Multi-Head Attention", "Position-Wise Feed-Forward Layer", "Residual Connection", "Scaled Dot-Product Attention", "Softmax", "Stochastic Depth", "Swin Transformer", "Transformer"]
+}, {
   "url": "https://arxiv.org/pdf/1907.11692v1.pdf",
   "origin": "https://paperswithcode.com/paper/roberta-a-robustly-optimized-bert-pretraining",
   "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",

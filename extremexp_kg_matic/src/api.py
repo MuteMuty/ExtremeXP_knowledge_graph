@@ -115,8 +115,16 @@ class PaperData(BaseModel):
     title: str
     year: Optional[int] = None
     pdfUrl: Optional[str] = None
+    url: Optional[str] = None  # Alternative field name for PDF URL
     papersWithCodeUrl: Optional[str] = None
+    origin: Optional[str] = None  # Alternative field name for Papers with Code URL
     mentions: Optional[Dict] = {}
+    
+    # Additional fields commonly found in paper data
+    tasks: Optional[List[str]] = []
+    datasets: Optional[List[str]] = []
+    methods: Optional[List[str]] = []
+    results: Optional[List[Dict]] = []
 
 class HealthResponse(BaseModel):
     status: str
@@ -222,9 +230,22 @@ async def process_papers(papers: List[PaperData]):
         system_logger.log_event("info", "api_process_papers", 
                                f"Processing {len(papers)} papers via API")
         metrics_collector.increment_counter("papers_processed_api", len(papers))
-        
-        # Convert Pydantic models to dict
+          # Convert Pydantic models to dict
         papers_data = [paper.dict() for paper in papers]
+        
+        # Normalize field names to match what the RDF processor expects
+        for paper in papers_data:
+            # Handle URL field mapping - prioritize 'url' over 'pdfUrl'
+            if paper.get('url') and not paper.get('pdfUrl'):
+                paper['pdfUrl'] = paper['url']
+            elif paper.get('pdfUrl') and not paper.get('url'):
+                paper['url'] = paper['pdfUrl']
+            
+            # Handle Papers with Code URL mapping
+            if paper.get('origin') and not paper.get('papersWithCodeUrl'):
+                paper['papersWithCodeUrl'] = paper['origin']
+            elif paper.get('papersWithCodeUrl') and not paper.get('origin'):
+                paper['origin'] = paper['papersWithCodeUrl']
         
         # Create RDF graph from papers
         rdf_graph = create_rdf_graph_from_papers(papers_data)
