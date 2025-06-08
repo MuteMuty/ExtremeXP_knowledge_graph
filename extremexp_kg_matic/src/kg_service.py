@@ -13,8 +13,8 @@ from collections import defaultdict, deque
 import threading
 
 from fuseki_client import FusekiClient
-from file_watcher import FileWatcherService
 from utils import create_rdf_graph_from_papers
+from monitoring import system_logger, metrics_collector
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
@@ -46,56 +46,98 @@ class KGService:
         # Health status
         self.last_health_check = None
         self.health_status = "unknown"
-        
-        # File watcher (will be initialized externally)
+          # File watcher (will be initialized externally)
         self.file_watcher = None
         
         # Thread safety
         self.lock = threading.Lock()
         
+        system_logger.log_event("info", "kg_service_init", 
+                               f"KGService initialized with Fuseki at {fuseki_url}")
         logger.info(f"KGService initialized with Fuseki at {fuseki_url}")
     
+    def set_file_watcher(self, file_watcher):
+        """Set the file watcher service."""
+        self.file_watcher = file_watcher
+        system_logger.log_event("info", "file_watcher_attached", "File watcher attached to KG service")
     def test_fuseki_connection(self) -> bool:
         """Test connection to Fuseki server."""
+        start_time = time.time()
+        
         try:
+            system_logger.log_event("info", "fuseki_connection_test", "Testing Fuseki connection")
+            
             # Use the simpler count query instead of a generic query
             count = self.fuseki_client.query_count_triples()
+            connection_time = time.time() - start_time
+            
             self.health_status = "healthy"
             self.last_health_check = datetime.now()
+            
+            system_logger.log_event("info", "fuseki_connection_success", 
+                                   f"Fuseki connection successful", 
+                                   {"response_time": connection_time, "triple_count": count})
+            metrics_collector.record_timing("fuseki_connection_time", connection_time)
+            metrics_collector.set_gauge("fuseki_triple_count", count)
+            
             return count >= 0
+            
         except Exception as e:
-            logger.error(f"Fuseki connection test failed: {e}")
+            connection_time = time.time() - start_time
+            error_msg = f"Fuseki connection failed: {str(e)}"
+            
+            logger.error(error_msg)
             self.health_status = "unhealthy"
             self.last_health_check = datetime.now()
-            self._record_error(f"Fuseki connection failed: {str(e)}")
+            self._record_error(error_msg)
+            
+            system_logger.log_event("error", "fuseki_connection_failed", error_msg, 
+                                   {"response_time": connection_time})
+            metrics_collector.increment_counter("fuseki_connection_failures")
+            
             return False
-    
     def get_graph_statistics(self) -> Dict[str, Any]:
         """Get comprehensive statistics about the knowledge graph."""
         start_time = time.time()
         
         try:
+            system_logger.log_event("info", "graph_stats_request", "Requesting graph statistics")
+            
             # Use the existing query_count_triples method for simplicity
             total_triples = self.fuseki_client.query_count_triples()
+            query_time = time.time() - start_time
             
             # For a basic implementation, return simple stats
             # Could be enhanced later with more detailed queries
             stats = {
                 "total_triples": total_triples,
-                "query_time_seconds": time.time() - start_time,
+                "query_time_seconds": round(query_time, 3),
                 "last_updated": datetime.now().isoformat(),
-                "status": "available" if total_triples >= 0 else "error"
+                "status": "available" if total_triples >= 0 else "error",
+                "service_metrics": self.get_metrics()
             }
+            
+            system_logger.log_event("info", "graph_stats_success", 
+                                   f"Graph statistics retrieved successfully", 
+                                   {"total_triples": total_triples, "query_time": query_time})
+            
+            metrics_collector.record_timing("graph_stats_query_time", query_time)
+            metrics_collector.set_gauge("current_triple_count", total_triples)
             
             logger.info(f"Graph statistics retrieved: {total_triples} triples")
             return stats
                 
         except Exception as e:
+            query_time = time.time() - start_time
             error_msg = f"Failed to get graph statistics: {str(e)}"
+            
+            system_logger.log_event("error", "graph_stats_failed", error_msg, 
+                                   {"query_time": query_time})
+            metrics_collector.increment_counter("graph_stats_failures")
+            
             logger.error(error_msg)
             self._record_error(error_msg)
             raise
-    
     def add_graph(self, rdf_graph: Graph) -> int:
         """Add an RDF graph to the knowledge base with validation and monitoring."""
         start_time = time.time()
@@ -103,6 +145,9 @@ class KGService:
         try:
             with self.lock:
                 self.metrics["operations_count"] += 1
+                
+                system_logger.log_event("info", "graph_add_start", 
+                                       f"Starting to add graph with {len(rdf_graph)} triples")
                 
                 # Validate the graph
                 if not self._validate_graph(rdf_graph):
@@ -116,7 +161,13 @@ class KGService:
                 unique_count = len(unique_triples)
                 
                 if unique_count < initial_count:
-                    logger.info(f"Removed {initial_count - unique_count} duplicate triples")                # Add to Fuseki
+                    duplicates_removed = initial_count - unique_count
+                    system_logger.log_event("info", "duplicates_removed", 
+                                           f"Removed {duplicates_removed} duplicate triples")
+                    metrics_collector.increment_counter("duplicates_removed", duplicates_removed)
+                    logger.info(f"Removed {duplicates_removed} duplicate triples")
+                
+                # Add to Fuseki
                 success = self.fuseki_client.upload_rdf_graph(unique_triples)
                 if not success:
                     raise Exception("Failed to upload RDF graph to Fuseki")
@@ -131,12 +182,30 @@ class KGService:
                 self.operation_times.append(processing_time)
                 self.metrics["average_operation_time"] = sum(self.operation_times) / len(self.operation_times)
                 
+                # Enhanced monitoring
+                system_logger.log_event("info", "graph_add_success", 
+                                       f"Successfully added {unique_count} triples", 
+                                       {"processing_time": processing_time, 
+                                        "initial_count": initial_count,
+                                        "unique_count": unique_count})
+                
+                metrics_collector.increment_counter("kg_operations_success")
+                metrics_collector.increment_counter("kg_triples_added", unique_count)
+                metrics_collector.record_timing("kg_add_graph_time", processing_time)
                 logger.info(f"Successfully added {unique_count} triples in {processing_time:.2f}s")
                 return unique_count
                 
         except Exception as e:
+            processing_time = time.time() - start_time
             self.metrics["failed_operations"] += 1
             error_msg = f"Failed to add graph: {str(e)}"
+            
+            system_logger.log_event("error", "graph_add_failed", error_msg, 
+                                   {"processing_time": processing_time, 
+                                    "initial_triple_count": len(rdf_graph)})
+            
+            metrics_collector.increment_counter("kg_operations_failed")
+            
             logger.error(error_msg)
             self._record_error(error_msg)
             raise
@@ -261,7 +330,6 @@ class KGService:
             "recent_errors_count": len(self.recent_errors),
             "file_watcher_active": self.file_watcher is not None
         }
-    
     def get_recent_errors(self) -> List[str]:
         """Get list of recent errors."""
         return list(self.recent_errors)
@@ -270,12 +338,8 @@ class KGService:
         """Record an error with timestamp."""
         timestamped_error = f"{datetime.now().isoformat()}: {error_msg}"
         self.recent_errors.append(timestamped_error)
+        system_logger.log_event("error", "kg_service_error", error_msg)
         logger.error(timestamped_error)
-    
-    def set_file_watcher(self, file_watcher: FileWatcherService):
-        """Set the file watcher service."""
-        self.file_watcher = file_watcher
-        logger.info("File watcher service attached")
     
     def get_health_status(self) -> Dict[str, Any]:
         """Get comprehensive health status."""

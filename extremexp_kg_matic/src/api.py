@@ -2,7 +2,7 @@
 FastAPI server for Knowledge Graph service with health monitoring and management endpoints.
 """
 
-from fastapi import FastAPI, HTTPException, BackgroundTasks, UploadFile, File
+from fastapi import FastAPI, HTTPException, BackgroundTasks, UploadFile, File, Request
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from typing import Dict, List, Optional, Any
@@ -16,8 +16,9 @@ from contextlib import asynccontextmanager
 from kg_service import KGService
 from utils import create_rdf_graph_from_papers
 from file_watcher import FileWatcherService
+from monitoring import system_logger, metrics_collector
 
-# Setup logging
+# Setup basic logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -74,6 +75,38 @@ app = FastAPI(
     lifespan=lifespan
 )
 
+# Middleware for request logging and metrics
+@app.middleware("http")
+async def log_requests(request: Request, call_next):
+    """Log all API requests with timing and metrics."""
+    start_time = time.time()
+    client_ip = request.client.host if request.client else "unknown"
+    
+    # Process request
+    response = await call_next(request)
+    
+    # Calculate response time
+    response_time = time.time() - start_time
+    
+    # Log request with structured logging
+    system_logger.log_api_request(
+        endpoint=str(request.url.path),
+        method=request.method,
+        status_code=response.status_code,
+        response_time=response_time,
+        client_ip=client_ip
+    )
+    
+    # Update metrics
+    metrics_collector.increment_counter("api_requests_total")
+    metrics_collector.increment_counter(f"api_requests_{response.status_code}")
+    metrics_collector.record_timing("api_response_time", response_time)
+    
+    if response.status_code >= 400:
+        metrics_collector.increment_counter("api_errors")
+    
+    return response
+
 # Initialize KG Service
 kg_service = KGService()
 
@@ -122,7 +155,10 @@ async def root():
             "process_papers": "/process/papers",
             "upload_file": "/upload",
             "stats": "/stats",
-            "backup": "/backup"
+            "metrics": "/metrics",
+            "backup": "/backup",
+            "graph_clear": "/graph",
+            "scan_files": "/scan-files"
         }
     }
 
@@ -154,13 +190,15 @@ async def detailed_health_check():
             graph_stats = kg_service.get_graph_statistics()
         except Exception as e:
             graph_stats = {"error": str(e)}
-        
-        # Check file watcher status
+          # Check file watcher status
         file_watcher_status = "active" if hasattr(kg_service, 'file_watcher') and kg_service.file_watcher else "inactive"
+          # Get enhanced metrics from monitoring system
+        monitoring_metrics = metrics_collector.get_metrics_summary()
         
-        # Get metrics
-        metrics = kg_service.get_metrics() if hasattr(kg_service, 'get_metrics') else {}
-        
+        # Combine with existing metrics (monitoring metrics take precedence)
+        combined_metrics = monitoring_metrics.copy()
+        kg_metrics_basic = kg_service.get_metrics() if hasattr(kg_service, 'get_metrics') else {}
+        combined_metrics.update(kg_metrics_basic)
         return DetailedHealthResponse(
             status="healthy" if fuseki_status == "healthy" else "degraded",
             timestamp=datetime.now().isoformat(),
@@ -169,7 +207,7 @@ async def detailed_health_check():
             graph_stats=graph_stats,
             file_watcher_status=file_watcher_status,
             recent_errors=recent_errors[-10:],  # Last 10 errors
-            metrics=metrics
+            metrics=combined_metrics
         )
     except Exception as e:
         logger.error(f"Detailed health check failed: {e}")
@@ -180,7 +218,12 @@ async def process_papers(papers: List[PaperData]):
     """Process a list of papers and add them to the knowledge graph."""
     start_time_process = time.time()
     
-    try:        # Convert Pydantic models to dict
+    try:
+        system_logger.log_event("info", "api_process_papers", 
+                               f"Processing {len(papers)} papers via API")
+        metrics_collector.increment_counter("papers_processed_api", len(papers))
+        
+        # Convert Pydantic models to dict
         papers_data = [paper.dict() for paper in papers]
         
         # Create RDF graph from papers
@@ -190,6 +233,13 @@ async def process_papers(papers: List[PaperData]):
         triples_added = kg_service.add_graph(rdf_graph)
         
         processing_time = time.time() - start_time_process
+        
+        system_logger.log_event("info", "api_process_success", 
+                               f"Successfully processed {len(papers)} papers", 
+                               {"triples_added": triples_added, "processing_time": processing_time})
+        
+        metrics_collector.increment_counter("triples_added_api", triples_added)
+        metrics_collector.record_timing("api_processing_time", processing_time)
         
         logger.info(f"Successfully processed {len(papers)} papers, added {triples_added} triples")
         
@@ -202,6 +252,12 @@ async def process_papers(papers: List[PaperData]):
         
     except Exception as e:
         error_msg = f"Failed to process papers: {str(e)}"
+        processing_time = time.time() - start_time_process
+        
+        system_logger.log_event("error", "api_process_failed", error_msg, 
+                               {"processing_time": processing_time, "paper_count": len(papers)})
+        metrics_collector.increment_counter("api_processing_errors")
+        
         logger.error(error_msg)
         recent_errors.append(f"{datetime.now().isoformat()}: {error_msg}")
         
@@ -213,30 +269,48 @@ async def upload_file(file: UploadFile = File(...)):
     start_time_process = time.time()
     
     try:
+        system_logger.log_event("info", "api_file_upload", 
+                               f"File upload started: {file.filename}")
+        metrics_collector.increment_counter("files_uploaded_api")
+        
         # Validate file type
         if not file.filename.endswith('.json'):
-            raise HTTPException(status_code=400, detail="Only JSON files are supported")
+            error_msg = "Only JSON files are supported"
+            system_logger.log_event("error", "api_upload_invalid_type", error_msg, 
+                                   {"filename": file.filename})
+            raise HTTPException(status_code=400, detail=error_msg)
         
         # Read and parse JSON content
         content = await file.read()
-        logger.info(f"Received file: {file.filename}, size: {len(content)} bytes")
+        system_logger.log_event("info", "api_upload_file_read", 
+                               f"File read: {file.filename}", {"size_bytes": len(content)})
         
         # Check if content is empty
         if not content:
-            raise HTTPException(status_code=400, detail="Uploaded file is empty")
+            error_msg = "Uploaded file is empty"
+            system_logger.log_event("error", "api_upload_empty", error_msg, 
+                                   {"filename": file.filename})
+            raise HTTPException(status_code=400, detail=error_msg)
         
         try:
             content_str = content.decode('utf-8')
             logger.info(f"Decoded content preview: {content_str[:100]}...")
         except UnicodeDecodeError as e:
+            error_msg = f"File encoding error: {str(e)}"
+            system_logger.log_event("error", "api_upload_encoding_error", error_msg, 
+                                   {"filename": file.filename})
             logger.error(f"Unicode decode error: {e}")
-            raise HTTPException(status_code=400, detail=f"File encoding error: {str(e)}")
+            raise HTTPException(status_code=400, detail=error_msg)
         
         papers_data = json.loads(content_str)
         
         # Ensure it's a list
         if not isinstance(papers_data, list):
             papers_data = [papers_data]
+        
+        system_logger.log_event("info", "api_upload_parsed", 
+                               f"JSON parsed successfully", 
+                               {"filename": file.filename, "paper_count": len(papers_data)})
         
         # Create RDF graph from papers
         rdf_graph = create_rdf_graph_from_papers(papers_data)
@@ -246,6 +320,14 @@ async def upload_file(file: UploadFile = File(...)):
         
         processing_time = time.time() - start_time_process
         
+        system_logger.log_event("info", "api_upload_success", 
+                               f"File upload processed successfully", 
+                               {"filename": file.filename, "triples_added": triples_added, 
+                                "processing_time": processing_time})
+        
+        metrics_collector.increment_counter("triples_added_upload", triples_added)
+        metrics_collector.record_timing("api_upload_time", processing_time)
+        
         logger.info(f"Successfully processed uploaded file {file.filename}, added {triples_added} triples")
         
         return ProcessResponse(
@@ -254,14 +336,25 @@ async def upload_file(file: UploadFile = File(...)):
             triples_added=triples_added,
             processing_time=processing_time
         )
-        
     except json.JSONDecodeError as e:
         error_msg = f"Invalid JSON in uploaded file: {str(e)}"
+        processing_time = time.time() - start_time_process
+        
+        system_logger.log_event("error", "api_upload_json_error", error_msg, 
+                               {"filename": file.filename, "processing_time": processing_time})
+        metrics_collector.increment_counter("api_upload_json_errors")
+        
         logger.error(error_msg)
         raise HTTPException(status_code=400, detail=error_msg)
     
     except Exception as e:
         error_msg = f"Failed to process uploaded file: {str(e)}"
+        processing_time = time.time() - start_time_process
+        
+        system_logger.log_event("error", "api_upload_failed", error_msg, 
+                               {"filename": file.filename, "processing_time": processing_time})
+        metrics_collector.increment_counter("api_upload_errors")
+        
         logger.error(error_msg)
         recent_errors.append(f"{datetime.now().isoformat()}: {error_msg}")
         
@@ -271,10 +364,44 @@ async def upload_file(file: UploadFile = File(...)):
 async def get_stats():
     """Get knowledge graph statistics."""
     try:
+        system_logger.log_event("info", "api_stats_request", "Statistics requested")
+        
         stats = kg_service.get_graph_statistics()
         return JSONResponse(content=stats)
     except Exception as e:
         error_msg = f"Failed to get statistics: {str(e)}"
+        system_logger.log_event("error", "api_stats_failed", error_msg)
+        logger.error(error_msg)
+        raise HTTPException(status_code=500, detail=error_msg)
+
+@app.get("/metrics")
+async def get_metrics():
+    """Get detailed system metrics and monitoring data."""
+    try:
+        system_logger.log_event("info", "api_metrics_request", "Metrics requested")
+        
+        # Get comprehensive metrics
+        monitoring_metrics = metrics_collector.get_metrics_summary()
+        kg_metrics = kg_service.get_graph_statistics() if hasattr(kg_service, 'get_graph_statistics') else {}
+        
+        # Get file watcher status if available
+        file_watcher_metrics = {}
+        if file_watcher_service:
+            file_watcher_metrics = file_watcher_service.get_status()
+        
+        combined_metrics = {
+            "timestamp": datetime.now().isoformat(),
+            "system_metrics": monitoring_metrics,
+            "knowledge_graph": kg_metrics,
+            "file_watcher": file_watcher_metrics,
+            "recent_errors": recent_errors[-10:]  # Last 10 errors
+        }
+        
+        return JSONResponse(content=combined_metrics)
+        
+    except Exception as e:
+        error_msg = f"Failed to get metrics: {str(e)}"
+        system_logger.log_event("error", "api_metrics_failed", error_msg)
         logger.error(error_msg)
         raise HTTPException(status_code=500, detail=error_msg)
 
@@ -310,22 +437,6 @@ async def clear_graph():
         error_msg = f"Failed to clear graph: {str(e)}"
         logger.error(error_msg)
         recent_errors.append(f"{datetime.now().isoformat()}: {error_msg}")
-        raise HTTPException(status_code=500, detail=error_msg)
-
-@app.get("/metrics")
-async def get_metrics():
-    """Get system metrics."""
-    try:
-        metrics = kg_service.get_metrics() if hasattr(kg_service, 'get_metrics') else {}
-        metrics.update({
-            "uptime_seconds": time.time() - start_time,
-            "recent_errors_count": len(recent_errors),
-            "api_status": "healthy"
-        })
-        return JSONResponse(content=metrics)
-    except Exception as e:
-        error_msg = f"Failed to get metrics: {str(e)}"
-        logger.error(error_msg)
         raise HTTPException(status_code=500, detail=error_msg)
 
 @app.post("/scan-files")

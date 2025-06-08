@@ -1,0 +1,2796 @@
+@prefix ns1: <http://extremexp.eu/ontology/matic_papers/> .
+
+ns1:Paper_Advanced_Knowledge_Graph_Systems a ns1:Paper ;
+    ns1:paperTitle "Advanced Knowledge Graph Systems" ;
+    ns1:pdfUrl "https://example.com/kg-systems.pdf" ;
+    ns1:year "2024" .
+
+ns1:Paper_Machine_Learning_for_Graph_Analytics a ns1:Paper ;
+    ns1:paperTitle "Machine Learning for Graph Analytics" ;
+    ns1:papersWithCodeUrl "https://paperswithcode.com/paper/ml-graphs" ;
+    ns1:year "2023" .
+
+ns1:Paper_Manual_Scan_Test_Paper a ns1:Paper ;
+    ns1:paperTitle "Manual Scan Test Paper" ;
+    ns1:year "2025" .
+
+ns1:Paper_Second_Paper_for_Manual_Scan a ns1:Paper ;
+    ns1:paperTitle "Second Paper for Manual Scan" ;
+    ns1:year "2025" .
+
+ns1:Dataset_ANLI a ns1:Dataset ;
+    ns1:datasetName "ANLI" .
+
+ns1:Dataset_AllegroHand a ns1:Dataset ;
+    ns1:datasetName "AllegroHand" .
+
+ns1:Dataset_Ant a ns1:Dataset ;
+    ns1:datasetName "Ant" .
+
+ns1:Dataset_Ant_v4 a ns1:Dataset ;
+    ns1:datasetName "Ant-v4" .
+
+ns1:Dataset_Anymal a ns1:Dataset ;
+    ns1:datasetName "Anymal" .
+
+ns1:Dataset_Brazil_Air_Traffic a ns1:Dataset ;
+    ns1:datasetName "Brazil Air-Traffic" .
+
+ns1:Dataset_CIFAR10_100k a ns1:Dataset ;
+    ns1:datasetName "CIFAR10 100k" .
+
+ns1:Dataset_CIFAR_10 a ns1:Dataset ;
+    ns1:datasetName "CIFAR-10" .
+
+ns1:Dataset_Chameleon_602020_random_splits a ns1:Dataset ;
+    ns1:datasetName "Chameleon (60%/20%/20% random splits)" .
+
+ns1:Dataset_CiteSeer_05 a ns1:Dataset ;
+    ns1:datasetName "CiteSeer (0.5%)" .
+
+ns1:Dataset_CiteSeer_1 a ns1:Dataset ;
+    ns1:datasetName "CiteSeer (1%)" .
+
+ns1:Dataset_CiteSeer_602020_random_splits a ns1:Dataset ;
+    ns1:datasetName "CiteSeer (60%/20%/20% random splits)" .
+
+ns1:Dataset_CiteSeer_with_Public_Split_fixed_20_nodes_per_class a ns1:Dataset ;
+    ns1:datasetName "CiteSeer with Public Split: fixed 20 nodes per class" .
+
+ns1:Dataset_CommonsenseQA a ns1:Dataset ;
+    ns1:datasetName "CommonsenseQA" .
+
+ns1:Dataset_Cora_05 a ns1:Dataset ;
+    ns1:datasetName "Cora (0.5%)" .
+
+ns1:Dataset_Cora_1 a ns1:Dataset ;
+    ns1:datasetName "Cora (1%)" .
+
+ns1:Dataset_Cora_3 a ns1:Dataset ;
+    ns1:datasetName "Cora (3%)" .
+
+ns1:Dataset_Cora_602020_random_splits a ns1:Dataset ;
+    ns1:datasetName "Cora (60%/20%/20% random splits)" .
+
+ns1:Dataset_Cora_with_Public_Split_fixed_20_nodes_per_class a ns1:Dataset ;
+    ns1:datasetName "Cora with Public Split: fixed 20 nodes per class" .
+
+ns1:Dataset_DD a ns1:Dataset ;
+    ns1:datasetName "D&D" .
+
+ns1:Dataset_ESOL_Estimated_SOLubility a ns1:Dataset ;
+    ns1:datasetName "ESOL (Estimated SOLubility)" .
+
+ns1:Dataset_ETT a ns1:Dataset ;
+    ns1:datasetName "ETT" .
+
+ns1:Dataset_ETTh1_192 a ns1:Dataset ;
+    ns1:datasetName "ETTh1 (192)" .
+
+ns1:Dataset_ETTh1_96 a ns1:Dataset ;
+    ns1:datasetName "ETTh1 (96)" .
+
+ns1:Dataset_Flickr a ns1:Dataset ;
+    ns1:datasetName "Flickr" .
+
+ns1:Dataset_Flickr30k a ns1:Dataset ;
+    ns1:datasetName "Flickr30k" .
+
+ns1:Dataset_FrankaCabinet a ns1:Dataset ;
+    ns1:datasetName "FrankaCabinet" .
+
+ns1:Dataset_FreeSolv_Free_Solvation a ns1:Dataset ;
+    ns1:datasetName "FreeSolv (Free Solvation)" .
+
+ns1:Dataset_GLUE a ns1:Dataset ;
+    ns1:datasetName "GLUE" .
+
+ns1:Dataset_HalfCheetah_v4 a ns1:Dataset ;
+    ns1:datasetName "HalfCheetah-v4" .
+
+ns1:Dataset_Hopper_v4 a ns1:Dataset ;
+    ns1:datasetName "Hopper-v4" .
+
+ns1:Dataset_Humanoid a ns1:Dataset ;
+    ns1:datasetName "Humanoid" .
+
+ns1:Dataset_Humanoid_v4 a ns1:Dataset ;
+    ns1:datasetName "Humanoid-v4" .
+
+ns1:Dataset_IMDB_BINARY a ns1:Dataset ;
+    ns1:datasetName "IMDB-BINARY" .
+
+ns1:Dataset_IMDb_B a ns1:Dataset ;
+    ns1:datasetName "IMDb-B" .
+
+ns1:Dataset_Ingenuity a ns1:Dataset ;
+    ns1:datasetName "Ingenuity" .
+
+ns1:Dataset_JHMDB a ns1:Dataset ;
+    ns1:datasetName "JHMDB" .
+
+ns1:Dataset_J_HMBD_Early_Action a ns1:Dataset ;
+    ns1:datasetName "J-HMBD Early Action" .
+
+ns1:Dataset_Lunar_Lander_OpenAI_Gym a ns1:Dataset ;
+    ns1:datasetName "Lunar Lander (OpenAI Gym)" .
+
+ns1:Dataset_OGB a ns1:Dataset ;
+    ns1:datasetName "OGB" .
+
+ns1:Dataset_Omniverse_Isaac_Gym a ns1:Dataset ;
+    ns1:datasetName "Omniverse Isaac Gym" .
+
+ns1:Dataset_OpenAI_Gym a ns1:Dataset ;
+    ns1:datasetName "OpenAI Gym" .
+
+ns1:Dataset_PIQA a ns1:Dataset ;
+    ns1:datasetName "PIQA" .
+
+ns1:Dataset_PubMed_003 a ns1:Dataset ;
+    ns1:datasetName "PubMed (0.03%)" .
+
+ns1:Dataset_PubMed_005 a ns1:Dataset ;
+    ns1:datasetName "PubMed (0.05%)" .
+
+ns1:Dataset_PubMed_01 a ns1:Dataset ;
+    ns1:datasetName "PubMed (0.1%)" .
+
+ns1:Dataset_PubMed_with_Public_Split_fixed_20_nodes_per_class a ns1:Dataset ;
+    ns1:datasetName "PubMed with Public Split: fixed 20 nodes per class" .
+
+ns1:Dataset_Quora a ns1:Dataset ;
+    ns1:datasetName "Quora" .
+
+ns1:Dataset_RVL_CDIP a ns1:Dataset ;
+    ns1:datasetName "RVL-CDIP" .
+
+ns1:Dataset_SIQA a ns1:Dataset ;
+    ns1:datasetName "SIQA" .
+
+ns1:Dataset_SQuAD a ns1:Dataset ;
+    ns1:datasetName "SQuAD" .
+
+ns1:Dataset_SST a ns1:Dataset ;
+    ns1:datasetName "SST" .
+
+ns1:Dataset_SST_2 a ns1:Dataset ;
+    ns1:datasetName "SST-2" .
+
+ns1:Dataset_SST_2_Binary_classification a ns1:Dataset ;
+    ns1:datasetName "SST-2 Binary classification" .
+
+ns1:Dataset_Texas_602020_random_splits a ns1:Dataset ;
+    ns1:datasetName "Texas (60%/20%/20% random splits)" .
+
+ns1:Dataset_USA_Air_Traffic a ns1:Dataset ;
+    ns1:datasetName "USA Air-Traffic" .
+
+ns1:Dataset_Walker2d_v4 a ns1:Dataset ;
+    ns1:datasetName "Walker2d-v4" .
+
+ns1:Dataset_WebText a ns1:Dataset ;
+    ns1:datasetName "WebText" .
+
+ns1:Dataset_Wisconsin_602020_random_splits a ns1:Dataset ;
+    ns1:datasetName "Wisconsin (60%/20%/20% random splits)" .
+
+ns1:Dataset_ZINC a ns1:Dataset ;
+    ns1:datasetName "ZINC" .
+
+ns1:Dataset_ZINC_100k a ns1:Dataset ;
+    ns1:datasetName "ZINC 100k" .
+
+ns1:Dataset_ZINC_full a ns1:Dataset ;
+    ns1:datasetName "ZINC-full" .
+
+ns1:Dataset_dockstring a ns1:Dataset ;
+    ns1:datasetName "dockstring" .
+
+ns1:Graph_Attention_Networks_result_0 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Heterogeneous_Node_Classification ;
+    ns1:metricName "Micro-F1" ;
+    ns1:metricValue "92.19" ;
+    ns1:onDataset ns1:Dataset_ACM_Heterogeneous_Node_Classification ;
+    ns1:rank "6" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_1 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Heterogeneous_Node_Classification ;
+    ns1:metricName "Macro-F1" ;
+    ns1:metricValue "92.26" ;
+    ns1:onDataset ns1:Dataset_ACM_Heterogeneous_Node_Classification ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_10 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "1:1 Accuracy" ;
+    ns1:metricValue "67.20 ± 0.46" ;
+    ns1:onDataset ns1:Dataset_CiteSeer_602020_random_splits ;
+    ns1:rank "32" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_11 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "72.5 ± 0.7%" ;
+    ns1:onDataset ns1:Dataset_CiteSeer_with_Public_Split_fixed_20_nodes_per_class ;
+    ns1:rank "27" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_12 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Document_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "0.83" ;
+    ns1:onDataset ns1:Dataset_Cora ;
+    ns1:rank "3" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_13 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "83.0% ± 0.7%" ;
+    ns1:onDataset ns1:Dataset_Cora ;
+    ns1:rank "44" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_14 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Training Split" ;
+    ns1:metricValue "fixed 20 per node" ;
+    ns1:onDataset ns1:Dataset_Cora ;
+    ns1:rank "3" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_15 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Validation" ;
+    ns1:metricValue "YES" ;
+    ns1:onDataset ns1:Dataset_Cora ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_16 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "0.414" ;
+    ns1:onDataset ns1:Dataset_Cora_05 ;
+    ns1:rank "13" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_17 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "0.486" ;
+    ns1:onDataset ns1:Dataset_Cora_1 ;
+    ns1:rank "14" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_18 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "0.568" ;
+    ns1:onDataset ns1:Dataset_Cora_3 ;
+    ns1:rank "15" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_19 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "1:1 Accuracy" ;
+    ns1:metricValue "76.70 ± 0.42" ;
+    ns1:onDataset ns1:Dataset_Cora_602020_random_splits ;
+    ns1:rank "31" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_2 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "1:1 Accuracy" ;
+    ns1:metricValue "63.9 ± 0.46" ;
+    ns1:onDataset ns1:Dataset_Chameleon_602020_random_splits ;
+    ns1:rank "21" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_20 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "83.0 ± 0.7%" ;
+    ns1:onDataset ns1:Dataset_Cora_with_Public_Split_fixed_20_nodes_per_class ;
+    ns1:rank "23" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_21 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification_on_Non_Homophilic_Heterophilic_Graphs ;
+    ns1:metricName "1:1 Accuracy" ;
+    ns1:metricValue "76.00 ± 1.01" ;
+    ns1:onDataset ns1:Dataset_Cornell_602020_random_splits ;
+    ns1:rank "26" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_22 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "1:1 Accuracy" ;
+    ns1:metricValue "76.00 ± 1.01" ;
+    ns1:onDataset ns1:Dataset_Cornell_602020_random_splits ;
+    ns1:rank "26" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_23 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Heterogeneous_Node_Classification ;
+    ns1:metricName "Micro-F1" ;
+    ns1:metricValue "93.39" ;
+    ns1:onDataset ns1:Dataset_DBLP_Heterogeneous_Node_Classification ;
+    ns1:rank "8" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_24 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Heterogeneous_Node_Classification ;
+    ns1:metricName "Macro-F1" ;
+    ns1:metricValue "93.83" ;
+    ns1:onDataset ns1:Dataset_DBLP_Heterogeneous_Node_Classification ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_25 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "73.109±3.413" ;
+    ns1:onDataset ns1:Dataset_DD ;
+    ns1:rank "49" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_26 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification_on_Non_Homophilic_Heterophilic_Graphs ;
+    ns1:metricName "1:1 Accuracy" ;
+    ns1:metricValue "61.09±0.77" ;
+    ns1:onDataset ns1:Dataset_Deezer_Europe ;
+    ns1:rank "22" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_27 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "78.611±1.556" ;
+    ns1:onDataset ns1:Dataset_ENZYMES ;
+    ns1:rank "3" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_28 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Molecular_Property_Prediction ;
+    ns1:metricName "RMSE" ;
+    ns1:metricValue "0.540±0.027" ;
+    ns1:onDataset ns1:Dataset_ESOL ;
+    ns1:rank "6" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_29 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Molecular_Property_Prediction ;
+    ns1:metricName "R2" ;
+    ns1:metricValue "0.930±0.007" ;
+    ns1:onDataset ns1:Dataset_ESOL ;
+    ns1:rank "6" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_3 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification_on_Non_Homophilic_Heterophilic_Graphs ;
+    ns1:metricName "1:1 Accuracy" ;
+    ns1:metricValue "63.9 ± 0.46" ;
+    ns1:onDataset ns1:Dataset_Chameleon602020_random_splits ;
+    ns1:rank "18" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_30 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Regression ;
+    ns1:metricName "R2" ;
+    ns1:metricValue "0.666±0.000" ;
+    ns1:onDataset ns1:Dataset_ESR2 ;
+    ns1:rank "5" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_31 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Regression ;
+    ns1:metricName "RMSE" ;
+    ns1:metricValue "0.510±0.666" ;
+    ns1:onDataset ns1:Dataset_ESR2 ;
+    ns1:rank "5" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_32 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Regression ;
+    ns1:metricName "R2" ;
+    ns1:metricValue "0.886±0.000" ;
+    ns1:onDataset ns1:Dataset_F2 ;
+    ns1:rank "4" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_33 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Regression ;
+    ns1:metricName "RMSE" ;
+    ns1:metricValue "0.343±0.886" ;
+    ns1:onDataset ns1:Dataset_F2 ;
+    ns1:rank "4" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_34 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "1:1 Accuracy" ;
+    ns1:metricValue "35.98 ± 0.23" ;
+    ns1:onDataset ns1:Dataset_Film_602020_random_splits ;
+    ns1:rank "28" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_35 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT_Velickovic_et_al_2018 ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "0.359" ;
+    ns1:onDataset ns1:Dataset_Flickr ;
+    ns1:rank "8" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_36 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Heterogeneous_Node_Classification ;
+    ns1:metricName "Macro-F1" ;
+    ns1:metricValue "40.74" ;
+    ns1:onDataset ns1:Dataset_Freebase_Heterogeneous_Node_Classification ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_37 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Heterogeneous_Node_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "65.26" ;
+    ns1:onDataset ns1:Dataset_Freebase_Heterogeneous_Node_Classification ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_38 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Molecular_Property_Prediction ;
+    ns1:metricName "RMSE" ;
+    ns1:metricValue "0.791±0.101" ;
+    ns1:onDataset ns1:Dataset_FreeSolv ;
+    ns1:rank "5" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_39 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Molecular_Property_Prediction ;
+    ns1:metricName "R2" ;
+    ns1:metricValue "0.959±0.011" ;
+    ns1:onDataset ns1:Dataset_FreeSolv ;
+    ns1:rank "5" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_4 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Classification ;
+    ns1:metricName "Accuracy (%)" ;
+    ns1:metricValue "65.48" ;
+    ns1:onDataset ns1:Dataset_CIFAR10_100k ;
+    ns1:rank "17" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_40 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "55.80 ± 0.87" ;
+    ns1:onDataset ns1:Dataset_genius ;
+    ns1:rank "25" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_41 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "84.250±2.062" ;
+    ns1:onDataset ns1:Dataset_IMDb_B ;
+    ns1:rank "3" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_42 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Heterogeneous_Node_Classification ;
+    ns1:metricName "Micro-F1" ;
+    ns1:metricValue "64.86" ;
+    ns1:onDataset ns1:Dataset_IMDB_Heterogeneous_Node_Classification ;
+    ns1:rank "8" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_43 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Heterogeneous_Node_Classification ;
+    ns1:metricName "Macro-F1" ;
+    ns1:metricValue "58.94" ;
+    ns1:onDataset ns1:Dataset_IMDB_Heterogeneous_Node_Classification ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_44 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Skeleton_Based_Action_Recognition ;
+    ns1:metricName "10%" ;
+    ns1:metricValue "58.1" ;
+    ns1:onDataset ns1:Dataset_J_HMBD_Early_Action ;
+    ns1:rank "2" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_45 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Regression ;
+    ns1:metricName "R2" ;
+    ns1:metricValue "0.833±0.000" ;
+    ns1:onDataset ns1:Dataset_KIT ;
+    ns1:rank "4" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_46 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Regression ;
+    ns1:metricName "RMSE" ;
+    ns1:metricValue "0.443±0.833" ;
+    ns1:onDataset ns1:Dataset_KIT ;
+    ns1:rank "4" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_47 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Regression ;
+    ns1:metricName "RMSE" ;
+    ns1:metricValue "0.95" ;
+    ns1:onDataset ns1:Dataset_Lipophilicity ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_48 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Regression ;
+    ns1:metricName "RMSE" ;
+    ns1:metricValue "0.536±0.020" ;
+    ns1:onDataset ns1:Dataset_Lipophilicity ;
+    ns1:rank "3" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_49 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Regression ;
+    ns1:metricName "R2" ;
+    ns1:metricValue "0.820±0.014" ;
+    ns1:onDataset ns1:Dataset_Lipophilicity ;
+    ns1:rank "3" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_5 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "72.5 ± 0.7%" ;
+    ns1:onDataset ns1:Dataset_Citeseer ;
+    ns1:rank "42" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_50 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "85.109±1.107" ;
+    ns1:onDataset ns1:Dataset_NCI1 ;
+    ns1:rank "14" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_51 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "82.560±0.601" ;
+    ns1:onDataset ns1:Dataset_NCI109 ;
+    ns1:rank "16" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_52 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Property_Prediction ;
+    ns1:metricName "Test F1 score" ;
+    ns1:metricValue "0.1569 ± 0.0010" ;
+    ns1:onDataset ns1:Dataset_ogbg_code2 ;
+    ns1:rank "15" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_53 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Property_Prediction ;
+    ns1:metricName "Validation F1 score" ;
+    ns1:metricValue "0.1442 ± 0.0017" ;
+    ns1:onDataset ns1:Dataset_ogbg_code2 ;
+    ns1:rank "14" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_54 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Property_Prediction ;
+    ns1:metricName "Number of params" ;
+    ns1:metricValue "11030210.0" ;
+    ns1:onDataset ns1:Dataset_ogbg_code2 ;
+    ns1:rank "13" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_55 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Property_Prediction ;
+    ns1:metricName "Ext. data" ;
+    ns1:metricValue "No" ;
+    ns1:onDataset ns1:Dataset_ogbg_code2 ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_56 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GATlabel_reuseself_KD ;
+    ns1:evaluatesTask ns1:Task_Node_Property_Prediction ;
+    ns1:metricName "Test Accuracy" ;
+    ns1:metricValue "0.7416 ± 0.0008" ;
+    ns1:onDataset ns1:Dataset_ogbn_arxiv ;
+    ns1:rank "23" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_57 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GATlabel_reuseself_KD ;
+    ns1:evaluatesTask ns1:Task_Node_Property_Prediction ;
+    ns1:metricName "Validation Accuracy" ;
+    ns1:metricValue "0.7514 ± 0.0004" ;
+    ns1:onDataset ns1:Dataset_ogbn_arxiv ;
+    ns1:rank "28" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_58 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GATlabel_reuseself_KD ;
+    ns1:evaluatesTask ns1:Task_Node_Property_Prediction ;
+    ns1:metricName "Number of params" ;
+    ns1:metricValue "1441580.0" ;
+    ns1:onDataset ns1:Dataset_ogbn_arxiv ;
+    ns1:rank "34" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_59 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GATlabel_reuseself_KD ;
+    ns1:evaluatesTask ns1:Task_Node_Property_Prediction ;
+    ns1:metricName "Ext. data" ;
+    ns1:metricValue "No" ;
+    ns1:onDataset ns1:Dataset_ogbn_arxiv ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_6 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Training Split" ;
+    ns1:metricValue "fixed 20 per node" ;
+    ns1:onDataset ns1:Dataset_Citeseer ;
+    ns1:rank "3" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_60 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GATlabelreusetopo_loss ;
+    ns1:evaluatesTask ns1:Task_Node_Property_Prediction ;
+    ns1:metricName "Test Accuracy" ;
+    ns1:metricValue "0.7399 ± 0.0012" ;
+    ns1:onDataset ns1:Dataset_ogbn_arxiv ;
+    ns1:rank "29" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_61 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GATlabelreusetopo_loss ;
+    ns1:evaluatesTask ns1:Task_Node_Property_Prediction ;
+    ns1:metricName "Validation Accuracy" ;
+    ns1:metricValue "0.7513 ± 0.0009" ;
+    ns1:onDataset ns1:Dataset_ogbn_arxiv ;
+    ns1:rank "29" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_62 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GATlabelreusetopo_loss ;
+    ns1:evaluatesTask ns1:Task_Node_Property_Prediction ;
+    ns1:metricName "Number of params" ;
+    ns1:metricValue "1441580.0" ;
+    ns1:onDataset ns1:Dataset_ogbn_arxiv ;
+    ns1:rank "34" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_63 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GATlabelreusetopo_loss ;
+    ns1:evaluatesTask ns1:Task_Node_Property_Prediction ;
+    ns1:metricName "Ext. data" ;
+    ns1:metricValue "No" ;
+    ns1:onDataset ns1:Dataset_ogbn_arxiv ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_64 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT_with_NeighborSampling ;
+    ns1:evaluatesTask ns1:Task_Node_Property_Prediction ;
+    ns1:metricName "Test Accuracy" ;
+    ns1:metricValue "0.7945 ± 0.0059" ;
+    ns1:onDataset ns1:Dataset_ogbn_products ;
+    ns1:rank "48" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_65 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT_with_NeighborSampling ;
+    ns1:evaluatesTask ns1:Task_Node_Property_Prediction ;
+    ns1:metricName "Validation Accuracy" ;
+    ns1:metricValue "Please tell us" ;
+    ns1:onDataset ns1:Dataset_ogbn_products ;
+    ns1:rank "61" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_66 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT_with_NeighborSampling ;
+    ns1:evaluatesTask ns1:Task_Node_Property_Prediction ;
+    ns1:metricName "Number of params" ;
+    ns1:metricValue "751574.0" ;
+    ns1:onDataset ns1:Dataset_ogbn_products ;
+    ns1:rank "34" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_67 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT_with_NeighborSampling ;
+    ns1:evaluatesTask ns1:Task_Node_Property_Prediction ;
+    ns1:metricName "Ext. data" ;
+    ns1:metricValue "No" ;
+    ns1:onDataset ns1:Dataset_ogbn_products ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_68 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT_labels_node2vec ;
+    ns1:evaluatesTask ns1:Task_Node_Property_Prediction ;
+    ns1:metricName "Test ROC-AUC" ;
+    ns1:metricValue "0.8711 ± 0.0007" ;
+    ns1:onDataset ns1:Dataset_ogbn_proteins ;
+    ns1:rank "8" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_69 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT_labels_node2vec ;
+    ns1:evaluatesTask ns1:Task_Node_Property_Prediction ;
+    ns1:metricName "Validation ROC-AUC" ;
+    ns1:metricValue "0.9217 ± 0.0011" ;
+    ns1:onDataset ns1:Dataset_ogbn_proteins ;
+    ns1:rank "9" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_7 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Validation" ;
+    ns1:metricValue "YES" ;
+    ns1:onDataset ns1:Dataset_Citeseer ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_70 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT_labels_node2vec ;
+    ns1:evaluatesTask ns1:Task_Node_Property_Prediction ;
+    ns1:metricName "Number of params" ;
+    ns1:metricValue "6360470.0" ;
+    ns1:onDataset ns1:Dataset_ogbn_proteins ;
+    ns1:rank "8" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_71 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT_labels_node2vec ;
+    ns1:evaluatesTask ns1:Task_Node_Property_Prediction ;
+    ns1:metricName "Ext. data" ;
+    ns1:metricValue "No" ;
+    ns1:onDataset ns1:Dataset_ogbn_proteins ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_72 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Regression ;
+    ns1:metricName "R2" ;
+    ns1:metricValue "0.921±0.000" ;
+    ns1:onDataset ns1:Dataset_PARP1 ;
+    ns1:rank "4" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_73 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Regression ;
+    ns1:metricName "RMSE" ;
+    ns1:metricValue "0.353±0.921" ;
+    ns1:onDataset ns1:Dataset_PARP1 ;
+    ns1:rank "4" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_74 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification_on_Non_Homophilic_Heterophilic_Graphs ;
+    ns1:metricName "1:1 Accuracy" ;
+    ns1:metricValue "81.53 ± 0.55" ;
+    ns1:onDataset ns1:Dataset_Penn94 ;
+    ns1:rank "14" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_75 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "81.53 ± 0.55" ;
+    ns1:onDataset ns1:Dataset_Penn94 ;
+    ns1:rank "16" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_76 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Regression ;
+    ns1:metricName "R2" ;
+    ns1:metricValue "0.681±0.000" ;
+    ns1:onDataset ns1:Dataset_PGR ;
+    ns1:rank "6" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_77 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Regression ;
+    ns1:metricName "RMSE" ;
+    ns1:metricValue "0.546±0.681" ;
+    ns1:onDataset ns1:Dataset_PGR ;
+    ns1:rank "6" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_78 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "F1" ;
+    ns1:metricValue "97.3" ;
+    ns1:onDataset ns1:Dataset_PPI ;
+    ns1:rank "16" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_79 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "76.786±1.670" ;
+    ns1:onDataset ns1:Dataset_PROTEINS ;
+    ns1:rank "37" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_8 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "0.382" ;
+    ns1:onDataset ns1:Dataset_CiteSeer_05 ;
+    ns1:rank "13" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_80 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification_on_Non_Homophilic_Heterophilic_Graphs ;
+    ns1:metricName "F1-Score" ;
+    ns1:metricValue "59.89 ± 4.12" ;
+    ns1:onDataset ns1:Dataset_Pubmed ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_81 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification_on_Non_Homophilic_Heterophilic_Graphs ;
+    ns1:metricName "NMI" ;
+    ns1:metricValue "55.80 ± 0.87" ;
+    ns1:onDataset ns1:Dataset_Pubmed ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_82 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "79.0 ± 0.3%" ;
+    ns1:onDataset ns1:Dataset_Pubmed ;
+    ns1:rank "53" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_83 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Training Split" ;
+    ns1:metricValue "fixed 20 per node" ;
+    ns1:onDataset ns1:Dataset_Pubmed ;
+    ns1:rank "4" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_84 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Validation" ;
+    ns1:metricValue "YES" ;
+    ns1:onDataset ns1:Dataset_Pubmed ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_85 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "F1-Score" ;
+    ns1:metricValue "79.0" ;
+    ns1:onDataset ns1:Dataset_Pubmed ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_86 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "0.509" ;
+    ns1:onDataset ns1:Dataset_PubMed_003 ;
+    ns1:rank "12" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_87 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "0.504" ;
+    ns1:onDataset ns1:Dataset_PubMed_005 ;
+    ns1:rank "13" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_88 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "0.596" ;
+    ns1:onDataset ns1:Dataset_PubMed_01 ;
+    ns1:rank "13" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_89 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "1:1 Accuracy" ;
+    ns1:metricValue "83.28 ± 0.12" ;
+    ns1:onDataset ns1:Dataset_PubMed_602020_random_splits ;
+    ns1:rank "37" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_9 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "0.465" ;
+    ns1:onDataset ns1:Dataset_CiteSeer_1 ;
+    ns1:rank "14" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_90 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "0.79" ;
+    ns1:onDataset ns1:Dataset_PubMed_with_Public_Split_fixed_20_nodes_per_class ;
+    ns1:rank "23" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_91 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "1:1 Accuracy" ;
+    ns1:metricValue "42.72 ± 0.33" ;
+    ns1:onDataset ns1:Dataset_Squirrel_602020_random_splits ;
+    ns1:rank "24" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_92 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "1:1 Accuracy" ;
+    ns1:metricValue "78.87 ± 0.86" ;
+    ns1:onDataset ns1:Dataset_Texas_602020_random_splits ;
+    ns1:rank "32" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_93 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification_on_Non_Homophilic_Heterophilic_Graphs ;
+    ns1:metricName "1:1 Accuracy" ;
+    ns1:metricValue "78.87 ± 0.86" ;
+    ns1:onDataset ns1:Dataset_Texas602020_random_splits ;
+    ns1:rank "29" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_94 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification ;
+    ns1:metricName "1:1 Accuracy" ;
+    ns1:metricValue "71.01 ± 4.66" ;
+    ns1:onDataset ns1:Dataset_Wisconsin_602020_random_splits ;
+    ns1:rank "29" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_95 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Node_Classification_on_Non_Homophilic_Heterophilic_Graphs ;
+    ns1:metricName "1:1 Accuracy" ;
+    ns1:metricValue "71.01 ± 4.66" ;
+    ns1:onDataset ns1:Dataset_Wisconsin602020_random_splits ;
+    ns1:rank "26" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_96 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Regression ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "0.463" ;
+    ns1:onDataset ns1:Dataset_ZINC_100k ;
+    ns1:rank "8" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Graph_Attention_Networks_result_97 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_GAT ;
+    ns1:evaluatesTask ns1:Task_Graph_Regression ;
+    ns1:metricName "Test MAE" ;
+    ns1:metricValue "0.078±0.006" ;
+    ns1:onDataset ns1:Dataset_ZINC_full ;
+    ns1:rank "13" ;
+    ns1:reportedInPaper ns1:Paper_Graph_Attention_Networks .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_0 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MSE" ;
+    ns1:metricValue "0.878" ;
+    ns1:onDataset ns1:Dataset_ETTh1_168_Multivariate ;
+    ns1:rank "4" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_1 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "0.722" ;
+    ns1:onDataset ns1:Dataset_ETTh1_168_Multivariate ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_10 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MSE" ;
+    ns1:metricValue "0.189" ;
+    ns1:onDataset ns1:Dataset_ETTh1_336_Univariate ;
+    ns1:rank "10" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_11 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "0.346" ;
+    ns1:onDataset ns1:Dataset_ETTh1_336_Univariate ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_12 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MSE" ;
+    ns1:metricValue "0.551" ;
+    ns1:onDataset ns1:Dataset_ETTh1_48_Multivariate ;
+    ns1:rank "4" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_13 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "0.563" ;
+    ns1:onDataset ns1:Dataset_ETTh1_48_Multivariate ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_14 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MSE" ;
+    ns1:metricValue "0.129" ;
+    ns1:onDataset ns1:Dataset_ETTh1_48_Univariate ;
+    ns1:rank "4" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_15 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "0.274" ;
+    ns1:onDataset ns1:Dataset_ETTh1_48_Univariate ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_16 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MSE" ;
+    ns1:metricValue "0.941" ;
+    ns1:onDataset ns1:Dataset_ETTh1_720_Multivariate ;
+    ns1:rank "19" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_17 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "0.768" ;
+    ns1:onDataset ns1:Dataset_ETTh1_720_Multivariate ;
+    ns1:rank "3" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_18 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MSE" ;
+    ns1:metricValue "0.201" ;
+    ns1:onDataset ns1:Dataset_ETTh1_720_Univariate ;
+    ns1:rank "10" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_19 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "0.357" ;
+    ns1:onDataset ns1:Dataset_ETTh1_720_Univariate ;
+    ns1:rank "4" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_2 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MSE" ;
+    ns1:metricValue "0.183" ;
+    ns1:onDataset ns1:Dataset_ETTh1_168_Univariate ;
+    ns1:rank "4" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_20 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MSE" ;
+    ns1:metricValue "1.512" ;
+    ns1:onDataset ns1:Dataset_ETTh2_168_Multivariate ;
+    ns1:rank "2" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_21 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "0.996" ;
+    ns1:onDataset ns1:Dataset_ETTh2_168_Multivariate ;
+    ns1:rank "2" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_22 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MSE" ;
+    ns1:metricValue "0.154" ;
+    ns1:onDataset ns1:Dataset_ETTh2_168_Univariate ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_23 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "0.306" ;
+    ns1:onDataset ns1:Dataset_ETTh2_168_Univariate ;
+    ns1:rank "4" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_24 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MSE" ;
+    ns1:metricValue "0.446" ;
+    ns1:onDataset ns1:Dataset_ETTh2_24_Multivariate ;
+    ns1:rank "4" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_25 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "0.523" ;
+    ns1:onDataset ns1:Dataset_ETTh2_24_Multivariate ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_26 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MSE" ;
+    ns1:metricValue "0.083" ;
+    ns1:onDataset ns1:Dataset_ETTh2_24_Univariate ;
+    ns1:rank "2" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_27 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "0.213" ;
+    ns1:onDataset ns1:Dataset_ETTh2_24_Univariate ;
+    ns1:rank "3" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_28 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MSE" ;
+    ns1:metricValue "1.665" ;
+    ns1:onDataset ns1:Dataset_ETTh2_336_Multivariate ;
+    ns1:rank "18" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_29 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "1.035" ;
+    ns1:onDataset ns1:Dataset_ETTh2_336_Multivariate ;
+    ns1:rank "3" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_3 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "0.337" ;
+    ns1:onDataset ns1:Dataset_ETTh1_168_Univariate ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_30 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MSE" ;
+    ns1:metricValue "0.166" ;
+    ns1:onDataset ns1:Dataset_ETTh2_336_Univariate ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_31 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "0.323" ;
+    ns1:onDataset ns1:Dataset_ETTh2_336_Univariate ;
+    ns1:rank "10" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_32 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MSE" ;
+    ns1:metricValue "0.934" ;
+    ns1:onDataset ns1:Dataset_ETTh2_48_Multivariate ;
+    ns1:rank "2" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_33 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "0.733" ;
+    ns1:onDataset ns1:Dataset_ETTh2_48_Multivariate ;
+    ns1:rank "3" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_34 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MSE" ;
+    ns1:metricValue "0.111" ;
+    ns1:onDataset ns1:Dataset_ETTh2_48_Univariate ;
+    ns1:rank "2" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_35 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "0.249" ;
+    ns1:onDataset ns1:Dataset_ETTh2_48_Univariate ;
+    ns1:rank "3" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_36 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MSE" ;
+    ns1:metricValue "2.34" ;
+    ns1:onDataset ns1:Dataset_ETTh2_720_Multivariate ;
+    ns1:rank "18" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_37 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "1.209" ;
+    ns1:onDataset ns1:Dataset_ETTh2_720_Multivariate ;
+    ns1:rank "3" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_38 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MSE" ;
+    ns1:metricValue "0.181" ;
+    ns1:onDataset ns1:Dataset_ETTh2_720_Univariate ;
+    ns1:rank "2" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_39 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "0.338" ;
+    ns1:onDataset ns1:Dataset_ETTh2_720_Univariate ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_4 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MSE" ;
+    ns1:metricValue "0.509" ;
+    ns1:onDataset ns1:Dataset_ETTh1_24_Multivariate ;
+    ns1:rank "4" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_5 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "0.523" ;
+    ns1:onDataset ns1:Dataset_ETTh1_24_Multivariate ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_6 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MSE" ;
+    ns1:metricValue "0.046" ;
+    ns1:onDataset ns1:Dataset_ETTh1_24_Univariate ;
+    ns1:rank "3" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_7 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "0.152" ;
+    ns1:onDataset ns1:Dataset_ETTh1_24_Univariate ;
+    ns1:rank "3" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_8 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MSE" ;
+    ns1:metricValue "0.884" ;
+    ns1:onDataset ns1:Dataset_ETTh1_336_Multivariate ;
+    ns1:rank "69" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_9 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_Informer ;
+    ns1:evaluatesTask ns1:Task_Time_Series_Forecasting ;
+    ns1:metricName "MAE" ;
+    ns1:metricValue "0.753" ;
+    ns1:onDataset ns1:Dataset_ETTh1_336_Multivariate ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting .
+
+ns1:Method_Absolute_Position_Encodings a ns1:Method ;
+    ns1:methodName "Absolute Position Encodings" .
+
+ns1:Method_Attention_Dropout a ns1:Method ;
+    ns1:methodName "Attention Dropout" .
+
+ns1:Method_BERT a ns1:Method ;
+    ns1:methodName "BERT" .
+
+ns1:Method_BPE a ns1:Method ;
+    ns1:methodName "BPE" .
+
+ns1:Method_Experience_Replay a ns1:Method ;
+    ns1:methodName "Experience Replay" .
+
+ns1:Method_GAT a ns1:Method ;
+    ns1:methodName "GAT" .
+
+ns1:Method_GELU a ns1:Method ;
+    ns1:methodName "GELU" .
+
+ns1:Method_Label_Smoothing a ns1:Method ;
+    ns1:methodName "Label Smoothing" .
+
+ns1:Method_Linear_Warmup_With_Linear_Decay a ns1:Method ;
+    ns1:methodName "Linear Warmup With Linear Decay" .
+
+ns1:Method_Position_Wise_Feed_Forward_Layer a ns1:Method ;
+    ns1:methodName "Position-Wise Feed-Forward Layer" .
+
+ns1:Method_ReLU a ns1:Method ;
+    ns1:methodName "ReLU" .
+
+ns1:Method_RoBERTa a ns1:Method ;
+    ns1:methodName "RoBERTa" .
+
+ns1:Method_Soft_Actor_Critic a ns1:Method ;
+    ns1:methodName "Soft Actor Critic" .
+
+ns1:Method_Transformer a ns1:Method ;
+    ns1:methodName "Transformer" .
+
+ns1:Method_Weight_Decay a ns1:Method ;
+    ns1:methodName "Weight Decay" .
+
+ns1:Method_WordPiece a ns1:Method ;
+    ns1:methodName "WordPiece" .
+
+ns1:ModelConfiguration_GAT_Velickovic_et_al_2018 a ns1:ModelConfiguration ;
+    ns1:configurationString "GAT (Velickovic et al., 2018)" .
+
+ns1:ModelConfiguration_RoBERTa_Large_355M a ns1:ModelConfiguration ;
+    ns1:configurationString "RoBERTa-Large 355M" .
+
+ns1:ModelConfiguration_RoBERTa_base_125M_fine_tuned a ns1:ModelConfiguration ;
+    ns1:configurationString "RoBERTa-base 125M (fine-tuned)" .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_0 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_Large ;
+    ns1:evaluatesTask ns1:Task_Natural_Language_Inference ;
+    ns1:metricName "A1" ;
+    ns1:metricValue "72.4" ;
+    ns1:onDataset ns1:Dataset_ANLI_test ;
+    ns1:rank "5" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_1 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_Large ;
+    ns1:evaluatesTask ns1:Task_Natural_Language_Inference ;
+    ns1:metricName "A2" ;
+    ns1:metricValue "49.8" ;
+    ns1:onDataset ns1:Dataset_ANLI_test ;
+    ns1:rank "14" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_10 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_WWM_Ext_NewsFactors ;
+    ns1:evaluatesTask ns1:Task_Stock_Market_Prediction ;
+    ns1:metricName "Recall" ;
+    ns1:metricValue "62.51" ;
+    ns1:onDataset ns1:Dataset_Astock ;
+    ns1:rank "11" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_11 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_WWM_Ext_NewsFactors ;
+    ns1:evaluatesTask ns1:Task_Stock_Market_Prediction ;
+    ns1:metricName "Precision" ;
+    ns1:metricValue "62.59" ;
+    ns1:onDataset ns1:Dataset_Astock ;
+    ns1:rank "11" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_12 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_ensemble ;
+    ns1:evaluatesTask ns1:Task_Linguistic_Acceptability ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "0.6779999999999999" ;
+    ns1:onDataset ns1:Dataset_CoLA ;
+    ns1:rank "20" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_13 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_Large_355M ;
+    ns1:evaluatesTask ns1:Task_Sentence_Completion ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "81.7" ;
+    ns1:onDataset ns1:Dataset_HellaSwag ;
+    ns1:rank "40" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_14 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa ;
+    ns1:evaluatesTask ns1:Task_Type_prediction ;
+    ns1:metricName "Average Accuracy" ;
+    ns1:metricValue "59.84" ;
+    ns1:onDataset ns1:Dataset_ManyTypes4TypeScript ;
+    ns1:rank "7" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_15 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa ;
+    ns1:evaluatesTask ns1:Task_Type_prediction ;
+    ns1:metricName "Average Precision" ;
+    ns1:metricValue "57.45" ;
+    ns1:onDataset ns1:Dataset_ManyTypes4TypeScript ;
+    ns1:rank "5" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_16 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa ;
+    ns1:evaluatesTask ns1:Task_Type_prediction ;
+    ns1:metricName "Average Recall" ;
+    ns1:metricValue "57.62" ;
+    ns1:onDataset ns1:Dataset_ManyTypes4TypeScript ;
+    ns1:rank "5" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_17 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa ;
+    ns1:evaluatesTask ns1:Task_Type_prediction ;
+    ns1:metricName "Average F1" ;
+    ns1:metricValue "57.54" ;
+    ns1:onDataset ns1:Dataset_ManyTypes4TypeScript ;
+    ns1:rank "5" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_18 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_base_125M_fine_tuned ;
+    ns1:evaluatesTask ns1:Task_Multi_task_Language_Understanding ;
+    ns1:metricName "Average (%)" ;
+    ns1:metricValue "27.9" ;
+    ns1:onDataset ns1:Dataset_MMLU ;
+    ns1:rank "103" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_19 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_ensemble ;
+    ns1:evaluatesTask ns1:Task_Semantic_Textual_Similarity ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "0.9229999999999999" ;
+    ns1:onDataset ns1:Dataset_MRPC ;
+    ns1:rank "3" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_2 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_Large ;
+    ns1:evaluatesTask ns1:Task_Natural_Language_Inference ;
+    ns1:metricName "A3" ;
+    ns1:metricValue "44.4" ;
+    ns1:onDataset ns1:Dataset_ANLI_test ;
+    ns1:rank "16" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_20 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa ;
+    ns1:evaluatesTask ns1:Task_Natural_Language_Inference ;
+    ns1:metricName "Matched" ;
+    ns1:metricValue "90.8" ;
+    ns1:onDataset ns1:Dataset_MultiNLI ;
+    ns1:rank "9" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_21 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_ensemble ;
+    ns1:evaluatesTask ns1:Task_Natural_Language_Inference ;
+    ns1:metricName "Mismatched" ;
+    ns1:metricValue "90.2" ;
+    ns1:onDataset ns1:Dataset_MultiNLI ;
+    ns1:rank "7" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_22 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_LARGE ;
+    ns1:evaluatesTask ns1:Task_Only_Connect_Walls_Dataset_Task_1_Grouping ;
+    ns1:metricName "# Correct Groups" ;
+    ns1:metricValue "29 ± 3" ;
+    ns1:onDataset ns1:Dataset_OCW ;
+    ns1:rank "21" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_23 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_LARGE ;
+    ns1:evaluatesTask ns1:Task_Only_Connect_Walls_Dataset_Task_1_Grouping ;
+    ns1:metricName "Fowlkes Mallows Score (FMS)" ;
+    ns1:metricValue "26.7 ± .2" ;
+    ns1:onDataset ns1:Dataset_OCW ;
+    ns1:rank "19" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_24 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_LARGE ;
+    ns1:evaluatesTask ns1:Task_Only_Connect_Walls_Dataset_Task_1_Grouping ;
+    ns1:metricName "Adjusted Rand Index (ARI)" ;
+    ns1:metricValue "8.4 ± .3" ;
+    ns1:onDataset ns1:Dataset_OCW ;
+    ns1:rank "19" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_25 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_LARGE ;
+    ns1:evaluatesTask ns1:Task_Only_Connect_Walls_Dataset_Task_1_Grouping ;
+    ns1:metricName "Adjusted Mutual Information (AMI)" ;
+    ns1:metricValue "9.4 ± .4" ;
+    ns1:onDataset ns1:Dataset_OCW ;
+    ns1:rank "20" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_26 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_LARGE ;
+    ns1:evaluatesTask ns1:Task_Only_Connect_Walls_Dataset_Task_1_Grouping ;
+    ns1:metricName "# Solved Walls" ;
+    ns1:metricValue "0 ± 0" ;
+    ns1:onDataset ns1:Dataset_OCW ;
+    ns1:rank "10" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_27 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_LARGE ;
+    ns1:evaluatesTask ns1:Task_Only_Connect_Walls_Dataset_Task_1_Grouping ;
+    ns1:metricName "Wasserstein Distance (WD)" ;
+    ns1:metricValue "88.4 ± .4" ;
+    ns1:onDataset ns1:Dataset_OCW ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_28 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_ensemble ;
+    ns1:evaluatesTask ns1:Task_Natural_Language_Inference ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "0.9890000000000001" ;
+    ns1:onDataset ns1:Dataset_QNLI ;
+    ns1:rank "5" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_29 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_ensemble ;
+    ns1:evaluatesTask ns1:Task_Question_Answering ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "0.902" ;
+    ns1:onDataset ns1:Dataset_Quora_Question_Pairs ;
+    ns1:rank "6" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_3 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa ;
+    ns1:evaluatesTask ns1:Task_Text_Classification ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "0.779" ;
+    ns1:onDataset ns1:Dataset_arXiv_10 ;
+    ns1:rank "2" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_30 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa ;
+    ns1:evaluatesTask ns1:Task_Reading_Comprehension ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "83.2" ;
+    ns1:onDataset ns1:Dataset_RACE ;
+    ns1:rank "7" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_31 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa ;
+    ns1:evaluatesTask ns1:Task_Reading_Comprehension ;
+    ns1:metricName "Accuracy (High)" ;
+    ns1:metricValue "81.3" ;
+    ns1:onDataset ns1:Dataset_RACE ;
+    ns1:rank "6" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_32 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa ;
+    ns1:evaluatesTask ns1:Task_Reading_Comprehension ;
+    ns1:metricName "Accuracy (Middle)" ;
+    ns1:metricValue "86.5" ;
+    ns1:onDataset ns1:Dataset_RACE ;
+    ns1:rank "6" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_33 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_ensemble ;
+    ns1:evaluatesTask ns1:Task_Natural_Language_Inference ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "0.882" ;
+    ns1:onDataset ns1:Dataset_RTE ;
+    ns1:rank "18" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_34 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa ;
+    ns1:evaluatesTask ns1:Task_Natural_Language_Inference ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "0.882" ;
+    ns1:onDataset ns1:Dataset_RTE ;
+    ns1:rank "18" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_35 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_single_model ;
+    ns1:evaluatesTask ns1:Task_Question_Answering ;
+    ns1:metricName "EM" ;
+    ns1:metricValue "86.82" ;
+    ns1:onDataset ns1:Dataset_SQuAD20 ;
+    ns1:rank "90" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_36 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_single_model ;
+    ns1:evaluatesTask ns1:Task_Question_Answering ;
+    ns1:metricName "F1" ;
+    ns1:metricValue "89.795" ;
+    ns1:onDataset ns1:Dataset_SQuAD20 ;
+    ns1:rank "91" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_37 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_no_data_aug ;
+    ns1:evaluatesTask ns1:Task_Question_Answering ;
+    ns1:metricName "F1" ;
+    ns1:metricValue "89.4" ;
+    ns1:onDataset ns1:Dataset_SQuAD20_dev ;
+    ns1:rank "3" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_38 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_no_data_aug ;
+    ns1:evaluatesTask ns1:Task_Question_Answering ;
+    ns1:metricName "EM" ;
+    ns1:metricValue "86.5" ;
+    ns1:onDataset ns1:Dataset_SQuAD20_dev ;
+    ns1:rank "3" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_39 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_ensemble ;
+    ns1:evaluatesTask ns1:Task_Sentiment_Analysis ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "96.7" ;
+    ns1:onDataset ns1:Dataset_SST_2_Binary_classification ;
+    ns1:rank "11" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_4 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_WWM_Ext_News ;
+    ns1:evaluatesTask ns1:Task_Stock_Market_Prediction ;
+    ns1:metricName "Accuray" ;
+    ns1:metricValue "61.34" ;
+    ns1:onDataset ns1:Dataset_Astock ;
+    ns1:rank "12" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_40 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa ;
+    ns1:evaluatesTask ns1:Task_Semantic_Textual_Similarity ;
+    ns1:metricName "Pearson Correlation" ;
+    ns1:metricValue "0.922" ;
+    ns1:onDataset ns1:Dataset_STS_Benchmark ;
+    ns1:rank "7" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_41 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa ;
+    ns1:evaluatesTask ns1:Task_Common_Sense_Reasoning ;
+    ns1:metricName "Test" ;
+    ns1:metricValue "89.9" ;
+    ns1:onDataset ns1:Dataset_SWAG ;
+    ns1:rank "2" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_42 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_ensemble ;
+    ns1:evaluatesTask ns1:Task_Natural_Language_Inference ;
+    ns1:metricName "Accuracy" ;
+    ns1:metricValue "89.0" ;
+    ns1:onDataset ns1:Dataset_WNLI ;
+    ns1:rank "8" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_5 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_WWM_Ext_News ;
+    ns1:evaluatesTask ns1:Task_Stock_Market_Prediction ;
+    ns1:metricName "F1-score" ;
+    ns1:metricValue "61.48" ;
+    ns1:onDataset ns1:Dataset_Astock ;
+    ns1:rank "12" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_6 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_WWM_Ext_News ;
+    ns1:evaluatesTask ns1:Task_Stock_Market_Prediction ;
+    ns1:metricName "Recall" ;
+    ns1:metricValue "61.32" ;
+    ns1:onDataset ns1:Dataset_Astock ;
+    ns1:rank "12" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_7 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_WWM_Ext_News ;
+    ns1:evaluatesTask ns1:Task_Stock_Market_Prediction ;
+    ns1:metricName "Precision" ;
+    ns1:metricValue "61.97" ;
+    ns1:onDataset ns1:Dataset_Astock ;
+    ns1:rank "12" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_8 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_WWM_Ext_NewsFactors ;
+    ns1:evaluatesTask ns1:Task_Stock_Market_Prediction ;
+    ns1:metricName "Accuray" ;
+    ns1:metricValue "62.49" ;
+    ns1:onDataset ns1:Dataset_Astock ;
+    ns1:rank "11" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_9 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_RoBERTa_WWM_Ext_NewsFactors ;
+    ns1:evaluatesTask ns1:Task_Stock_Market_Prediction ;
+    ns1:metricName "F1-score" ;
+    ns1:metricValue "62.54" ;
+    ns1:onDataset ns1:Dataset_Astock ;
+    ns1:rank "11" ;
+    ns1:reportedInPaper ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach .
+
+ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_0 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_SAC ;
+    ns1:evaluatesTask ns1:Task_Omniverse_Isaac_Gym ;
+    ns1:metricName "Average Return" ;
+    ns1:metricValue "296.49" ;
+    ns1:onDataset ns1:Dataset_AllegroHand ;
+    ns1:rank "2" ;
+    ns1:reportedInPaper ns1:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_1 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_SAC ;
+    ns1:evaluatesTask ns1:Task_Omniverse_Isaac_Gym ;
+    ns1:metricName "Average Return" ;
+    ns1:metricValue "7717.93" ;
+    ns1:onDataset ns1:Dataset_Ant ;
+    ns1:rank "2" ;
+    ns1:reportedInPaper ns1:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_10 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_SAC ;
+    ns1:evaluatesTask ns1:Task_Continuous_Control ;
+    ns1:metricName "Score" ;
+    ns1:metricValue "284.59±0.97" ;
+    ns1:onDataset ns1:Dataset_Lunar_Lander_OpenAI_Gym ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_11 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_SAC ;
+    ns1:evaluatesTask ns1:Task_OpenAI_Gym ;
+    ns1:metricName "Average Return" ;
+    ns1:metricValue "5745.27" ;
+    ns1:onDataset ns1:Dataset_Walker2d_v4 ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_2 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_SAC ;
+    ns1:evaluatesTask ns1:Task_OpenAI_Gym ;
+    ns1:metricName "Average Return" ;
+    ns1:metricValue "5208.09" ;
+    ns1:onDataset ns1:Dataset_Ant_v4 ;
+    ns1:rank "3" ;
+    ns1:reportedInPaper ns1:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_3 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_SAC ;
+    ns1:evaluatesTask ns1:Task_Omniverse_Isaac_Gym ;
+    ns1:metricName "Average Return" ;
+    ns1:metricValue "11.87" ;
+    ns1:onDataset ns1:Dataset_Anymal ;
+    ns1:rank "2" ;
+    ns1:reportedInPaper ns1:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_4 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_SAC ;
+    ns1:evaluatesTask ns1:Task_Omniverse_Isaac_Gym ;
+    ns1:metricName "Average Return" ;
+    ns1:metricValue "1721.98" ;
+    ns1:onDataset ns1:Dataset_FrankaCabinet ;
+    ns1:rank "2" ;
+    ns1:reportedInPaper ns1:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_5 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_SAC ;
+    ns1:evaluatesTask ns1:Task_OpenAI_Gym ;
+    ns1:metricName "Average Return" ;
+    ns1:metricValue "15836.04" ;
+    ns1:onDataset ns1:Dataset_HalfCheetah_v4 ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_6 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_SAC ;
+    ns1:evaluatesTask ns1:Task_OpenAI_Gym ;
+    ns1:metricName "Average Return" ;
+    ns1:metricValue "2882.56" ;
+    ns1:onDataset ns1:Dataset_Hopper_v4 ;
+    ns1:rank "3" ;
+    ns1:reportedInPaper ns1:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_7 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_SAC ;
+    ns1:evaluatesTask ns1:Task_Omniverse_Isaac_Gym ;
+    ns1:metricName "Average Return" ;
+    ns1:metricValue "4028.31" ;
+    ns1:onDataset ns1:Dataset_Humanoid ;
+    ns1:rank "2" ;
+    ns1:reportedInPaper ns1:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_8 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_SAC ;
+    ns1:evaluatesTask ns1:Task_OpenAI_Gym ;
+    ns1:metricName "Average Return" ;
+    ns1:metricValue "6211.5" ;
+    ns1:onDataset ns1:Dataset_Humanoid_v4 ;
+    ns1:rank "2" ;
+    ns1:reportedInPaper ns1:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_9 a ns1:ReportedResult ;
+    ns1:achievedByModel ns1:ModelConfiguration_SAC ;
+    ns1:evaluatesTask ns1:Task_Omniverse_Isaac_Gym ;
+    ns1:metricName "Average Return" ;
+    ns1:metricValue "5301.99" ;
+    ns1:onDataset ns1:Dataset_Ingenuity ;
+    ns1:rank "1" ;
+    ns1:reportedInPaper ns1:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor .
+
+ns1:Task_Decision_Making a ns1:Task ;
+    ns1:taskName "Decision Making" .
+
+ns1:Task_Decoder a ns1:Task ;
+    ns1:taskName "Decoder" .
+
+ns1:Task_Deep_Reinforcement_Learning a ns1:Task ;
+    ns1:taskName "Deep Reinforcement Learning" .
+
+ns1:Task_Document_Image_Classification a ns1:Task ;
+    ns1:taskName "Document Image Classification" .
+
+ns1:Task_Graph_Attention a ns1:Task ;
+    ns1:taskName "Graph Attention" .
+
+ns1:Task_Graph_Embedding a ns1:Task ;
+    ns1:taskName "Graph Embedding" .
+
+ns1:Task_Language_Modelling a ns1:Task ;
+    ns1:taskName "Language Modelling" .
+
+ns1:Task_Lexical_Simplification a ns1:Task ;
+    ns1:taskName "Lexical Simplification" .
+
+ns1:Task_Link_Prediction a ns1:Task ;
+    ns1:taskName "Link Prediction" .
+
+ns1:Task_MUlTI_LABEL_ClASSIFICATION a ns1:Task ;
+    ns1:taskName "MUlTI-LABEL-ClASSIFICATION" .
+
+ns1:Task_Multivariate_Time_Series_Forecasting a ns1:Task ;
+    ns1:taskName "Multivariate Time Series Forecasting" .
+
+ns1:Task_Q_Learning a ns1:Task ;
+    ns1:taskName "Q-Learning" .
+
+ns1:Task_Reinforcement_Learning a ns1:Task ;
+    ns1:taskName "Reinforcement Learning" .
+
+ns1:Task_Reinforcement_Learning_RL a ns1:Task ;
+    ns1:taskName "Reinforcement Learning (RL)" .
+
+ns1:Task_Riddle_Sense a ns1:Task ;
+    ns1:taskName "Riddle Sense" .
+
+ns1:Task_Time_Series a ns1:Task ;
+    ns1:taskName "Time Series" .
+
+ns1:Task_Time_Series_Analysis a ns1:Task ;
+    ns1:taskName "Time Series Analysis" .
+
+ns1:Task_Univariate_Time_Series_Forecasting a ns1:Task ;
+    ns1:taskName "Univariate Time Series Forecasting" .
+
+ns1:Task_reinforcement_learning a ns1:Task ;
+    ns1:taskName "reinforcement-learning" .
+
+ns1:Dataset_Chameleon602020_random_splits a ns1:Dataset ;
+    ns1:datasetName "Chameleon(60%/20%/20% random splits)" .
+
+ns1:Dataset_CoLA a ns1:Dataset ;
+    ns1:datasetName "CoLA" .
+
+ns1:Dataset_Deezer_Europe a ns1:Dataset ;
+    ns1:datasetName "Deezer-Europe" .
+
+ns1:Dataset_ENZYMES a ns1:Dataset ;
+    ns1:datasetName "ENZYMES" .
+
+ns1:Dataset_ESOL a ns1:Dataset ;
+    ns1:datasetName "ESOL" .
+
+ns1:Dataset_ESR2 a ns1:Dataset ;
+    ns1:datasetName "ESR2" .
+
+ns1:Dataset_ETTh1_168_Multivariate a ns1:Dataset ;
+    ns1:datasetName "ETTh1 (168) Multivariate" .
+
+ns1:Dataset_ETTh1_168_Univariate a ns1:Dataset ;
+    ns1:datasetName "ETTh1 (168) Univariate" .
+
+ns1:Dataset_ETTh1_24_Multivariate a ns1:Dataset ;
+    ns1:datasetName "ETTh1 (24) Multivariate" .
+
+ns1:Dataset_ETTh1_24_Univariate a ns1:Dataset ;
+    ns1:datasetName "ETTh1 (24) Univariate" .
+
+ns1:Dataset_ETTh1_336_Multivariate a ns1:Dataset ;
+    ns1:datasetName "ETTh1 (336) Multivariate" .
+
+ns1:Dataset_ETTh1_336_Univariate a ns1:Dataset ;
+    ns1:datasetName "ETTh1 (336) Univariate" .
+
+ns1:Dataset_ETTh1_48_Multivariate a ns1:Dataset ;
+    ns1:datasetName "ETTh1 (48) Multivariate" .
+
+ns1:Dataset_ETTh1_48_Univariate a ns1:Dataset ;
+    ns1:datasetName "ETTh1 (48) Univariate" .
+
+ns1:Dataset_ETTh1_720_Multivariate a ns1:Dataset ;
+    ns1:datasetName "ETTh1 (720) Multivariate" .
+
+ns1:Dataset_ETTh1_720_Univariate a ns1:Dataset ;
+    ns1:datasetName "ETTh1 (720) Univariate" .
+
+ns1:Dataset_ETTh2_168_Multivariate a ns1:Dataset ;
+    ns1:datasetName "ETTh2 (168) Multivariate" .
+
+ns1:Dataset_ETTh2_168_Univariate a ns1:Dataset ;
+    ns1:datasetName "ETTh2 (168) Univariate" .
+
+ns1:Dataset_ETTh2_24_Multivariate a ns1:Dataset ;
+    ns1:datasetName "ETTh2 (24) Multivariate" .
+
+ns1:Dataset_ETTh2_24_Univariate a ns1:Dataset ;
+    ns1:datasetName "ETTh2 (24) Univariate" .
+
+ns1:Dataset_ETTh2_336_Multivariate a ns1:Dataset ;
+    ns1:datasetName "ETTh2 (336) Multivariate" .
+
+ns1:Dataset_ETTh2_336_Univariate a ns1:Dataset ;
+    ns1:datasetName "ETTh2 (336) Univariate" .
+
+ns1:Dataset_ETTh2_48_Multivariate a ns1:Dataset ;
+    ns1:datasetName "ETTh2 (48) Multivariate" .
+
+ns1:Dataset_ETTh2_48_Univariate a ns1:Dataset ;
+    ns1:datasetName "ETTh2 (48) Univariate" .
+
+ns1:Dataset_ETTh2_720_Multivariate a ns1:Dataset ;
+    ns1:datasetName "ETTh2 (720) Multivariate" .
+
+ns1:Dataset_ETTh2_720_Univariate a ns1:Dataset ;
+    ns1:datasetName "ETTh2 (720) Univariate" .
+
+ns1:Dataset_F2 a ns1:Dataset ;
+    ns1:datasetName "F2" .
+
+ns1:Dataset_Film_602020_random_splits a ns1:Dataset ;
+    ns1:datasetName "Film (60%/20%/20% random splits)" .
+
+ns1:Dataset_FreeSolv a ns1:Dataset ;
+    ns1:datasetName "FreeSolv" .
+
+ns1:Dataset_HellaSwag a ns1:Dataset ;
+    ns1:datasetName "HellaSwag" .
+
+ns1:Dataset_KIT a ns1:Dataset ;
+    ns1:datasetName "KIT" .
+
+ns1:Dataset_MMLU a ns1:Dataset ;
+    ns1:datasetName "MMLU" .
+
+ns1:Dataset_MRPC a ns1:Dataset ;
+    ns1:datasetName "MRPC" .
+
+ns1:Dataset_NCI1 a ns1:Dataset ;
+    ns1:datasetName "NCI1" .
+
+ns1:Dataset_NCI109 a ns1:Dataset ;
+    ns1:datasetName "NCI109" .
+
+ns1:Dataset_PARP1 a ns1:Dataset ;
+    ns1:datasetName "PARP1" .
+
+ns1:Dataset_PGR a ns1:Dataset ;
+    ns1:datasetName "PGR" .
+
+ns1:Dataset_PPI a ns1:Dataset ;
+    ns1:datasetName "PPI" .
+
+ns1:Dataset_PROTEINS a ns1:Dataset ;
+    ns1:datasetName "PROTEINS" .
+
+ns1:Dataset_PubMed_602020_random_splits a ns1:Dataset ;
+    ns1:datasetName "PubMed (60%/20%/20% random splits)" .
+
+ns1:Dataset_QNLI a ns1:Dataset ;
+    ns1:datasetName "QNLI" .
+
+ns1:Dataset_Quora_Question_Pairs a ns1:Dataset ;
+    ns1:datasetName "Quora Question Pairs" .
+
+ns1:Dataset_SQuAD20 a ns1:Dataset ;
+    ns1:datasetName "SQuAD2.0" .
+
+ns1:Dataset_SQuAD20_dev a ns1:Dataset ;
+    ns1:datasetName "SQuAD2.0 dev" .
+
+ns1:Dataset_STS_Benchmark a ns1:Dataset ;
+    ns1:datasetName "STS Benchmark" .
+
+ns1:Dataset_SWAG a ns1:Dataset ;
+    ns1:datasetName "SWAG" .
+
+ns1:Dataset_Squirrel_602020_random_splits a ns1:Dataset ;
+    ns1:datasetName "Squirrel (60%/20%/20% random splits)" .
+
+ns1:Dataset_Texas602020_random_splits a ns1:Dataset ;
+    ns1:datasetName "Texas(60%/20%/20% random splits)" .
+
+ns1:Dataset_WNLI a ns1:Dataset ;
+    ns1:datasetName "WNLI" .
+
+ns1:Dataset_Wisconsin602020_random_splits a ns1:Dataset ;
+    ns1:datasetName "Wisconsin(60%/20%/20% random splits)" .
+
+ns1:Dataset_arXiv_10 a ns1:Dataset ;
+    ns1:datasetName "arXiv-10" .
+
+ns1:Dataset_genius a ns1:Dataset ;
+    ns1:datasetName "genius" .
+
+ns1:Method_Dropout a ns1:Method ;
+    ns1:methodName "Dropout" .
+
+ns1:Method_Layer_Normalization a ns1:Method ;
+    ns1:methodName "Layer Normalization" .
+
+ns1:Method_Linear_Layer a ns1:Method ;
+    ns1:methodName "Linear Layer" .
+
+ns1:Method_Multi_Head_Attention a ns1:Method ;
+    ns1:methodName "Multi-Head Attention" .
+
+ns1:Method_Residual_Connection a ns1:Method ;
+    ns1:methodName "Residual Connection" .
+
+ns1:Method_Scaled_Dot_Product_Attention a ns1:Method ;
+    ns1:methodName "Scaled Dot-Product Attention" .
+
+ns1:Method_Softmax a ns1:Method ;
+    ns1:methodName "Softmax" .
+
+ns1:ModelConfiguration_RoBERTa_no_data_aug a ns1:ModelConfiguration ;
+    ns1:configurationString "RoBERTa (no data aug)" .
+
+ns1:ModelConfiguration_RoBERTa_single_model a ns1:ModelConfiguration ;
+    ns1:configurationString "RoBERTa (single model)" .
+
+ns1:Task_Common_Sense_Reasoning a ns1:Task ;
+    ns1:taskName "Common Sense Reasoning" .
+
+ns1:Task_Continuous_Control a ns1:Task ;
+    ns1:taskName "Continuous Control" .
+
+ns1:Task_Document_Classification a ns1:Task ;
+    ns1:taskName "Document Classification" .
+
+ns1:Task_Linguistic_Acceptability a ns1:Task ;
+    ns1:taskName "Linguistic Acceptability" .
+
+ns1:Task_Multi_task_Language_Understanding a ns1:Task ;
+    ns1:taskName "Multi-task Language Understanding" .
+
+ns1:Task_Sentence_Completion a ns1:Task ;
+    ns1:taskName "Sentence Completion" .
+
+ns1:Task_Sentiment_Analysis a ns1:Task ;
+    ns1:taskName "Sentiment Analysis" .
+
+ns1:Task_Skeleton_Based_Action_Recognition a ns1:Task ;
+    ns1:taskName "Skeleton Based Action Recognition" .
+
+ns1:Task_Text_Classification a ns1:Task ;
+    ns1:taskName "Text Classification" .
+
+ns1:Dataset_ACM_Heterogeneous_Node_Classification a ns1:Dataset ;
+    ns1:datasetName "ACM (Heterogeneous Node Classification)" .
+
+ns1:Dataset_ANLI_test a ns1:Dataset ;
+    ns1:datasetName "ANLI test" .
+
+ns1:Dataset_Cornell_602020_random_splits a ns1:Dataset ;
+    ns1:datasetName "Cornell (60%/20%/20% random splits)" .
+
+ns1:Dataset_DBLP_Heterogeneous_Node_Classification a ns1:Dataset ;
+    ns1:datasetName "DBLP (Heterogeneous Node Classification)" .
+
+ns1:Dataset_Freebase_Heterogeneous_Node_Classification a ns1:Dataset ;
+    ns1:datasetName "Freebase (Heterogeneous Node Classification)" .
+
+ns1:Dataset_IMDB_Heterogeneous_Node_Classification a ns1:Dataset ;
+    ns1:datasetName "IMDB (Heterogeneous Node Classification)" .
+
+ns1:Dataset_Lipophilicity a ns1:Dataset ;
+    ns1:datasetName "Lipophilicity" .
+
+ns1:Dataset_MultiNLI a ns1:Dataset ;
+    ns1:datasetName "MultiNLI" .
+
+ns1:Dataset_Penn94 a ns1:Dataset ;
+    ns1:datasetName "Penn94" .
+
+ns1:Dataset_RTE a ns1:Dataset ;
+    ns1:datasetName "RTE" .
+
+ns1:Method_Adam a ns1:Method ;
+    ns1:methodName "Adam" .
+
+ns1:Method_Dense_Connections a ns1:Method ;
+    ns1:methodName "Dense Connections" .
+
+ns1:ModelConfiguration_RoBERTa_Large a ns1:ModelConfiguration ;
+    ns1:configurationString "RoBERTa (Large)" .
+
+ns1:Task_Semantic_Textual_Similarity a ns1:Task ;
+    ns1:taskName "Semantic Textual Similarity" .
+
+ns1:Dataset_Citeseer a ns1:Dataset ;
+    ns1:datasetName "Citeseer" .
+
+ns1:Dataset_RACE a ns1:Dataset ;
+    ns1:datasetName "RACE" .
+
+ns1:Dataset_ogbg_code2 a ns1:Dataset ;
+    ns1:datasetName "ogbg-code2" .
+
+ns1:Dataset_ogbn_products a ns1:Dataset ;
+    ns1:datasetName "ogbn-products" .
+
+ns1:Dataset_ogbn_proteins a ns1:Dataset ;
+    ns1:datasetName "ogbn-proteins" .
+
+ns1:ModelConfiguration_GAT_labels_node2vec a ns1:ModelConfiguration ;
+    ns1:configurationString "GAT + labels + node2vec" .
+
+ns1:ModelConfiguration_GAT_with_NeighborSampling a ns1:ModelConfiguration ;
+    ns1:configurationString "GAT with NeighborSampling" .
+
+ns1:ModelConfiguration_GATlabel_reuseself_KD a ns1:ModelConfiguration ;
+    ns1:configurationString "GAT+label reuse+self KD" .
+
+ns1:ModelConfiguration_GATlabelreusetopo_loss a ns1:ModelConfiguration ;
+    ns1:configurationString "GAT+label+reuse+topo loss" .
+
+ns1:ModelConfiguration_RoBERTa_WWM_Ext_News a ns1:ModelConfiguration ;
+    ns1:configurationString "RoBERTa WWM Ext (News)" .
+
+ns1:ModelConfiguration_RoBERTa_WWM_Ext_NewsFactors a ns1:ModelConfiguration ;
+    ns1:configurationString "RoBERTa WWM Ext (News+Factors)" .
+
+ns1:Task_Graph_Property_Prediction a ns1:Task ;
+    ns1:taskName "Graph Property Prediction" .
+
+ns1:Task_Reading_Comprehension a ns1:Task ;
+    ns1:taskName "Reading Comprehension" .
+
+ns1:Dataset_Cora a ns1:Dataset ;
+    ns1:datasetName "Cora" .
+
+ns1:Dataset_ManyTypes4TypeScript a ns1:Dataset ;
+    ns1:datasetName "ManyTypes4TypeScript" .
+
+ns1:Task_Molecular_Property_Prediction a ns1:Task ;
+    ns1:taskName "Molecular Property Prediction" .
+
+ns1:Task_Type_prediction a ns1:Task ;
+    ns1:taskName "Type prediction" .
+
+ns1:ModelConfiguration_RoBERTa_LARGE a ns1:ModelConfiguration ;
+    ns1:configurationString "RoBERTa (LARGE)" .
+
+ns1:Task_OpenAI_Gym a ns1:Task ;
+    ns1:taskName "OpenAI Gym" .
+
+ns1:Dataset_OCW a ns1:Dataset ;
+    ns1:datasetName "OCW" .
+
+ns1:Dataset_Pubmed a ns1:Dataset ;
+    ns1:datasetName "Pubmed" .
+
+ns1:Task_Omniverse_Isaac_Gym a ns1:Task ;
+    ns1:taskName "Omniverse Isaac Gym" .
+
+ns1:Task_Only_Connect_Walls_Dataset_Task_1_Grouping a ns1:Task ;
+    ns1:taskName "Only Connect Walls Dataset Task 1 (Grouping)" .
+
+ns1:Task_Question_Answering a ns1:Task ;
+    ns1:taskName "Question Answering" .
+
+ns1:Dataset_ogbn_arxiv a ns1:Dataset ;
+    ns1:datasetName "ogbn-arxiv" .
+
+ns1:ModelConfiguration_RoBERTa_ensemble a ns1:ModelConfiguration ;
+    ns1:configurationString "RoBERTa (ensemble)" .
+
+ns1:Task_Graph_Classification a ns1:Task ;
+    ns1:taskName "Graph Classification" .
+
+ns1:Dataset_Astock a ns1:Dataset ;
+    ns1:datasetName "Astock" .
+
+ns1:Task_Heterogeneous_Node_Classification a ns1:Task ;
+    ns1:taskName "Heterogeneous Node Classification" .
+
+ns1:Task_Node_Classification_on_Non_Homophilic_Heterophilic_Graphs a ns1:Task ;
+    ns1:taskName "Node Classification on Non-Homophilic (Heterophilic) Graphs" .
+
+ns1:Task_Stock_Market_Prediction a ns1:Task ;
+    ns1:taskName "Stock Market Prediction" .
+
+ns1:Task_Natural_Language_Inference a ns1:Task ;
+    ns1:taskName "Natural Language Inference" .
+
+ns1:ModelConfiguration_RoBERTa a ns1:ModelConfiguration ;
+    ns1:configurationString "RoBERTa" .
+
+ns1:ModelConfiguration_SAC a ns1:ModelConfiguration ;
+    ns1:configurationString "SAC" .
+
+ns1:Paper_Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor a ns1:Paper ;
+    ns1:employsMethod ns1:Method_Adam,
+        ns1:Method_Dense_Connections,
+        ns1:Method_Experience_Replay,
+        ns1:Method_ReLU,
+        ns1:Method_Soft_Actor_Critic ;
+    ns1:mentionsDataset ns1:Dataset_Omniverse_Isaac_Gym,
+        ns1:Dataset_OpenAI_Gym ;
+    ns1:mentionsTask ns1:Task_Continuous_Control,
+        ns1:Task_Decision_Making,
+        ns1:Task_Deep_Reinforcement_Learning,
+        ns1:Task_Omniverse_Isaac_Gym,
+        ns1:Task_OpenAI_Gym,
+        ns1:Task_Q_Learning,
+        ns1:Task_Reinforcement_Learning,
+        ns1:Task_Reinforcement_Learning_RL,
+        ns1:Task_reinforcement_learning ;
+    ns1:paperTitle "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor" ;
+    ns1:papersWithCodeUrl "https://paperswithcode.com/paper/soft-actor-critic-off-policy-maximum-entropy" ;
+    ns1:pdfUrl "https://arxiv.org/pdf/1801.01290v2.pdf" ;
+    ns1:reportsResult ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_0,
+        ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_1,
+        ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_10,
+        ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_11,
+        ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_2,
+        ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_3,
+        ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_4,
+        ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_5,
+        ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_6,
+        ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_7,
+        ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_8,
+        ns1:Soft_Actor_Critic_Off_Policy_Maximum_Entropy_Deep_Reinforcement_Learning_with_a_Stochastic_Actor_result_9 ;
+    ns1:year "2018" .
+
+ns1:Task_Graph_Regression a ns1:Task ;
+    ns1:taskName "Graph Regression" .
+
+ns1:Task_Node_Property_Prediction a ns1:Task ;
+    ns1:taskName "Node Property Prediction" .
+
+ns1:Task_Node_Classification a ns1:Task ;
+    ns1:taskName "Node Classification" .
+
+ns1:ModelConfiguration_Informer a ns1:ModelConfiguration ;
+    ns1:configurationString "Informer" .
+
+ns1:Paper_Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting a ns1:Paper ;
+    ns1:employsMethod ns1:Method_Absolute_Position_Encodings,
+        ns1:Method_Adam,
+        ns1:Method_BPE,
+        ns1:Method_Dense_Connections,
+        ns1:Method_Dropout,
+        ns1:Method_Label_Smoothing,
+        ns1:Method_Layer_Normalization,
+        ns1:Method_Linear_Layer,
+        ns1:Method_Multi_Head_Attention,
+        ns1:Method_Position_Wise_Feed_Forward_Layer,
+        ns1:Method_Residual_Connection,
+        ns1:Method_Scaled_Dot_Product_Attention,
+        ns1:Method_Softmax,
+        ns1:Method_Transformer ;
+    ns1:mentionsDataset ns1:Dataset_ETT,
+        ns1:Dataset_ETTh1_192,
+        ns1:Dataset_ETTh1_96 ;
+    ns1:mentionsTask ns1:Task_Decoder,
+        ns1:Task_Multivariate_Time_Series_Forecasting,
+        ns1:Task_Time_Series,
+        ns1:Task_Time_Series_Analysis,
+        ns1:Task_Time_Series_Forecasting,
+        ns1:Task_Univariate_Time_Series_Forecasting ;
+    ns1:paperTitle "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting" ;
+    ns1:papersWithCodeUrl "https://paperswithcode.com/paper/informer-beyond-efficient-transformer-for" ;
+    ns1:pdfUrl "https://arxiv.org/pdf/2012.07436v3.pdf" ;
+    ns1:reportsResult ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_0,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_1,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_10,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_11,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_12,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_13,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_14,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_15,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_16,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_17,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_18,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_19,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_2,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_20,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_21,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_22,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_23,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_24,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_25,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_26,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_27,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_28,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_29,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_3,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_30,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_31,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_32,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_33,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_34,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_35,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_36,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_37,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_38,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_39,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_4,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_5,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_6,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_7,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_8,
+        ns1:Informer_Beyond_Efficient_Transformer_for_Long_Sequence_Time_Series_Forecasting_result_9 ;
+    ns1:year "2020" .
+
+ns1:Task_Time_Series_Forecasting a ns1:Task ;
+    ns1:taskName "Time Series Forecasting" .
+
+ns1:Paper_RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach a ns1:Paper ;
+    ns1:employsMethod ns1:Method_Adam,
+        ns1:Method_Attention_Dropout,
+        ns1:Method_BERT,
+        ns1:Method_Dense_Connections,
+        ns1:Method_Dropout,
+        ns1:Method_GELU,
+        ns1:Method_Layer_Normalization,
+        ns1:Method_Linear_Layer,
+        ns1:Method_Linear_Warmup_With_Linear_Decay,
+        ns1:Method_Multi_Head_Attention,
+        ns1:Method_Residual_Connection,
+        ns1:Method_RoBERTa,
+        ns1:Method_Scaled_Dot_Product_Attention,
+        ns1:Method_Softmax,
+        ns1:Method_Weight_Decay,
+        ns1:Method_WordPiece ;
+    ns1:mentionsDataset ns1:Dataset_ANLI,
+        ns1:Dataset_Astock,
+        ns1:Dataset_CoLA,
+        ns1:Dataset_CommonsenseQA,
+        ns1:Dataset_GLUE,
+        ns1:Dataset_HellaSwag,
+        ns1:Dataset_MMLU,
+        ns1:Dataset_MRPC,
+        ns1:Dataset_ManyTypes4TypeScript,
+        ns1:Dataset_MultiNLI,
+        ns1:Dataset_OCW,
+        ns1:Dataset_PIQA,
+        ns1:Dataset_QNLI,
+        ns1:Dataset_Quora,
+        ns1:Dataset_Quora_Question_Pairs,
+        ns1:Dataset_RACE,
+        ns1:Dataset_RTE,
+        ns1:Dataset_RVL_CDIP,
+        ns1:Dataset_SIQA,
+        ns1:Dataset_SQuAD,
+        ns1:Dataset_SST,
+        ns1:Dataset_SST_2,
+        ns1:Dataset_STS_Benchmark,
+        ns1:Dataset_SWAG,
+        ns1:Dataset_WNLI,
+        ns1:Dataset_WebText,
+        ns1:Dataset_arXiv_10 ;
+    ns1:mentionsTask ns1:Task_Common_Sense_Reasoning,
+        ns1:Task_Document_Image_Classification,
+        ns1:Task_Language_Modelling,
+        ns1:Task_Lexical_Simplification,
+        ns1:Task_Linguistic_Acceptability,
+        ns1:Task_Multi_task_Language_Understanding,
+        ns1:Task_Natural_Language_Inference,
+        ns1:Task_Only_Connect_Walls_Dataset_Task_1_Grouping,
+        ns1:Task_Question_Answering,
+        ns1:Task_Reading_Comprehension,
+        ns1:Task_Riddle_Sense,
+        ns1:Task_Semantic_Textual_Similarity,
+        ns1:Task_Sentence_Completion,
+        ns1:Task_Sentiment_Analysis,
+        ns1:Task_Stock_Market_Prediction,
+        ns1:Task_Text_Classification,
+        ns1:Task_Type_prediction ;
+    ns1:paperTitle "RoBERTa: A Robustly Optimized BERT Pretraining Approach" ;
+    ns1:papersWithCodeUrl "https://paperswithcode.com/paper/roberta-a-robustly-optimized-bert-pretraining" ;
+    ns1:pdfUrl "https://arxiv.org/pdf/1907.11692v1.pdf" ;
+    ns1:reportsResult ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_0,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_1,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_10,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_11,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_12,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_13,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_14,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_15,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_16,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_17,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_18,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_19,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_2,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_20,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_21,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_22,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_23,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_24,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_25,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_26,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_27,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_28,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_29,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_3,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_30,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_31,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_32,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_33,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_34,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_35,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_36,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_37,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_38,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_39,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_4,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_40,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_41,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_42,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_5,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_6,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_7,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_8,
+        ns1:RoBERTa_A_Robustly_Optimized_BERT_Pretraining_Approach_result_9 ;
+    ns1:year "2019" .
+
+ns1:ModelConfiguration_GAT a ns1:ModelConfiguration ;
+    ns1:configurationString "GAT" .
+
+ns1:Paper_Graph_Attention_Networks a ns1:Paper ;
+    ns1:employsMethod ns1:Method_GAT ;
+    ns1:mentionsDataset ns1:Dataset_ACM_Heterogeneous_Node_Classification,
+        ns1:Dataset_Brazil_Air_Traffic,
+        ns1:Dataset_CIFAR_10,
+        ns1:Dataset_Chameleon602020_random_splits,
+        ns1:Dataset_Citeseer,
+        ns1:Dataset_Cora,
+        ns1:Dataset_Cornell_602020_random_splits,
+        ns1:Dataset_DBLP_Heterogeneous_Node_Classification,
+        ns1:Dataset_Deezer_Europe,
+        ns1:Dataset_ENZYMES,
+        ns1:Dataset_ESOL_Estimated_SOLubility,
+        ns1:Dataset_Film_602020_random_splits,
+        ns1:Dataset_Flickr30k,
+        ns1:Dataset_FreeSolv_Free_Solvation,
+        ns1:Dataset_Freebase_Heterogeneous_Node_Classification,
+        ns1:Dataset_IMDB_BINARY,
+        ns1:Dataset_IMDB_Heterogeneous_Node_Classification,
+        ns1:Dataset_JHMDB,
+        ns1:Dataset_NCI1,
+        ns1:Dataset_NCI109,
+        ns1:Dataset_OGB,
+        ns1:Dataset_PPI,
+        ns1:Dataset_PROTEINS,
+        ns1:Dataset_Penn94,
+        ns1:Dataset_PubMed_602020_random_splits,
+        ns1:Dataset_Pubmed,
+        ns1:Dataset_Squirrel_602020_random_splits,
+        ns1:Dataset_Texas602020_random_splits,
+        ns1:Dataset_USA_Air_Traffic,
+        ns1:Dataset_Wisconsin602020_random_splits,
+        ns1:Dataset_ZINC,
+        ns1:Dataset_dockstring,
+        ns1:Dataset_genius ;
+    ns1:mentionsTask ns1:Task_Document_Classification,
+        ns1:Task_Graph_Attention,
+        ns1:Task_Graph_Classification,
+        ns1:Task_Graph_Embedding,
+        ns1:Task_Graph_Regression,
+        ns1:Task_Heterogeneous_Node_Classification,
+        ns1:Task_Link_Prediction,
+        ns1:Task_MUlTI_LABEL_ClASSIFICATION,
+        ns1:Task_Molecular_Property_Prediction,
+        ns1:Task_Node_Classification,
+        ns1:Task_Node_Classification_on_Non_Homophilic_Heterophilic_Graphs,
+        ns1:Task_Node_Property_Prediction,
+        ns1:Task_Question_Answering,
+        ns1:Task_Skeleton_Based_Action_Recognition ;
+    ns1:paperTitle "Graph Attention Networks" ;
+    ns1:papersWithCodeUrl "https://paperswithcode.com/paper/graph-attention-networks" ;
+    ns1:pdfUrl "https://arxiv.org/pdf/1710.10903v3.pdf" ;
+    ns1:reportsResult ns1:Graph_Attention_Networks_result_0,
+        ns1:Graph_Attention_Networks_result_1,
+        ns1:Graph_Attention_Networks_result_10,
+        ns1:Graph_Attention_Networks_result_11,
+        ns1:Graph_Attention_Networks_result_12,
+        ns1:Graph_Attention_Networks_result_13,
+        ns1:Graph_Attention_Networks_result_14,
+        ns1:Graph_Attention_Networks_result_15,
+        ns1:Graph_Attention_Networks_result_16,
+        ns1:Graph_Attention_Networks_result_17,
+        ns1:Graph_Attention_Networks_result_18,
+        ns1:Graph_Attention_Networks_result_19,
+        ns1:Graph_Attention_Networks_result_2,
+        ns1:Graph_Attention_Networks_result_20,
+        ns1:Graph_Attention_Networks_result_21,
+        ns1:Graph_Attention_Networks_result_22,
+        ns1:Graph_Attention_Networks_result_23,
+        ns1:Graph_Attention_Networks_result_24,
+        ns1:Graph_Attention_Networks_result_25,
+        ns1:Graph_Attention_Networks_result_26,
+        ns1:Graph_Attention_Networks_result_27,
+        ns1:Graph_Attention_Networks_result_28,
+        ns1:Graph_Attention_Networks_result_29,
+        ns1:Graph_Attention_Networks_result_3,
+        ns1:Graph_Attention_Networks_result_30,
+        ns1:Graph_Attention_Networks_result_31,
+        ns1:Graph_Attention_Networks_result_32,
+        ns1:Graph_Attention_Networks_result_33,
+        ns1:Graph_Attention_Networks_result_34,
+        ns1:Graph_Attention_Networks_result_35,
+        ns1:Graph_Attention_Networks_result_36,
+        ns1:Graph_Attention_Networks_result_37,
+        ns1:Graph_Attention_Networks_result_38,
+        ns1:Graph_Attention_Networks_result_39,
+        ns1:Graph_Attention_Networks_result_4,
+        ns1:Graph_Attention_Networks_result_40,
+        ns1:Graph_Attention_Networks_result_41,
+        ns1:Graph_Attention_Networks_result_42,
+        ns1:Graph_Attention_Networks_result_43,
+        ns1:Graph_Attention_Networks_result_44,
+        ns1:Graph_Attention_Networks_result_45,
+        ns1:Graph_Attention_Networks_result_46,
+        ns1:Graph_Attention_Networks_result_47,
+        ns1:Graph_Attention_Networks_result_48,
+        ns1:Graph_Attention_Networks_result_49,
+        ns1:Graph_Attention_Networks_result_5,
+        ns1:Graph_Attention_Networks_result_50,
+        ns1:Graph_Attention_Networks_result_51,
+        ns1:Graph_Attention_Networks_result_52,
+        ns1:Graph_Attention_Networks_result_53,
+        ns1:Graph_Attention_Networks_result_54,
+        ns1:Graph_Attention_Networks_result_55,
+        ns1:Graph_Attention_Networks_result_56,
+        ns1:Graph_Attention_Networks_result_57,
+        ns1:Graph_Attention_Networks_result_58,
+        ns1:Graph_Attention_Networks_result_59,
+        ns1:Graph_Attention_Networks_result_6,
+        ns1:Graph_Attention_Networks_result_60,
+        ns1:Graph_Attention_Networks_result_61,
+        ns1:Graph_Attention_Networks_result_62,
+        ns1:Graph_Attention_Networks_result_63,
+        ns1:Graph_Attention_Networks_result_64,
+        ns1:Graph_Attention_Networks_result_65,
+        ns1:Graph_Attention_Networks_result_66,
+        ns1:Graph_Attention_Networks_result_67,
+        ns1:Graph_Attention_Networks_result_68,
+        ns1:Graph_Attention_Networks_result_69,
+        ns1:Graph_Attention_Networks_result_7,
+        ns1:Graph_Attention_Networks_result_70,
+        ns1:Graph_Attention_Networks_result_71,
+        ns1:Graph_Attention_Networks_result_72,
+        ns1:Graph_Attention_Networks_result_73,
+        ns1:Graph_Attention_Networks_result_74,
+        ns1:Graph_Attention_Networks_result_75,
+        ns1:Graph_Attention_Networks_result_76,
+        ns1:Graph_Attention_Networks_result_77,
+        ns1:Graph_Attention_Networks_result_78,
+        ns1:Graph_Attention_Networks_result_79,
+        ns1:Graph_Attention_Networks_result_8,
+        ns1:Graph_Attention_Networks_result_80,
+        ns1:Graph_Attention_Networks_result_81,
+        ns1:Graph_Attention_Networks_result_82,
+        ns1:Graph_Attention_Networks_result_83,
+        ns1:Graph_Attention_Networks_result_84,
+        ns1:Graph_Attention_Networks_result_85,
+        ns1:Graph_Attention_Networks_result_86,
+        ns1:Graph_Attention_Networks_result_87,
+        ns1:Graph_Attention_Networks_result_88,
+        ns1:Graph_Attention_Networks_result_89,
+        ns1:Graph_Attention_Networks_result_9,
+        ns1:Graph_Attention_Networks_result_90,
+        ns1:Graph_Attention_Networks_result_91,
+        ns1:Graph_Attention_Networks_result_92,
+        ns1:Graph_Attention_Networks_result_93,
+        ns1:Graph_Attention_Networks_result_94,
+        ns1:Graph_Attention_Networks_result_95,
+        ns1:Graph_Attention_Networks_result_96,
+        ns1:Graph_Attention_Networks_result_97 ;
+    ns1:year "2017" .
+
