@@ -1,0 +1,22 @@
+\frametitle{SPARQL Query Interface}
+\begin{block}{Sample SPARQL Query}
+        \begin{lstlisting}[language=sparql]
+PREFIX ex: <http://extremexp.eu/ontology/matic_papers/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?paper ?title ?dataset ?metric ?value
+WHERE {
+  ?paper rdf:type ex:Paper ;
+         ex:paperTitle ?title ;
+         ex:hasResult ?result .
+  ?result ex:dataset ?dataset ;
+          ex:metric ?metric ;
+          ex:value ?value .
+  FILTER(CONTAINS(LCASE(STR(?title)), "transformer"))
+}
+ORDER BY DESC(xsd:decimal(?value))
+LIMIT 10
+        \end{lstlisting}
+    \end{block}
+
+    \textbf{Query Capabilities:} Complex filtering, aggregation, graph traversal, performance analysis
