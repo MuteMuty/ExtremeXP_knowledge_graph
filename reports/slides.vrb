@@ -1,0 +1,16 @@
+\frametitle{1.4 Integration Details}
+    \framesubtitle{Orchestrated with Docker Compose}
+
+    \begin{block}{Key Integration Points}
+        \begin{itemize}
+            \item \textbf{Service Discovery:} Services communicate over an internal Docker network.
+            \item \textbf{Data Persistence:} Docker volumes ensure the database and data files survive restarts.
+            \item \textbf{Health Checks:} The KG Service waits for Fuseki to be healthy before starting.
+        \end{itemize}
+    \end{block}
+
+    \begin{figure}
+        \includegraphics[width=0.7\textwidth]{dc.png}
+        \caption{`docker-compose.yml` file}
+    \end{figure}
+
